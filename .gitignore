@@ -1,0 +1,86 @@
+# ============================================================
+# Large data files
+# ============================================================
+*.Rdata
+*.rds
+*.RDS
+
+# Large CSV files (> 1MB)
+# (Small result CSVs are tracked via exceptions below)
+
+# Excel temp files
+~$*.xlsx
+~$*.xls
+
+# ============================================================
+# Raw data directories
+# ============================================================
+0-Data/
+oncoPredict_data/
+
+# ============================================================
+# Intermediate results directories
+# ============================================================
+1-Clustering/data/
+1-Clustering/deg/
+1-Clustering/pattern/
+1-Clustering/tme/
+1-Clustering/drug_sensitivity_results/
+2-Classfiler/data/
+2-Classfiler/figures/
+3-Proteomic/results_figures/
+4-Validation/final_validation_results/
+
+# ============================================================
+# Large input files in Validation (pre-built references)
+# ============================================================
+4-Validation/OmicsExpression*.csv
+4-Validation/Model.csv
+4-Validation/Drug_sensitivity*.csv
+4-Validation/input_validation_data.rds
+
+# ============================================================
+# Figures and documents
+# ============================================================
+*.pdf
+*.pptx
+*.docx
+*.png
+*.jpg
+*.jpeg
+
+# ============================================================
+# Intermediate analysis outputs
+# ============================================================
+1-Clustering/figures/
+1-Clustering/calcPhenotype_Output/
+1-Clustering/TF_activity_differential_analysis_results.csv
+
+# ============================================================
+# Meeting materials
+# ============================================================
+Meeting/
+
+# ============================================================
+# System files
+# ============================================================
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+
+# ============================================================
+# Claude / IDE
+# ============================================================
+.claude/
+
+# ============================================================
+# Exceptions — small key result files to TRACK
+# ============================================================
+!sample_info_with_predictions.csv
+!sample_info_with_subtype.xlsx
+!cluster_compare_multiomic.csv
+!single_gene_cox_results.csv
+!sample_information.xlsx
+!CCC datasets.xlsx
