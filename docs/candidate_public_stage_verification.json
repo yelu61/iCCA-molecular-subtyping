@@ -1,0 +1,31 @@
+{
+  "stage": "candidate_evidence_tables",
+  "public_entry_executed": true,
+  "return_code": 0,
+  "stdout": "{\"drugs\": 9, \"mapped_programs\": 8, \"program_rows\": 24, \"main18_overlap\": 0, \"prism_measured\": 12}\n{\"stage\": \"candidate_evidence_tables\", \"command\": [\"/Applications/Xcode.app/Contents/Developer/usr/bin/python3\", \"/private/tmp/icca_candidate_public_kvug4lr_/8-Visualization/refinements/fig6_evidence_20261103_v21/qa/candidate_audit/build_audit.py\"], \"executed\": true, \"full_pipeline_verified\": false}\n",
+  "output_hashes": [
+    {
+      "file": "candidate_PRISM_all_cells.csv",
+      "sha256": "7200ca850905ecaeaac79a74acdb8b0eea74f6ddb182ca0214f0169a1330822a",
+      "matches": true
+    },
+    {
+      "file": "candidate_evidence_summary.csv",
+      "sha256": "2039afda4b65b9c093496349a991eb033cd5df97dd1427cdf035e603476cceb3",
+      "matches": true
+    },
+    {
+      "file": "candidate_program_all_subtypes.csv",
+      "sha256": "be5785bac0026ceb8d87f2c24ca38437551ea65b7bcef8c5ff7ca4033c7a4d07",
+      "matches": true
+    },
+    {
+      "file": "candidate_program_map.csv",
+      "sha256": "96aa579bac300d1abab85e9bc62c1ad9866f8d5a7e61529b50369005bde1ad6e",
+      "matches": true
+    }
+  ],
+  "python_version": "3.9.6",
+  "upstream_model_refit": false,
+  "temporary_directory_removed_on_exit": true
+}

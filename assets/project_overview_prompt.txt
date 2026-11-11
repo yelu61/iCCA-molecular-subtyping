@@ -1,0 +1,15 @@
+AI-generated conceptual project overview
+Generated with OpenAI image_gen.imagegen on 2026-11-12, followed by targeted edits and visual review.
+
+Create a landscape scientific overview for the iCCA molecular-states code repository. Use a clean white background, dark navy typography and lightly bordered content cards. Render a liver/bile-duct illustration, schematic expression heatmaps, molecular-state circles, a classifier icon, a program network, cell illustrations, a DNA/protein illustration and a neutral survival/target illustration. The heatmaps, curves and illustrations are conceptual.
+
+Title: iCCA molecular states
+Subtitle: Multi-cohort discovery, molecular context and projection
+Discovery card: Discovery RNA-seq; 586 tumors; 7 studies; NMF + k-means.
+Central states: C1, C2 and C3; 497 principal-state tumors.
+Intermediate branch: 89 intermediate profiles, displayed separately in gray.
+Projection card: Fixed 114-gene classifier; Microarray projection; 506 tumors; 5 studies.
+Lower context cards: Bulk programs; Single-cell context and Patient-level summaries; Multi-omic context; Clinical associations and Treatment hypotheses.
+Footer: Reproducible code; Frozen-input figure reconstruction.
+
+Use C1 blue (#0072B2), C2 orange (#E69F00) and C3 pink (#CC79A7). Use a neutral dark survival icon. The discovery branch leads to the three principal states and separately to the gray intermediate callout. Principal states lead to the classifier/projection card. Keep the four lower context modules independent, with white space above them and no connecting arrows. Omit all Figure numbers, panel letters and decorative badges. Preserve the stated numbers and descriptive headings. Avoid claims of malignant identity, clinical response or validated treatment efficacy.

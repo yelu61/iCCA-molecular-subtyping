@@ -1,0 +1,10 @@
+{
+  "python": "3.10.17 | packaged by conda-forge | (main, Apr 10 2025, 22:23:34) [Clang 18.1.8 ]",
+  "packages": {
+    "anndata": "0.11.4",
+    "numpy": "1.26.4",
+    "pandas": "2.2.3",
+    "scipy": "1.11.4"
+  },
+  "execution": "Original score.py in isolated directory; exact NPZ SHA256 recovery"
+}

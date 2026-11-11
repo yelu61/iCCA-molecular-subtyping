@@ -1,163 +1,61 @@
-# Molecular Subtyping of Intrahepatic Cholangiocarcinoma (iCCA)
+# iCCA molecular states
 
-Multi-omics integrative analysis identifying and validating three molecular subtypes (C1, C2, C3) of intrahepatic cholangiocarcinoma through consensus clustering.
+![Project overview](assets/project_overview.png)
 
-## Overview
+Multi-cohort discovery and characterization of intrahepatic cholangiocarcinoma molecular states. The manuscript uses C1/C2/C3 as stable identifiers. Discovery includes 586 RNA-sequencing tumors, with 497 principal-state assignments and 89 intermediate profiles. A fixed 114-gene consensus classifier projects 506 microarray tumors from five studies. Genomic, proteomic, single-cell and clinical evidence retains its assay-specific population and patient-level interpretation.
 
-This project integrates transcriptomic, proteomic, and genomic data from multiple independent studies (2012–2025) together with TCGA-CHOL to establish a robust molecular classification system for iCCA. Three subtypes were identified:
+## Reproduce the manuscript figures
 
-| Subtype | Characteristics |
-|---------|-----------------|
-| **C1** | Metabolic subtype |
-| **C2** | Immune subtype |
-| **C3** | Proliferative subtype |
+The supported frozen-input workflow executes 37 production renderers and three final panel drivers, followed by 100 quantitative asset checks. Software requirements and observed package versions are in `environment/`.
 
-## Analysis Pipeline
-
-The analysis follows a strict sequential workflow. Notebooks must be run in order because downstream steps load `.Rdata`/`.rds` files produced by upstream steps.
-
-```
-0-Data/ (raw & processed data)
-    ↓
-0-data.ipynb — Data preparation and integration
-    ↓
-1-clustering.ipynb — Consensus clustering (C1/C2/C3 subtypes)
-    ↓
-2-classfiler.ipynb — Classifier building (SVM / Random Forest)
-    ↓
-3-multiomic.ipynb — Proteomic validation & multi-omics integration
-    ↓
-4-Validation.ipynb — External validation (microarray, CCLE, DepMap, prognostic model)
+```sh
+python3 run.py verify --data-root /path/to/data_bundle
+python3 run.py figures --data-root /path/to/data_bundle --output /path/to/new_output
+python3 check_results.py --run-dir /path/to/new_output --data-root /path/to/data_bundle
 ```
 
-### Step 0: Data Preparation
-- Filters genes expressed in ≥20% of samples
-- Handles batch effects (FPKM→TPM conversion, log2 transformation)
-- Produces: `0-Data-rnaseq.Rdata`, microarray validation datasets
+`notebooks/Reproduce.ipynb` runs the same commands. Choose a fresh output directory outside the code and input trees. R is detected through `R RHOME`, with `--r-home` and `ICCA_R_HOME` available for explicit configuration.
 
-### Step 1: Clustering
-- Batch correction (ComBat)
-- ConsensusClusterPlus + NMF clustering
-- Differential expression per subtype
-- Tumor microenvironment analysis (ESTIMATE/EPIC)
-- Drug sensitivity prediction (oncoPredict)
-- **Key output**: `1-Clustering/data/sample_info_with_clusters.xlsx`
+The companion input archive is `iCCA_frozen_inputs_20261104_v2.zip` (474,136,575 bytes, SHA256 `0e7182c4a0b30c3cc907395096157324481de1555d78faf4168b1d66785ca762`). It unpacks to `data_bundle/`. Its public deposit is pending. The required 756 input identities are in `config/input_manifest.json`. This source repository excludes the large input archive.
 
-### Step 2: Classifier
-- SVM / Random Forest feature selection
-- LASSO for large-duct vs small-duct classification
-- **Key output**: `2-Classfiler/data/pred.csv`
+## Analysis and notebook entry points
 
-### Step 3: Multi-omics Integration
-- Proteomic validation
-- Pathway enrichment comparison (proteomics vs transcriptomics)
-- mRNA + protein + CNV integration
-
-### Step 4: Validation
-- Microarray data validation (Illumina & Affymetrix)
-- CCLE drug sensitivity with predicted subtypes
-- DepMap expression data validation
-- LASSO-Cox prognostic risk score model
-
-## Repository Structure
-
-```
-.
-├── 0-data.ipynb                  # Data preparation
-├── 1-clustering.ipynb            # Consensus clustering
-├── 2-classfiler.ipynb            # Classifier building
-├── 3-multiomic.ipynb             # Proteomic & multi-omics
-├── 4-Validation.ipynb            # External validation
-├── CLAUDE.md                     # Project documentation
-├── iCCA_Subtype_Analysis_Workflow.md  # Detailed workflow (Chinese)
-├── sample_info_with_predictions.csv   # Final sample subtype predictions
-├── sample_info_with_subtype.xlsx      # Final sample subtype assignments
-├── cluster_compare_multiomic.csv      # Multi-omics comparison results
-├── 0-Data/                       # Raw & processed data (not tracked)
-├── 1-Clustering/                 # Clustering outputs (not tracked)
-├── 2-Classfiler/                 # Classifier outputs (not tracked)
-├── 3-Proteomic/                  # Proteomic results (not tracked)
-├── 4-Validation/                 # Validation outputs (not tracked)
-├── Meeting/                      # Presentation materials (not tracked)
-└── sources/                      # Reference materials
+```sh
+python3 run.py analysis --list
+python3 run.py analysis --stage classifier114 --project-root /path/to/independent_project
 ```
 
-## Key Output Files
+The second command stages the selected implementation and prints the command. Supply the documented module inputs and add `--execute` for analysis. The catalog contains 24 entries. The 168 implementation files and their dependencies are identified in `IMPLEMENTATION_MANIFEST.csv` and `docs/DEPENDENCY_MAP.csv`.
 
-| File | Description |
-|------|-------------|
-| `sample_info_with_subtype.xlsx` | Final subtype assignments for all samples |
-| `sample_info_with_predictions.csv` | Classification predictions |
-| `cluster_compare_multiomic.csv` | Multi-omics subtype comparison |
-| `single_gene_cox_results.csv` | Single-gene Cox regression results |
+Stage0–4 notebooks retain upstream code. Stage5–8 are current Python CLI frontends for classifier, clinical, single-cell and figure workflows. Notebook roles, kernels and preserved source boundaries are documented in [NOTEBOOK_STATUS.md](docs/NOTEBOOK_STATUS.md).
 
-## Dependencies
+## Provenance and verification
 
-The analysis is implemented in **R** via Jupyter notebooks. Key packages:
+- `docs/final_panel_manifest.csv` maps selected manuscript assets to drawing code and frozen sources.
+- `docs/SOURCE_LINEAGE_20261110.csv` records the review of 271 frozen dependencies, including historical code-version and producing-event gaps.
+- `docs/PRODUCER_REVIEW_LIMITS.md` describes the remaining provenance scope.
+- `docs/VERIFICATION_20261112.json` records the synchronized notebook and figure checks.
+- `docs/upstream_external_interfaces.csv` lists processed and external resources required by upstream stages.
 
-```r
-# Core analysis
-ConsensusClusterPlus    # Consensus clustering
-sva                     # Batch correction (ComBat)
-limma                   # Differential expression
-NMF                     # NMF clustering
-WGCNA                   # Weighted gene co-expression
-GSVA                    # Gene set variation analysis
-estimate                # TME scores
+The complete raw-input-to-manuscript pipeline was not rerun during this preparation. The verified frozen-input figure workflow and the separately checked reconstruction stages retain their stated scopes. External subtype assignments are projections. Drug predictions, PRISM comparisons and TIDE analyses support experimental hypotheses.
 
-# Visualization
-pheatmap
-ComplexHeatmap
-ggplot2
-EnhancedVolcano
-survminer
+## Repository contents
 
-# Machine learning
-e1071                   # SVM
-randomForest
-glmnet                  # LASSO / LASSO-Cox
-caret
+| Location | Purpose |
+|---|---|
+| `run.py`, `check_results.py` | Canonical execution and validation |
+| `notebooks/` | Figure-reproduction notebook |
+| `config/` | Stage catalog, selected jobs and input/output contracts |
+| `_implementation/project/` | Selected owners and required source dependencies |
+| `_implementation/runner/`, `_implementation/final_panels/` | Figure execution adapters and final drawing drivers |
+| `docs/`, `environment/` | Provenance, scope and software inventories |
+| `assets/` | Conceptual project graphic |
+| `tests/` | Frozen-input isolation regression check |
 
-# Data manipulation
-tidyverse
-data.table
-plyr
-```
+The graphic is an AI-generated conceptual illustration. Quantitative results and selected data figures are reproduced by the analysis code. `assets/project_overview_prompt.txt` records the generation brief.
 
-## Data Sources
+## Citation, licence and history
 
-The project integrates data from the following studies:
+Code is provided under the MIT licence in `LICENSE`. Third-party inputs retain their source-specific access and reuse conditions. `CITATION.cff.template` contains the software-citation fields awaiting real author metadata. An archival DOI has not been assigned.
 
-| Study | Year | Platform |
-|-------|------|----------|
-| Andersen et al. | 2012 | Microarray |
-| Sia et al. | 2013 | Microarray |
-| Zou et al. | 2014 | Microarray |
-| Chaisaingmongkol et al. | 2017 | RNA-seq |
-| Jusakual et al. | 2017 | RNA-seq |
-| Maeve et al. | 2018 | RNA-seq |
-| Wardell et al. | 2018 | RNA-seq |
-| Ahn et al. | 2019 | RNA-seq |
-| Job et al. | 2020 | RNA-seq |
-| Zhang et al. | 2020 | RNA-seq |
-| Boerner et al. | 2021 | RNA-seq |
-| Bao, Dong, Gao, Lin, Ma, Song, Wang et al. | 2022 | RNA-seq |
-| Cho, Deng, Jeon, Lee et al. | 2023 | RNA-seq |
-| Chen, Fan, Liu, Zhou et al. | 2024 | RNA-seq |
-| Ruan et al. | 2025 | RNA-seq |
-| TCGA-CHOL | — | RNA-seq |
-
-## Reproducibility Notes
-
-- **Random seed**: `123` is the dominant seed for clustering; `42` for classifier training; `61` appears once in a single cell.
-- **Expression format**: Matrices are **genes × samples** (rows = genes, columns = samples).
-- **Working directory**: Notebooks assume the project root as working directory.
-- **Execution time**: `1-clustering.ipynb` contains long-running cells (ConsensusClusterPlus with 100 reps, NMF with 20 runs) that may take tens of minutes to hours.
-
-## Citation
-
-If you use this code or data, please cite the corresponding publication (TBD).
-
-## License
-
-TBD — to be determined upon publication.
+The May 2026 version remains available in Git history. The research workspace retains original executed notebooks and historical result files. The current repository tree contains the manuscript implementation and reproduction materials.

@@ -1,0 +1,141 @@
+{
+  "stage": "singlecell_display_sources",
+  "public_entry_executed": true,
+  "outputs": [
+    {
+      "file": "D_existing_statistics.csv",
+      "sha256": "babb17700cf61898f65e1669876fbaf451b677eece52b23c7e7ee6fab564a24f",
+      "matches_frozen": true
+    },
+    {
+      "file": "D_patient_pairs.csv",
+      "sha256": "707aa6bc65e4d25329c65d4f6351d5be3a3d405df9906bb8141e35583d6df801",
+      "matches_frozen": true
+    },
+    {
+      "file": "E_patient_compartment_grid.csv",
+      "sha256": "bb6b8972abfc8ef03b4d14dc216ec4446c3786b1887a357b417e8da349a6b510",
+      "matches_frozen": true
+    },
+    {
+      "file": "dotplot_summary.csv",
+      "sha256": "d438009bca3347af8034dcddaf8446406cd1d0730ac956bd6efc398b6073584e",
+      "matches_frozen": true
+    },
+    {
+      "file": "featureplot_selected_cells.csv.gz",
+      "sha256": "db3c2910660c4a4563a4dadddd11edf4b57bdcb25528ed82b2c176ce5a3fdc63",
+      "matches_frozen": true
+    }
+  ],
+  "external_input_hashes_unchanged": [
+    {
+      "path": "8-Visualization/refinements/fig3_scientific_enhancement_20261103_v2/source_data/source_patient_pairs.csv",
+      "matches": true
+    },
+    {
+      "path": "8-Visualization/refinements/fig3_scientific_enhancement_20261103_v2/source_data/source_contrasts.csv",
+      "matches": true
+    },
+    {
+      "path": "8-Visualization/refinements/fig3_scientific_enhancement_20261103_v2/source_data/featureplot_cells.csv.gz",
+      "matches": true
+    },
+    {
+      "path": "8-Visualization/refinements/fig3_scientific_enhancement_20261103_v2/source_data/ucell_coverage.csv",
+      "matches": true
+    },
+    {
+      "path": "8-Visualization/refinements/fig3_scientific_enhancement_20261103_v2/source_data/cells.csv.gz",
+      "matches": true
+    },
+    {
+      "path": "8-Visualization/refinements/fig3_scientific_enhancement_20261103_v2/source_data/library_program_scores.csv",
+      "matches": true
+    },
+    {
+      "path": "8-Visualization/refinements/fig3_scientific_enhancement_20261103_v2/source_data/programs.csv",
+      "matches": true
+    },
+    {
+      "path": "8-Visualization/refinements/fig3_scientific_enhancement_20261103_v2/source_data/dotplot_summary.csv",
+      "matches": true
+    },
+    {
+      "path": "8-Visualization/refinements/fig3_scientific_enhancement_20261103_v2/source_data/shared_program_registry.csv",
+      "matches": true
+    },
+    {
+      "path": "8-Visualization/refinements/fig3_scientific_enhancement_20261103_v2/source_data/patient_program_scores.csv",
+      "matches": true
+    },
+    {
+      "path": "7-SingleCell/runs/20261103_figure3_ecosystem_v3/tables/cell_ucell_scores.npz",
+      "matches": true
+    },
+    {
+      "path": "8-Visualization/refinements/fig2_global_revision_20261103_v2/pattern_bridge/tables/pattern_module_counts_rowpercent.csv",
+      "matches": true
+    }
+  ],
+  "numeric_qa": {
+    "checks": {
+      "C_all_34227_rows": true,
+      "D_expected_pair_counts": true,
+      "E_all_288_grid": true,
+      "E_all16_patients": true,
+      "E_patient_means_exact": true,
+      "D_exact_differences": true
+    },
+    "all_pass": true,
+    "D_pairs": [
+      3,
+      3,
+      9,
+      9,
+      9,
+      9
+    ],
+    "E_estimates": 199,
+    "E_missing": 89,
+    "feature_masks": [
+      {
+        "ProgramID": "Pattern_P1",
+        "AtlasRows": 34227,
+        "EligibleRows": 27418,
+        "MaskedRows": 6809
+      },
+      {
+        "ProgramID": "WGCNA_MEpink",
+        "AtlasRows": 34227,
+        "EligibleRows": 34198,
+        "MaskedRows": 29
+      },
+      {
+        "ProgramID": "Pattern_P3",
+        "AtlasRows": 34227,
+        "EligibleRows": 25214,
+        "MaskedRows": 9013
+      },
+      {
+        "ProgramID": "WGCNA_MEbrown",
+        "AtlasRows": 34227,
+        "EligibleRows": 34198,
+        "MaskedRows": 29
+      },
+      {
+        "ProgramID": "Pattern_P6",
+        "AtlasRows": 34227,
+        "EligibleRows": 34198,
+        "MaskedRows": 29
+      },
+      {
+        "ProgramID": "WGCNA_MEred",
+        "AtlasRows": 34227,
+        "EligibleRows": 34198,
+        "MaskedRows": 29
+      }
+    ]
+  },
+  "full_upstream_rerun": false
+}

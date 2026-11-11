@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "Citation metadata are provisional. Cite the associated manuscript once the authors provide its final author list and publication identifier."
+title: "iCCA molecular-state analysis and figure reproduction"
+type: software
+version: "2026.11.04-v2"
+authors:
+  - family-names: "[AUTHOR_SURNAME]"
+    given-names: "[AUTHOR_GIVEN_NAMES]"
+# Replace placeholders with the real software authors, then rename to CITATION.cff.
+license: MIT
+repository-code: "https://github.com/yelu61/iCCA-molecular-subtyping"

@@ -1,0 +1,1244 @@
+[
+  {
+    "asset_id": "S01_P01",
+    "figure": "Figure1",
+    "panel": "C",
+    "output": "review/production_replay/project/8-Visualization/refinements/fig1_global_revision_20261103_v3/compact_panels/figures/Figure1C_main_umap.pdf",
+    "verification_level": "RENDERED_TEXT_SIZE_VERIFIED",
+    "text": "Principal states (n = 497) C1 (112) C2 (223) C3 (162) 2 UMAP 2 0 -2 -4 -2 0 2 4 UMAP 1",
+    "dimensions": [
+      153.0,
+      129.0
+    ]
+  },
+  {
+    "asset_id": "S01_P03",
+    "figure": "Figure1",
+    "panel": "D",
+    "output": "review/production_replay/project/8-Visualization/refinements/fig1_global_revision_20261103_v3/compact_panels/figures/Figure1D_study_composition.pdf",
+    "verification_level": "RENDERED_TEXT_SIZE_VERIFIED",
+    "text": "Principal-state composition C1 C2 C3 Ahn 5 9 11 n=25 Dong 48 108 67 n=223 Deng 9 32 23 n=64 Jeon 9 21 21 n=51 Lee 7 1 5 n=13 Fan 27 35 30 n=92 TCGA 7 17 5 n=29 0% 50% 100% Within-study proportion",
+    "dimensions": [
+      153.0,
+      113.0
+    ]
+  },
+  {
+    "asset_id": "S01_P04",
+    "figure": "Figure1",
+    "panel": "E",
+    "output": "review/production_replay/project/8-Visualization/refinements/fig1_global_revision_20261103_v3/figures/Figure1E_correspondence.pdf",
+    "verification_level": "RENDERED_CONTENT_TOKENS_VERIFIED_LAYOUT_MAY_DIFFER",
+    "text": "Ahn n = 25 Dong: RNA n = 223 Dong: protein n = 223 Deng: protein n = 64 Original A/B classes IG1\u2013IG3 S1\u2013S4 S-I\u2013S-III Class C1 C2 C3 Row n Class C1 C2 C3 Row n Class C1 C2 C3 Row n Class C1 C2 C3 Row n S1 3(9%) 8(25%) 21(66%) 32 IG1 3(5%) 2(4%) 50(91%) 55 S-I 7(17%) 28(68%) 6(15%) 41 A 3(30%) 7(70%) 0(0%) 10 S2 1(2%) 28(51%)26(47%) 55 IG2 26(27%)57(59%)14(14%) 97 S3 37(92%) 2(5%) 1(2%) 40 S-II 1(6%) 3(17%) 14(78%) 18 S4 1(2%) 56(98%) 0(0%) 57 B 2(13%) 2(13%) 11(73%) 15 IG3 19(27%)49(69%) 3(4%) 71 Not S-III 1(20%) 1(20%) 3(60%) 5 6(15%) 14(36%)19(49%) 39 reported Total 5 9 11 25 Total 48 108 67 223 Total 48 108 67 223 Total 9 32 23 64 Cells: n (% within original class). Dong RNA/protein panels share the same 223 samples.",
+    "dimensions": [
+      493.0,
+      124.0
+    ]
+  },
+  {
+    "asset_id": "S01_P05",
+    "figure": "Figure1",
+    "panel": "G",
+    "output": "review/production_replay/project/8-Visualization/refinements/fig1_global_revision_20261103_v3/figures/Figure1G_survival.pdf",
+    "verification_level": "RENDERED_TEXT_SIZE_VERIFIED",
+    "text": "Overall survival n = 331; events = 153 C1 C2 C3 Study-stratified log-rank P < 0.001 1.00 Survival probability 0.75 0.50 0.25 0.00 0 12 24 36 48 60 72 84 96 Overall survival (months) Number at risk C1 67 57 35 17 8 2 0 0 0 C2 165 148 99 60 18 2 1 1 0 C3 99 59 23 15 5 1 1 0 0",
+    "dimensions": [
+      215.0,
+      150.0
+    ]
+  },
+  {
+    "asset_id": "S01_P06",
+    "figure": "Figure1",
+    "panel": "F",
+    "output": "review/production_replay/project/8-Visualization/refinements/fig1_sfig1_typography_20261030/pdf/Figure1F_compact.pdf",
+    "verification_level": "RENDERED_CONTENT_TOKENS_VERIFIED_LAYOUT_MAY_DIFFER",
+    "text": "Clinical characteristics C1 C2 C3 Tumor size 4.5 5.5 5.7 Median [IQR], cm [3.0\u20136.4] [4.0\u20137.8] [4.0\u20138.0] Available n = 312 n = 62 n = 149 n = 101 Stage III/IV 31.9% 22.3% 49.1% Observed proportion 22/69 37/166 52/106 Available n = 341 Vascular invasion 43.4% 34.2% 57.7% Observed proportion 23/53 40/117 45/78 Available n = 248 Large-duct type 15.0% 9.8% 53.1% Observed pathology 3/20 4/41 17/32 Available n = 93 Proportion (%) n/N: positive / available 0 50 100",
+    "dimensions": [
+      234.0,
+      135.0
+    ]
+  },
+  {
+    "asset_id": "S02_P01",
+    "figure": "SFigure1",
+    "panel": "B",
+    "output": "review/production_replay/project/8-Visualization/refinements/fig1_sfig1_typography_20261030/pdf/SFig1C.pdf",
+    "verification_level": "RENDERED_CONTENT_TOKENS_VERIFIED_LAYOUT_MAY_DIFFER",
+    "text": "RNA preprocessing: study structure Before correction Locked limma correction 100 50 PC2 0 -50 -200 -100 0 100 200 300 -200 -100 0 100 200 300 PC1 2019Ahn 2023Deng 2023Lee TCGA-CHOL Study 2022Dong 2023Jeon 2024Fan",
+    "dimensions": [
+      255.0,
+      139.0
+    ]
+  },
+  {
+    "asset_id": "S02_P02",
+    "figure": "SFigure1",
+    "panel": "C",
+    "output": "review/production_replay/project/8-Visualization/refinements/fig1_sfig1_typography_20261030/pdf/SFig1K5.pdf",
+    "verification_level": "RENDERED_SOURCE_VALUES_VERIFIED_LAYOUT_DIFFERENT",
+    "text": "Discovery UMAP by study 4 2 UMAP 2 0 -2 -4 -4 -2 0 2 4 UMAP 1 2019Ahn 2023Lee 2022Dong 2024Fan 2023Deng TCGA-CHOL 2023Jeon",
+    "dimensions": [
+      124.0,
+      124.0
+    ]
+  },
+  {
+    "asset_id": "S02_P03",
+    "figure": "SFigure1",
+    "panel": "D",
+    "output": "review/production_replay/project/8-Visualization/refinements/fig1_sfig1_typography_20261030/pdf/SFig1E.pdf",
+    "verification_level": "RENDERED_CONTENT_TOKENS_VERIFIED_LAYOUT_MAY_DIFFER",
+    "text": "Cluster-number diagnostics and method selection NMF \u00b7 cophenetic NMF \u00b7 PAC k-means \u00b7 silhouette Maximum at k = 3 Minimum at k = 3 Maximum at k = 3 0.10 0.99 0.15 0.98 0.09 0.10 0.97 0.08 0.05 0.96 2 3 4 5 6 2 3 4 5 6 2 3 4 5 6 Number of clusters (k) Number of clusters (k) Number of clusters (k) Consensus \u00b7 standard Consensus \u00b7 largest Hierarchical stored partition PAC cluster Minimum at k = 2 99\u2013100% across tested k Complete linkage; k = 2 0.06 1.0 n = 585 600 Samples 0.04 400 0.5 0.02 200 0.0 n=1 0 2 3 4 5 6 2 3 4 5 6 1 2 Number of clusters (k) Number of clusters (k) Stored cluster",
+    "dimensions": [
+      276.0,
+      178.0
+    ]
+  },
+  {
+    "asset_id": "S02_P04",
+    "figure": "SFigure1",
+    "panel": "L",
+    "output": "review/production_replay/project/8-Visualization/refinements/fig1_global_revision_20261103_v3/figures/SFigure1L_RMST.pdf",
+    "verification_level": "RENDERED_SOURCE_VALUES_VERIFIED_LAYOUT_DIFFERENT",
+    "text": "Restricted mean survival over 0\u201324 months Available-case population: n = 331; events = 153. Unadjusted pairwise differences. Difference [95% CI], months C2 \u2212 C1 +1.09 [-0.40, 2.57] C3 \u2212 C1 -5.42 [-7.45, -3.39] C3 \u2212 C2 -6.51 [-8.21, -4.81] -10 -5 0 5 RMST difference in months (first \u2212 second)",
+    "dimensions": [
+      493.0,
+      133.0
+    ]
+  },
+  {
+    "asset_id": "S02_P05",
+    "figure": "SFigure1",
+    "panel": "F",
+    "output": "review/production_replay/project/8-Visualization/refinements/fig1_global_revision_20261103_v3/figures/SFigure1F_state_definition.pdf",
+    "verification_level": "RENDERED_TEXT_SIZE_VERIFIED",
+    "text": "NMF\u2013k-means state definition n = 586; labels aligned to C1/C2/C3 C1 C1/C2 \u2014 N1 n = 112 n=1 n=0 C1/C2 C2 C2/C3 N2 n = 40 n = 223 n=1 C1/C3 C2/C3 C3 N3 n = 39 n=8 n = 162 K3 K1 K2 N: NMF cluster; K: k-means cluster",
+    "dimensions": [
+      147.0,
+      129.0
+    ]
+  },
+  {
+    "asset_id": "S02_P06",
+    "figure": "SFigure1",
+    "panel": "E",
+    "output": "review/production_replay/project/8-Visualization/refinements/fig1_global_revision_20261103_v3/figures/SFigure1E_method_agreement.pdf",
+    "verification_level": "RENDERED_TEXT_SIZE_VERIFIED",
+    "text": "Agreement between stored method assignments Consensus 1.00 <0.01 <0.01 1.00 NMF <0.01 1.00 0.62 <0.01 k-means <0.01 0.62 1.00 <0.01 Hierarchical 1.00 <0.01 <0.01 1.00 Cons. NMF k-means HC ARI: 0 (white) to 1 (blue) Cons. = consensus; HC = hierarchical",
+    "dimensions": [
+      167.0,
+      147.0
+    ]
+  },
+  {
+    "asset_id": "S02_P07",
+    "figure": "SFigure1",
+    "panel": "H",
+    "output": "review/production_replay/project/8-Visualization/refinements/fig1_global_revision_20261103_v3/compact_panels/figures/SFig1H_sixstate_composition.pdf",
+    "verification_level": "RENDERED_TEXT_SIZE_VERIFIED",
+    "text": "All six states (n = 586) C1/ C1/ C2/ Study n C1 C2 C3 C2 C3 C3 Ahn 30 5 9 11 2 3 0 Dong 255 48 108 67 14 14 4 Deng 84 9 32 23 12 8 0 Jeon 59 9 21 21 4 3 1 Lee 13 7 1 5 0 0 0 Fan 114 27 35 30 9 10 3 TCGA 31 7 17 5 0 1 1 Total 586 112 223 162 41 39 9",
+    "dimensions": [
+      170.0,
+      113.0
+    ]
+  },
+  {
+    "asset_id": "S02_P08",
+    "figure": "SFigure1",
+    "panel": "G",
+    "output": "review/production_replay/project/8-Visualization/refinements/fig1_global_revision_20261103_v3/compact_panels/figures/SFig1G_sixstate_umap.pdf",
+    "verification_level": "RENDERED_TEXT_SIZE_VERIFIED",
+    "text": "Six molecular states (n = 586) C1 C2 C3 C1/C2 C1/C3 C2/C3 2 UMAP 2 0 -2 -4 -2 0 2 4 UMAP 1",
+    "dimensions": [
+      141.0,
+      136.0
+    ]
+  },
+  {
+    "asset_id": "S02_P09",
+    "figure": "SFigure1",
+    "panel": "A",
+    "output": "review/production_replay/project/8-Visualization/refinements/fig1_global_revision_20261103_v3/agent_panels/figures/SFig1_resources.pdf",
+    "verification_level": "RENDERED_TEXT_SIZE_VERIFIED",
+    "text": "Expression resources and matched molecular assays Matched / recorded Processed Expression Study / resource Role DNA Protein-MS RPPA features samples 2019Ahn Discovery RNA-seq 18,128 30 \u2014 \u2014 \u2014 2022Dong Discovery RNA-seq 15,511 255 249/253 208/214 \u2014 2023Deng Discovery RNA-seq 12,666 84 79/139 84/84 \u2014 2023Jeon Discovery RNA-seq 18,345 59 \u2014 \u2014 \u2014 2023Lee Discovery RNA-seq 17,611 13 \u2014 \u2014 \u2014 2024Fan Discovery RNA-seq 20,992 114 \u2014 \u2014 \u2014 TCGA-CHOL Discovery RNA-seq 20,013 31 31/51 \u2014 25/30 2012Andersen Microarray projection 18,190 104 \u2014 \u2014 \u2014 2013Sia Microarray projection 18,402 149 \u2014 \u2014 \u2014 2017Jusakual-1 Microarray projection 34,660 34 \u2014 \u2014 \u2014 2017Jusakual-2 Microarray projection 34,648 49 \u2014 \u2014 \u2014 2020Job Microarray projection 21,641 78 \u2014 \u2014 \u2014 TIGER-LC Microarray projection 28,526 92 \u2014 \u2014 \u2014 Jusakual-1 and -2 are two matrices from one study (34 + 49 = 83 samples). Matched/recorded = expression-linked samples / samples in that source assay. A dash denotes unavailable assay data.",
+    "dimensions": [
+      493.0,
+      158.0
+    ]
+  },
+  {
+    "asset_id": "S02_P10",
+    "figure": "SFigure1",
+    "panel": "K",
+    "output": "review/production_replay/project/8-Visualization/refinements/fig1_global_revision_20261103_v3/agent_panels/figures/SFig1_adjusted_clinical.pdf",
+    "verification_level": "RENDERED_TEXT_SIZE_VERIFIED",
+    "text": "Study-adjusted clinical phenotype contrasts Tumor size (n = 312; 3 studies) Stage III/IV (n = 341; 4 studies) Contrast Mean difference (cm) Estimate [95% CI] FDR Contrast Odds ratio Estimate [95% CI] FDR C2 vs C1 1.08 [0.25, 1.90] 0.027 C2 vs C1 0.64 [0.33, 1.23] 0.238 C3 vs C1 1.18 [0.29, 2.06] 0.027 C3 vs C1 2.33 [1.17, 4.64] 0.032 C3 vs C2 0.10 [-0.57, 0.77] 0.843 C3 vs C2 3.64 [2.09, 6.33] 5.7e-05 -1 0 1 2 0.1 1 10 100 log scale Vascular invasion (n = 248; 2 studies) Observed large duct (n = 93; 3 studies) Contrast Odds ratio Estimate [95% CI] FDR Contrast Odds ratio Estimate [95% CI] FDR C2 vs C1 0.67 [0.34, 1.33] 0.306 C2 vs C1 1.01 [0.11, 9.06] 0.991 C3 vs C1 1.81 [0.87, 3.74] 0.166 C3 vs C1 9.47 [1.27, 70.59] 0.049 C3 vs C2 2.68 [1.47, 4.89] 0.005 C3 vs C2 9.35 [2.41, 36.29] 0.005 0.1 1 10 100 log scale 0.1 1 10 100 log scale",
+    "dimensions": [
+      493.0,
+      212.0
+    ]
+  },
+  {
+    "asset_id": "S02_P11",
+    "figure": "SFigure1",
+    "panel": "I",
+    "output": "review/production_replay/project/8-Visualization/refinements/fig1_global_revision_20261103_v3/agent_panels/figures/SFig1_clustering_sensitivity.pdf",
+    "verification_level": "RENDERED_TEXT_SIZE_VERIFIED",
+    "text": "Clustering sensitivity relative to stored k-means assignments k = 3; n = 586 tumors. The corrected expression matrix is retained. Feature-number sensitivity 100 random seeds Fixed-representation leave-study-out sensitivity Omitted study (n) ARI 1.000 Ahn (30) 1.0 0.932 Dong (255) 100/100 at ARI = 1.000 Deng (84) 0.9 25 starts per seed Jeon (59) 0.8 Lee (13) 0.736 Fan (114) 0.7 TCGA-CHOL (31) 1,000 2,000 5,000 1 50 100 0.7 0.8 0.9 1.0 \u0394n = 14 \u0394n = 0 \u0394n = 56 Random seed ARI in each comparison set Number of variable genes All Retained Omitted",
+    "dimensions": [
+      493.0,
+      184.0
+    ]
+  },
+  {
+    "asset_id": "S02_P12",
+    "figure": "SFigure1",
+    "panel": "J",
+    "output": "review/production_replay/project/8-Visualization/refinements/fig1_global_revision_20261103_v3/agent_panels/figures/SFig1_exact_refit.pdf",
+    "verification_level": "RENDERED_TEXT_SIZE_VERIFIED",
+    "text": "Exact refit of stored assignments Assignment N ARI Agreement Changed NMF, k = 3 (50 runs) 586 1.000 100% 0 k-means, k = 3 586 1.000 100% 0 Governed six-state assignment 586 1.000 100% 0",
+    "dimensions": [
+      493.0,
+      73.0
+    ]
+  },
+  {
+    "asset_id": "S03_P01",
+    "figure": "Figure2",
+    "panel": "A",
+    "output": "review/production_replay/project/8-Visualization/refinements/fig2_assembly_20261031_v34/A/figures/Figure2A_without_legend.pdf",
+    "verification_level": "RENDERED_SOURCE_VALUES_VERIFIED_LAYOUT_DIFFERENT",
+    "text": "Subtype Study P1 Retinol metabolism Complement cascade Coagulation Xenobiotic metabolism Monocarboxylic acid metabolism P2 Complement cascade Arginine / proline metabolism Coagulation Steroid metabolism Bile acid metabolism P3 Pancreatic ductal-cell development Cellular response to cAMP Sodium ion transmembrane transport PI3K-AKT signaling in cancer Regulation of WNT signaling P4 MET signaling Embryonic organ development KRAS signaling up Epithelial cell differentiation P5 Early estrogen response Epidermis development TNF / NF-kB signaling P53 pathway mTORC1 signaling P6 Monocarboxylic acid transport Interferon-alpha response Late estrogen response KRAS signaling up Cytokine-mediated signaling 0 15 30 Fold enrichment",
+    "dimensions": [
+      340.0,
+      348.0
+    ]
+  },
+  {
+    "asset_id": "S03_P02",
+    "figure": "Figure2",
+    "panel": "B",
+    "output": "review/production_replay/project/8-Visualization/refinements/fig2_assembly_20261031_v34/figures/Figure2B_layout.pdf",
+    "verification_level": "RENDERED_TEXT_SIZE_VERIFIED",
+    "text": "+/- DB C1 C2 C3 Selected via C1 contrast Organic acid catabolic process + G Small molecule biosynthetic process + G Xenobiotic metabolism + H Nervous system development - R Nonsense mediated decay NMD - R Chromatin remodeling - G Selected via C2 contrast Cytoplasmic translation + G Cilium organization + G Regulation of WNT signaling pathway + G Interferon gamma response - H Immune effector process - G Adaptive immune response - G Selected via C3 contrast Epidermal cell differentiation + G Inflammatory response + H G2M checkpoint + H Monocarboxylic acid metabolic process - G Amino acid metabolic process - G Steroid metabolic process - G NES FDR < 0.05 -4.5 0 4.5 G GO BP R Reactome H Hallmark",
+    "dimensions": [
+      170.0,
+      232.0
+    ]
+  },
+  {
+    "asset_id": "S03_P03",
+    "figure": "Figure2",
+    "panel": "C",
+    "output": "review/production_replay/project/8-Visualization/refinements/fig2_assembly_20261031_v34/figures/Figure2C_layout.pdf",
+    "verification_level": "RENDERED_SOURCE_VALUES_VERIFIED_LAYOUT_DIFFERENT",
+    "text": "Co-expression program Module | genes C1 C2 C3 Preservation Z summary Difference (SD), 95% CI FDR < 0.05 FDR >= 0.05 Fatty-acid / peroxisome lightgreen | 100 Small-molecule catabolism pink | 267 Mitochondrial expression black | 304 Respiratory electron transport cyan | 209 Cell morphogenesis brown | 485 Cell-cycle checkpoints darkgreen | 38 Mitotic cell cycle magenta | 266 Hypoxia / glycolysis greenyellow | 236 O-linked glycosylation red | 311 Antiviral / interferon response darkturquoise | 35 Muscle cell proliferation tan | 228 -2 0 2 -2 0 2 -2 0 2 0 10 20",
+    "dimensions": [
+      518.0,
+      150.0
+    ]
+  },
+  {
+    "asset_id": "S03_P04",
+    "figure": "Figure2",
+    "panel": "E",
+    "output": "review/production_replay/project/8-Visualization/refinements/fig2_global_revision_20261103_v2/figures/Figure2E_question_order.pdf",
+    "verification_level": "RENDERED_TEXT_SIZE_VERIFIED",
+    "text": "Biological question Readout C1 C2 C3 Immune score Tissue Stromal score background Purity proxy CD8 T cells NK cells B cells Immune-cell Monocytes / lineage signals Macrophages Dendritic cells Neutrophils Stromal / Fibroblasts / CAFs vascular signals Endothelial cells -2 0 2 -2 0 2 -2 0 2 Study-adjusted difference (within-study SD) MCP-counter EPIC xCell CIBERSORT ESTIMATE FDR <0.05 FDR >=0.05 95% CI",
+    "dimensions": [
+      340.0,
+      215.0
+    ]
+  },
+  {
+    "asset_id": "S03_P05",
+    "figure": "Figure2",
+    "panel": "D",
+    "output": "review/production_replay/project/8-Visualization/refinements/fig2_assembly_20261031_v34/figures/Figure2D_layout.pdf",
+    "verification_level": "RENDERED_TEXT_SIZE_VERIFIED",
+    "text": "TF +/- C1 C2 C3 Selected via C1 contrast HNF4A + 7.5 -2.2 -3.4 PPARA + 3.4 -1.3 -1.2 GRHL2 - -1.9 0.1 1.4 NR2F1 - -1.8 0.1 1.3 Selected via C2 contrast RFX2 + -0.6 0.6 -0.3 XBP1 + -0.3 0.5 -0.3 USF2 - 1.5 -1.7 0.7 NR1H3 - 0.6 -0.9 0.5 Selected via C3 contrast KLF5 + -2.2 -1.3 3.2 PROX1 + -0.8 -0.3 1.0 HNF1A - 4.8 -0.4 -3.3 FOXO4 - 1.0 0.1 -0.9 ULM difference FDR < 0.05 -8 0 8",
+    "dimensions": [
+      170.0,
+      215.0
+    ]
+  },
+  {
+    "asset_id": "S03_P06",
+    "figure": "Figure2",
+    "panel": "A_legend",
+    "output": "review/production_replay/project/8-Visualization/refinements/fig2_assembly_20261031_v34/figures/Figure2A_legend.pdf",
+    "verification_level": "RENDERED_TEXT_SIZE_VERIFIED",
+    "text": "Subtype / pattern C1 C2 C3 P2 P4 Study 2019Ahn 2022Dong 2023Deng 2023Jeon 2023Lee 2024Fan TCGA-CHOL WGCNA black blue brown cyan darkturquoise green greenyellow grey60 lightgreen magenta midnightblue pink purple red salmon tan turquoise yellow grey Outside network Z-score -2 0 2",
+    "dimensions": [
+      170.0,
+      110.0
+    ]
+  },
+  {
+    "asset_id": "S04_P01",
+    "figure": "SFigure2",
+    "panel": "A",
+    "output": "review/production_replay/project/8-Visualization/refinements/fig2_transcriptomic_20261026_v9/figures/SFigure2A_DEG_threshold_counts.pdf",
+    "verification_level": "RENDERED_SOURCE_VALUES_VERIFIED_LAYOUT_DIFFERENT",
+    "text": "C1 C2 C3 0 5,805 1,176 2,341 4,312 2,533 3,635 Minimum |log2FC| 0.5 1,068 623 737 886 842 1,000 1.0 136 323 237 198 336 280 6,000 0 6,000 6,000 0 6,000 6,000 0 6,000 DEG count (left: Down; right: Up)",
+    "dimensions": [
+      493.0,
+      184.0
+    ]
+  },
+  {
+    "asset_id": "S04_P02",
+    "figure": "SFigure2",
+    "panel": "B_C1",
+    "output": "review/production_replay/project/8-Visualization/refinements/fig2_transcriptomic_20261026_v8/figures/Figure2A_C1_volcano_programs.pdf",
+    "verification_level": "RENDERED_TEXT_SIZE_VERIFIED",
+    "text": "C1 Down DEGs Up DEGs Epidermis development Amino acid catabolism SPINT1, ESRP1 ARG1, AGXT FDR 5.8e-07 FDR 5.7e-19 Keratinization Fatty acid metabolism PPL, KRT80 ADH4, APOC3 FDR 4.9e-05 FDR 6.3e-18 Tissue morphogenesis Xenobiotic metabolism DDR1, SPINT1 SULT2A1, CYP2E1 FDR 3.9e-04 FDR 9.9e-20 136 323 ARG1 ARG1 100 SULT2A1 SULT2A1 \u2212 log10 FDR AGXT AGXT 50 DDR1 SPINT1 ESRP1 0 -4 0 4 log2 FC",
+    "dimensions": [
+      158.0,
+      221.0
+    ]
+  },
+  {
+    "asset_id": "S04_P03",
+    "figure": "SFigure2",
+    "panel": "B_C2",
+    "output": "review/production_replay/project/8-Visualization/refinements/fig2_transcriptomic_20261026_v8/figures/Figure2A_C2_volcano_programs.pdf",
+    "verification_level": "RENDERED_CONTENT_TOKENS_VERIFIED_LAYOUT_MAY_DIFFER",
+    "text": "C2 Down DEGs Up DEGs Humoral immune resp. Sodium ion transport C2, LYZ WNK2, SLC34A2 FDR 1.8e-09 FDR 2.1e-02 Xenobiotic metabolism Hormone-level regulation NR1I2, CYP4F12 HNF1B, SNAP25 FDR 1.9e-09 FDR 4.4e-02 Monocarboxylate transp. Sensory perception ACSL5, MFSD2A DCDC2, AQP1 FDR 6.1e-07 FDR 4.9e-02 237 198 100 DCDC2 DCDC2 \u2212 log10 FDR HNF1B HNF1B ACSL5 ACSL5 50 MFSD2A MFSD2A WNK2 WNK2 NR1I2 NR1I2 0 -4 0 4 log2 FC",
+    "dimensions": [
+      158.0,
+      221.0
+    ]
+  },
+  {
+    "asset_id": "S04_P04",
+    "figure": "SFigure2",
+    "panel": "B_C3",
+    "output": "review/production_replay/project/8-Visualization/refinements/fig2_transcriptomic_20261026_v8/figures/Figure2A_C3_volcano_programs.pdf",
+    "verification_level": "RENDERED_TEXT_SIZE_VERIFIED",
+    "text": "C3 Down DEGs Up DEGs Steroid metabolism Epidermis development PROX1, AGT CDH3, SLC44A4 FDR 2.4e-18 FDR 3.5e-08 Amino acid catabolism Taxis PAH, HOGA1 AGR2, NBL1 FDR 3.6e-08 FDR 1.5e-05 Complement activation O-GalNAc glycosylation C5, C3 GALNT7, GCNT1 FDR 3.5e-14 FDR 5.5e-03 336 280 PROX1 PROX1 100 CDH3 CDH3 \u2212 log10 FDR AGT AGT PAH PAH SLC44A4 SLC44A4 50 AGR2 AGR2 0 -4 0 4 log2 FC",
+    "dimensions": [
+      158.0,
+      221.0
+    ]
+  },
+  {
+    "asset_id": "S04_P05",
+    "figure": "SFigure2",
+    "panel": "C_sensitivity",
+    "output": "review/production_replay/project/8-Visualization/refinements/fig2_global_revision_20261103_v2/figures/GSEA_selection_sensitivity.pdf",
+    "verification_level": "RENDERED_TEXT_SIZE_VERIFIED",
+    "text": "GSEA display sensitivity Overlap 0.35 0.35 0.35 0.50 0.50 0.50 0.65 0.65 0.65 Count 12 18 24 12 18 24 12 18 24 Organic acid catabolic process Cytoplasmic translation Epidermal cell differentiation Nervous system development Interferon gamma response Monocarboxylic acid metabolic process Small molecule biosynthetic process Cilium organization Inflammatory response Nonsense mediated decay NMD Immune effector process Amino acid metabolic process Xenobiotic metabolism Regulation of WNT signaling pathway G2M checkpoint Chromatin remodeling Adaptive immune response Steroid metabolic process Ribonucleoprotein complex biogenesis Coagulation Fatty acid metabolic process Oxidative phosphorylation Cellular response to starvation Eukaryotic translation elongation Neutrophil degranulation Alcohol metabolic process Myotube differentiation Pattern specification process Positive regulation of WNT signaling pathway Biological oxidations Hemostasis Bold: main18; filled: selected. Nested display budgets are not independent validation.",
+    "dimensions": [
+      493.0,
+      382.0
+    ]
+  },
+  {
+    "asset_id": "S04_P06",
+    "figure": "SFigure2",
+    "panel": "C_background",
+    "output": "review/production_replay/project/8-Visualization/refinements/fig2_global_revision_20261103_v2/figures/GSEA_background_compact.pdf",
+    "verification_level": "RENDERED_CONTENT_TOKENS_VERIFIED_LAYOUT_MAY_DIFFER",
+    "text": "GSEA selection background Gene sets Tested Any sig. Main GO BP 4209 1230 12 Reactome 1218 351 2 Hallmark 50 37 4 KEGG MEDICUS 311 33 0 Any sig.: original FDR < 0.05 in >=1 subtype Testing families: subtype x collection Selection rule 1 Six subtype x NES-direction queues 2 Rank by FDR, then absolute NES 3 Exclude measured-set Jaccard >=0.50 4 Three rounds: 18 main sets 5 Fourth round: 24-set extension Complete original NES/FDR and leading edges are provided for all tested sets in Source Data.",
+    "dimensions": [
+      198.0,
+      323.0
+    ]
+  },
+  {
+    "asset_id": "S05_P01",
+    "figure": "SFigure2",
+    "panel": "E",
+    "output": "review/production_replay/project/8-Visualization/refinements/fig2_global_revision_20261103_v2/pattern_bridge/figures/Pattern_WGCNA_membership_bridge.pdf",
+    "verification_level": "RENDERED_TEXT_SIZE_VERIFIED",
+    "text": "Pattern\u2013WGCNA membership All 842 pattern genes; each cell shows gene count (top) and within-pattern % (bottom) lightgreen darkgreen greenyellow darkturquoise lightyellow midnightblue pink black cyan brown magenta yellow grey60 blue darkgrey darkred green lightcyan purple royalblue salmon turquoise grey Outside red tan P1 Metabolism / coagulation 32 177 0 0 0 0 0 0 3 0 2 1 0 4 0 0 0 0 0 4 0 0 0 4 9 6 n = 242; low affinity = 29 13.2 73.1 0.0 0.0 0.0 0.0 0.0 0.0 1.2 0.0 0.8 0.4 0.0 1.7 0.0 0.0 0.0 0.0 0.0 1.7 0.0 0.0 0.0 1.7 3.7 2.5 P2 Complement / steroid 30 4 0 0 2 0 0 0 0 0 0 62 0 0 0 0 0 0 0 0 0 1 0 3 2 0 n = 104; low affinity = 25 28.8 3.8 0.0 0.0 1.9 0.0 0.0 0.0 0.0 0.0 0.0 59.6 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 1.0 0.0 2.9 1.9 0.0 P3 WNT / ion transport 0 0 4 3 101 0 0 0 0 0 0 26 0 0 0 0 0 0 0 0 0 1 7 0 13 0 n = 155; low affinity = 24 0.0 0.0 2.6 1.9 65.2 0.0 0.0 0.0 0.0 0.0 0.0 16.8 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.6 4.5 0.0 8.4 0.0 P4 Epithelial development 0 0 0 0 2 0 0 3 0 0 1 0 39 0 0 0 10 0 0 0 0 0 9 0 10 0 n = 74; low affinity = 12 0.0 0.0 0.0 0.0 2.7 0.0 0.0 4.1 0.0 0.0 1.4 0.0 52.7 0.0 0.0 0.0 13.5 0.0 0.0 0.0 0.0 0.0 12.2 0.0 13.5 0.0 P5 Epithelial / stress 0 0 0 0 0 0 0 40 83 0 24 0 8 2 0 0 10 0 0 0 0 0 2 0 6 0 n = 175; low affinity = 25 0.0 0.0 0.0 0.0 0.0 0.0 0.0 22.9 47.4 0.0 13.7 0.0 4.6 1.1 0.0 0.0 5.7 0.0 0.0 0.0 0.0 0.0 1.1 0.0 3.4 0.0 P6 Cytokine / transport 0 1 0 0 0 0 3 1 65 2 12 0 0 4 0 0 0 0 0 1 0 0 0 1 2 0 n = 92; low affinity = 19 0.0 1.1 0.0 0.0 0.0 0.0 3.3 1.1 70.7 2.2 13.0 0.0 0.0 4.3 0.0 0.0 0.0 0.0 0.0 1.1 0.0 0.0 0.0 1.1 2.2 0.0 Genes in the 842-gene display 62 182 4 3 105 0 3 44 151 2 39 89 47 10 0 0 20 0 0 5 0 2 18 8 42 6 Complete module genes 100 267 304 209 485 38 266 236 311 35 228 349 122 570 32 50 312 137 97 238 95 223 1851 198 \u2013 \u2013 Within-pattern % Bold module labels: current Fig. 2C / Fig. 3 programs 0 20 40 60 80 Descriptions are working bulk annotations; P IDs are unchanged. Grey is unassigned; outside-network genes are retained. Complete-module totals use a different denominator. Pattern rows partition 842 genes; the 24 named modules contain 6,753 genes. No enrichment test was performed.",
+    "dimensions": [
+      493.0,
+      348.0
+    ]
+  },
+  {
+    "asset_id": "S05_P02",
+    "figure": "SFigure2",
+    "panel": "D",
+    "output": "review/production_replay/project/8-Visualization/refinements/fig2_supp_reorganization_20261103_v3/network/figures/WGCNA_all24_joint_association_preservation.pdf",
+    "verification_level": "RENDERED_TEXT_SIZE_VERIFIED",
+    "text": "Co-expression associations and network preservation Meta: 6 eligible studies (n = 484) | Preservation: reference n = 220; pooled held-out n = 274 Module Genes C1 C2 C3 Zsummary Zdensity Zconnectivity 0 20 40 lightgreen 100 1.65 -0.22 -1.43 13.70 13.05 14.35 pink 267 1.92 -1.01 -0.96 20.72 17.78 23.67 black 304 -0.18 0.81 -0.59 19.35 19.94 18.76 cyan 209 -0.30 0.83 -0.47 9.28 13.00 5.55 brown 485 -0.38 1.27 -0.84 19.04 20.26 17.82 darkgreen 38 -0.45 0.63 -0.15 8.88 14.93 2.84 magenta 266 -0.29 -0.31 0.61 21.12 23.35 18.88 greenyellow 236 -0.78 -0.29 1.14 15.28 17.05 13.51 red 311 -0.45 -0.99 1.45 17.30 15.01 19.59 darkturquoise 35 -0.22 -0.39 0.61 10.64 13.16 8.12 tan 228 -0.31 -0.74 1.09 13.71 13.44 13.98 yellow 349 0.59 0.87 -1.37 13.13 7.96 18.30 grey60 122 -1.08 0.56 0.58 12.31 13.09 11.53 blue 570 0.04 -0.46 0.47 22.67 20.10 25.24 darkgrey 32 -0.25 0.46 -0.17 6.93 9.72 4.14 darkred 50 0.10 -0.33 0.25 9.55 11.69 7.41 green 312 -0.62 0.15 0.51 20.18 19.44 20.92 lightcyan 137 -0.74 0.60 0.22 16.26 18.84 13.69 lightyellow 97 -0.22 -0.08 0.40 12.28 14.98 9.58 purple 238 0.38 -0.54 0.23 23.90 24.78 23.01 royalblue 95 -0.32 0.35 0.04 11.12 14.24 8.01 salmon 223 -0.24 0.65 -0.34 15.74 16.00 15.47 turquoise 1851 -0.51 0.39 0.21 37.33 40.71 33.94 midnightblue 198 0.14 -0.08 -0.02 17.28 17.52 17.04 Effect (SD) Tile dot: original FDR < 0.05 Zsummary guides: 2 and 10 -2 0 2 Gene-count dot / bold name: main Fig. 2C module 200 permutations; all module genes evaluated Reference QC gate: QUALIFIED; pooled structural support, not independent validation.",
+    "dimensions": [
+      493.0,
+      340.0
+    ]
+  },
+  {
+    "asset_id": "S06_P01",
+    "figure": "SFigure2",
+    "panel": "F",
+    "output": "review/production_replay/project/8-Visualization/refinements/fig2_global_revision_20261103_v2/network_support/figures/WGCNA_assigned_contrast_study_forests.pdf",
+    "verification_level": "RENDERED_CONTENT_TOKENS_VERIFIED_LAYOUT_MAY_DIFFER",
+    "text": "Assigned-subtype effects across studies Target \u2212 equal-weighted mean of the other two subtypes; frozen effects and 95% CIs lightgreen \u00b7 C1 \u00b7 100 genes pink \u00b7 C1 \u00b7 267 genes Study n (1/2/3) Effect (SD) Estimate [95% CI] Study n (1/2/3) Effect (SD) Estimate [95% CI] Ahn 5/9/11 1.67 [1.32, 2.02] Ahn 5/9/11 2.04 [1.65, 2.43] Dong* 48/108/67 1.82 [1.59, 2.06] Dong* 48/108/67 2.09 [1.87, 2.32] Deng 9/32/23 1.63 [1.23, 2.04] Deng 9/32/23 1.80 [1.42, 2.19] Jeon 9/21/21 1.40 [0.73, 2.08] Jeon 9/21/21 2.14 [1.52, 2.76] Lee 7/1/5 NE 1.58 [NE] Lee 7/1/5 NE 1.75 [NE] Fan 27/35/30 1.48 [1.21, 1.76] Fan 27/35/30 1.59 [1.34, 1.84] TCGA 7/17/5 1.71 [1.01, 2.42] TCGA 7/17/5 2.10 [1.55, 2.64] Meta 105/222/157 1.65 [1.49, 1.82] Meta 105/222/157 1.92 [1.71, 2.13] -1 0 1 2 3 -1 0 1 2 3 I\u00b2 = 15.6%; meta FDR = 6.3e-89 I\u00b2 = 50.6%; meta FDR = 5.4e-71 black \u00b7 C2 \u00b7 304 genes cyan \u00b7 C2 \u00b7 209 genes Study n (1/2/3) Effect (SD) Estimate [95% CI] Study n (1/2/3) Effect (SD) Estimate [95% CI] Ahn 5/9/11 0.53 [-0.19, 1.26] Ahn 5/9/11 0.85 [0.12, 1.59] Dong* 48/108/67 1.06 [0.84, 1.27] Dong* 48/108/67 0.95 [0.72, 1.18] Deng 9/32/23 0.63 [0.19, 1.07] Deng 9/32/23 0.57 [0.12, 1.02] Jeon 9/21/21 1.07 [0.52, 1.62] Jeon 9/21/21 1.18 [0.69, 1.66] Lee 7/1/5 NE -0.91 [NE] Lee 7/1/5 NE -1.30 [NE] Fan 27/35/30 0.56 [0.13, 1.00] Fan 27/35/30 0.47 [0.03, 0.90] TCGA 7/17/5 0.59 [-0.19, 1.38] TCGA 7/17/5 0.94 [0.19, 1.70] Meta 105/222/157 0.81 [0.57, 1.05] Meta 105/222/157 0.83 [0.60, 1.06] -1 0 1 2 3 -1 0 1 2 3 I\u00b2 = 38.8%; meta FDR = 1.5e-10 I\u00b2 = 34.1%; meta FDR = 6.1e-12 brown \u00b7 C2 \u00b7 485 genes darkgreen \u00b7 C2 \u00b7 38 genes Study n (1/2/3) Effect (SD) Estimate [95% CI] Study n (1/2/3) Effect (SD) Estimate [95% CI] Ahn 5/9/11 1.28 [0.69, 1.86] Ahn 5/9/11 0.87 [0.11, 1.64] Dong* 48/108/67 1.50 [1.33, 1.67] Dong* 48/108/67 0.71 [0.46, 0.96] Deng 9/32/23 1.17 [0.86, 1.49] Deng 9/32/23 0.47 [0.05, 0.89] Jeon 9/21/21 1.51 [1.08, 1.94] Jeon 9/21/21 0.90 [0.39, 1.41] Lee 7/1/5 NE -0.52 [NE] Lee 7/1/5 NE -0.80 [NE] Fan 27/35/30 0.84 [0.42, 1.26] Fan 27/35/30 0.27 [-0.20, 0.73] TCGA 7/17/5 1.06 [0.32, 1.79] TCGA 7/17/5 0.53 [-0.23, 1.29] Meta 105/222/157 1.27 [1.04, 1.50] Meta 105/222/157 0.63 [0.45, 0.81] -1 0 1 2 3 -1 0 1 2 3 I\u00b2 = 55.0%; meta FDR = 8.4e-26 I\u00b2 = 5.4%; meta FDR = 4.1e-11 magenta \u00b7 C3 \u00b7 266 genes greenyellow \u00b7 C3 \u00b7 236 genes Study n (1/2/3) Effect (SD) Estimate [95% CI] Study n (1/2/3) Effect (SD) Estimate [95% CI] Ahn 5/9/11 0.42 [-0.39, 1.24] Ahn 5/9/11 0.71 [-0.03, 1.45] Dong* 48/108/67 0.52 [0.20, 0.84] Dong* 48/108/67 1.59 [1.39, 1.80] Deng 9/32/23 0.24 [-0.34, 0.82] Deng 9/32/23 0.69 [0.15, 1.24] Jeon 9/21/21 1.02 [0.50, 1.54] Jeon 9/21/21 1.43 [1.01, 1.85] Lee 7/1/5 NE 1.30 [NE] Lee 7/1/5 NE 1.95 [NE] Fan 27/35/30 0.78 [0.36, 1.20] Fan 27/35/30 0.98 [0.59, 1.36] TCGA 7/17/5 0.19 [-1.10, 1.47] TCGA 7/17/5 0.99 [-0.21, 2.18] Meta 105/222/157 0.61 [0.38, 0.83] Meta 105/222/157 1.14 [0.79, 1.49] -1 0 1 2 3 -1 0 1 2 3 I\u00b2 = 10.8%; meta FDR = 2.8e-07 I\u00b2 = 69.9%; meta FDR = 4.5e-10 red \u00b7 C3 \u00b7 311 genes darkturquoise \u00b7 C3 \u00b7 35 genes Study n (1/2/3) Effect (SD) Estimate [95% CI] Study n (1/2/3) Effect (SD) Estimate [95% CI] Ahn 5/9/11 1.27 [0.78, 1.77] Ahn 5/9/11 0.49 [-0.39, 1.38] Dong* 48/108/67 1.64 [1.41, 1.86] Dong* 48/108/67 0.68 [0.39, 0.97] Deng 9/32/23 1.27 [0.88, 1.66] Deng 9/32/23 0.24 [-0.26, 0.74] Jeon 9/21/21 1.71 [1.37, 2.05] Jeon 9/21/21 1.06 [0.51, 1.62] Lee 7/1/5 NE 2.06 [NE] Lee 7/1/5 NE 0.10 [NE] Fan 27/35/30 1.22 [0.87, 1.56] Fan 27/35/30 0.52 [0.10, 0.95] TCGA 7/17/5 1.32 [-0.03, 2.67] TCGA 7/17/5 0.59 [0.12, 1.05] Meta 105/222/157 1.45 [1.25, 1.66] Meta 105/222/157 0.61 [0.43, 0.79] -1 0 1 2 3 -1 0 1 2 3 I\u00b2 = 42.3%; meta FDR = 1.3e-41 I\u00b2 = 0.0%; meta FDR = 1.4e-10 tan \u00b7 C3 \u00b7 228 genes Reading the forest Study n (1/2/3) Effect (SD) Estimate [95% CI] n (1/2/3) gives C1 / C2 / C3 sample counts. Ahn 5/9/11 0.59 [-0.19, 1.37] Circles: study effects; square: Dong reference. Dong* 48/108/67 1.53 [1.32, 1.74] Deng 9/32/23 0.33 [-0.15, 0.82] Diamonds: original six-study REML meta-analysis. Jeon 9/21/21 1.39 [0.90, 1.87] Dong*: 223 scored; 220 used to construct the network. Lee 7/1/5 NE 1.91 [NE] Lee: C2 n = 1; point estimate retained, inference NE. Fan 27/35/30 0.93 [0.55, 1.31] Meta n = 484; all 7 studies are displayed. TCGA 7/17/5 1.62 [0.95, 2.29] Meta 105/222/157 1.09 [0.67, 1.50] I\u00b2 is for the assigned subtype contrast in that block. Across-study support is not independent validation. -1 0 1 2 3 I\u00b2 = 81.6%; meta FDR = 9.7e-07 Same score units and x-axis across all modules; NE does not denote a zero effect.",
+    "dimensions": [
+      493.0,
+      708.0
+    ]
+  },
+  {
+    "asset_id": "S07_P01",
+    "figure": "SFigure2",
+    "panel": "I",
+    "output": "review/production_replay/project/8-Visualization/refinements/fig2_supp_reorganization_20261103_v3/tf/figures/I_TF_selection_sensitivity.pdf",
+    "verification_level": "RENDERED_TEXT_SIZE_VERIFIED",
+    "text": "Sensitivity of displayed TF membership Mode Signed Signed Signed Unsigned U Jaccard cutoff 0.35 0.50 0.65 0.50 TF / budget 6 12 18 6 12 18 6 12 18 12 HNF4A RFX2 KLF5 GRHL2 USF2 HNF1A PPARA XBP1 PROX1 NR2F1 NR1H3 FOXO4 BCL6 CEBPA E2F7 NFE2L2 RFX1 SMAD1 USF1 Selected Not selected Bold TFs: main 12 U: unsigned target Jaccard All 19 TFs selected in any of 10 settings are shown. The 12-TF membership is unchanged across tested cutoffs, including U. At budget 18, signed 0.65 selects USF1 instead of NFE2L2. Lists at a fixed cutoff are nested by construction.",
+    "dimensions": [
+      493.0,
+      255.0
+    ]
+  },
+  {
+    "asset_id": "S07_P02",
+    "figure": "SFigure2",
+    "panel": "G",
+    "output": "review/production_replay/project/8-Visualization/refinements/fig2_supp_reorganization_20261103_v3/tf/figures/G_TF_selection_background_compact.pdf",
+    "verification_level": "RENDERED_TEXT_SIZE_VERIFIED",
+    "text": "TF eligibility and display budget Qualifying TFs / contrasts Six anchor queues: selected / eligible Tested FDR < 0.05 \u226510 signed targets 7/7 LOSO sign C1+ C2+ C3+ C1\u2212 C2\u2212 C3\u2212 263 / 789 \u2192 250 / 585 \u2192 225 / 526 \u2192 225 / 524 2 / 76 2 / 52 2 / 128 2 / 106 2 / 114 2 / 48 The display budget is 12 TFs; this is not an additional significance filter. Main D retains all 36 subtype contrasts. Missing LOSO: 13 TFs / 39 contrasts, never counted as passing. Two significant contrasts with sufficient coverage fail 7/7 sign retention. Original TF FDR: 263 factors separately within each subtype contrast. Coverage counts measured signed target genes, not samples. LOSO direction retention applies to the selection anchor; it does not guarantee stability of every displayed counterpart contrast.",
+    "dimensions": [
+      493.0,
+      104.0
+    ]
+  },
+  {
+    "asset_id": "S07_P03",
+    "figure": "SFigure2",
+    "panel": "H",
+    "output": "review/production_replay/project/8-Visualization/refinements/fig2_global_revision_20261103_v2/tf_program_bridge/figures/TF_program_correspondence.pdf",
+    "verification_level": "RENDERED_TEXT_SIZE_VERIFIED",
+    "text": "Measured TF targets in fixed expression programs Overlap counts and signed target-expression correspondence at each TF's selection anchor HNF4A PPARA GRHL2 NR2F1 RFX2 XBP1 USF2 NR1H3 KLF5 PROX1 HNF1A FOXO4 C1+ C1+ C1\u2212 C1\u2212 C2+ C2+ C2\u2212 C2\u2212 C3+ C3+ C3\u2212 C3\u2212 Program [gene count] n=58 n=21 n=62 n=48 n=15 n=11 n=29 n=11 n=76 n=20 n=13 n=13 P1\u2013P6: fixed 842-gene pattern membership P1 [242] 24 8 0 2 0 0 3 1 0 0 6 1 P2 [104] 6 1 0 1 0 0 0 0 0 1 2 2 P3 [155] 0 0 3 1 0 1 0 0 0 1 1 0 P4 [74] 0 0 3 1 0 0 0 0 5 1 0 0 P5 [175] 1 0 7 0 0 0 1 1 16 1 0 0 P6 [92] 1 0 1 0 0 0 2 1 1 0 0 0 Main WGCNA programs: full membership from the 6,753-gene network Fatty-acid / peroxisome [100] 7 2 0 0 0 0 0 0 0 0 2 1 Small-molecule catabolism [267] 23 9 0 2 0 0 2 2 2 0 7 2 Mitochondrial expression [304] 0 0 1 0 0 0 0 0 1 0 0 1 Respiratory electron transport [209] 1 0 0 0 0 0 0 0 0 0 0 0 Cell morphogenesis [485] 0 0 5 0 1 1 0 0 2 1 1 0 Cell-cycle checkpoints [38] 0 0 0 0 1 0 1 0 1 0 0 0 Mitotic cell cycle [266] 0 1 0 0 0 0 2 0 2 0 0 0 Hypoxia / glycolysis [236] 1 1 6 1 0 0 2 2 7 1 0 0 O-linked glycosylation [311] 2 0 7 0 0 0 3 1 14 0 0 0 Antiviral / interferon response [35] 0 0 0 0 0 0 0 0 0 0 0 0 Muscle cell proliferation [228] 0 1 0 1 0 1 1 0 0 1 0 2 Expected direction, gene FDR < 0.05 Opposite direction, gene FDR < 0.05 Not significant Count above bar; full bar width = all measured signed targets for that TF (n in header). Empty portion = targets outside that program. Expected gene direction = anchor activity sign \u00d7 signed mode of regulation. Shared expression evidence; no enrichment or causal test.",
+    "dimensions": [
+      493.0,
+      323.0
+    ]
+  },
+  {
+    "asset_id": "S08_P01",
+    "figure": "SFigure2",
+    "panel": "K",
+    "output": "review/production_replay/project/8-Visualization/refinements/fig2_global_revision_20261103_v1/tme_sensitivity/figures/SFigure2G_TME_primary_sensitivity.pdf",
+    "verification_level": "RENDERED_TEXT_SIZE_VERIFIED",
+    "text": "Method-specific TME sensitivity Study-adjusted subtype-versus-others effects; 33 readouts \u00d7 3 contrasts \u00d7 2 analyses n / studies C1 C2 C3 Readout Primary Sensitivity Primary Sensitivity Primary Sensitivity Primary Sensitivity ESTIMATE Sensitivity: seven-study native coverage \u226580% Purity proxy 433 / 6 433 / 6 -0.40 -0.40 +0.55 +0.55 -0.28 -0.28 Immune score 433 / 6 497 / 7 +0.50 +0.62 -0.63 -0.66 +0.29 +0.24 Stromal score 433 / 6 433 / 6 +0.21 +0.21 -0.36 -0.36 +0.23 +0.23 MCP-counter Sensitivity: seven-study native coverage \u226580% CD8 T cells 433 / 6 433 / 6 +0.46 +0.46 -0.51 -0.51 +0.18 +0.18 NK cells 433 / 6 433 / 6 +0.22 +0.22 -0.14 -0.14 -0.03 -0.03 B cells 433 / 6 433 / 6 +0.31 +0.31 -0.30 -0.30 +0.08 +0.08 Monocytes / lineage 433 / 6 497 / 7 +0.26 +0.31 -0.29 -0.28 +0.11 +0.07 Dendritic cells 433 / 6 433 / 6 +0.63 +0.63 -0.17 -0.17 -0.32 -0.32 Neutrophils 433 / 6 433 / 6 +0.63 +0.63 -0.77 -0.77 +0.34 +0.34 Fibroblasts / CAFs 433 / 6 497 / 7 -0.35 -0.29 -0.24 -0.22 +0.56 +0.47 Endothelial cells 433 / 6 433 / 6 +0.21 +0.21 -0.07 -0.07 -0.10 -0.10 EPIC Sensitivity: fit Pearson r \u22650.3; HC3 covariance not estimable\u00b9 CD8 T cells 432 / 6 396 / 6 -0.24 NE\u00b9 -0.05 NE\u00b9 +0.26 NE\u00b9 NK cells 432 / 6 396 / 6 -0.09 NE\u00b9 -0.03 NE\u00b9 +0.11 NE\u00b9 B cells 432 / 6 396 / 6 +0.11 NE\u00b9 -0.12 NE\u00b9 +0.05 NE\u00b9 Macrophages 432 / 6 396 / 6 +1.38 NE\u00b9 -0.81 NE\u00b9 -0.24 NE\u00b9 Fibroblasts / CAFs 432 / 6 396 / 6 -0.39 NE\u00b9 -0.38 NE\u00b9 +0.75 NE\u00b9 Endothelial cells 432 / 6 396 / 6 -0.31 NE\u00b9 -0.14 NE\u00b9 +0.42 NE\u00b9 xCell Sensitivity: common RNA gene universe; coverage \u226580% CD8 T cells 408 / 5 0/0 +0.17 NE\u00b2 -0.34 NE\u00b2 +0.24 NE\u00b2 NK cells 274 / 2 0/0 -0.16 NE\u00b2 -0.11 NE\u00b2 +0.24 NE\u00b2 B cells 433 / 6 0/0 +0.02 NE\u00b2 -0.10 NE\u00b2 +0.10 NE\u00b2 Monocytes / lineage 433 / 6 0/0 +0.55 NE\u00b2 -0.63 NE\u00b2 +0.25 NE\u00b2 Macrophages 433 / 6 433 / 6 +0.76 +0.64 -0.87 -0.81 +0.35 +0.37 Dendritic cells 433 / 6 0/0 +0.59 NE\u00b2 -0.32 NE\u00b2 -0.13 NE\u00b2 Neutrophils 382 / 5 0/0 +0.09 NE\u00b2 -0.25 NE\u00b2 +0.20 NE\u00b2 Fibroblasts / CAFs 433 / 6 379 / 4 +0.12 +0.33 -0.03 -0.15 -0.07 -0.11 Endothelial cells 433 / 6 433 / 6 +0.10 +0.11 -0.22 -0.28 +0.15 +0.23 CIBERSORT Sensitivity: deconvolution fit P < 0.05; estimable studies CD8 T cells 433 / 6 187 / 5 +0.42 +0.37 -0.34 -0.34 +0.03 +0.02 NK cells 433 / 6 187 / 5 -0.28 -0.10 +0.29 +0.23 -0.08 -0.14 B cells 433 / 6 187 / 5 +0.15 +0.15 +0.15 +0.28 -0.29 -0.40 Monocytes / lineage 433 / 6 187 / 5 -0.08 +0.20 +0.06 -0.04 -0.004 -0.13 Macrophages 433 / 6 187 / 5 -0.01 -0.09 -0.03 -0.19 +0.04 +0.26 Dendritic cells 433 / 6 187 / 5 -0.20 -0.16 +0.33 -0.004 -0.20 +0.14 Neutrophils 433 / 6 187 / 5 +0.12 +0.05 -0.22 -0.30 +0.15 +0.25 Original BH FDR < 0.05 Effect (within-study SD) \u22122 +2 0 NE\u00b9: HC3 covariance unavailable. NE\u00b2: no eligible observations. FDR families remain method-specific.",
+    "dimensions": [
+      493.0,
+      362.0
+    ]
+  },
+  {
+    "asset_id": "S08_P02",
+    "figure": "SFigure2",
+    "panel": "J",
+    "output": "review/production_replay/project/8-Visualization/refinements/fig2_supp_reorganization_20261103_v3/tme/figures/SFigure2J_TME_study_robustness.pdf",
+    "verification_level": "RENDERED_TEXT_SIZE_VERIFIED",
+    "text": "Study-specific effects and study-omission consistency Readout n / studies C1 C2 C3 A D J L F T LOSO A D J L F T LOSO A D J L F T LOSO ESTIMATE context Purity proxy 433 / 6 6/6 \u2013 6/6 6/6 Immune score 433 / 6 6/6 \u2013 6/6 6/6 Stromal score 433 / 6 6/6 \u2013 6/6 6/6 MCP-counter CD8 T cells 433 / 6 6/6 \u2013 6/6 6/6 NK cells 433 / 6 6/6 \u2013 6/6 4/6 B cells 433 / 6 6/6 \u2013 6/6 6/6 Monocytes / lineage 433 / 6 6/6 \u2013 6/6 6/6 Dendritic cells 433 / 6 6/6 \u2013 6/6 6/6 Neutrophils 433 / 6 6/6 \u2013 6/6 6/6 Fibroblasts / CAFs 433 / 6 6/6 \u2013 6/6 6/6 Endothelial cells 433 / 6 6/6 \u2013 6/6 5/6 EPIC CD8 T cells 432 / 6 6/6 \u2013 6/6 6/6 NK cells 432 / 6 6/6 \u2013 4/6 6/6 B cells 432 / 6 6/6 \u2013 6/6 5/6 Macrophages 432 / 6 6/6 \u2013 6/6 6/6 Fibroblasts / CAFs 432 / 6 6/6 \u2013 6/6 6/6 Endothelial cells 432 / 6 6/6 \u2013 6/6 6/6 xCell CD8 T cells 408 / 5 \u2013 5/5 \u2013 \u2013 5/5 \u2013 5/5 NK cells 274 / 2 \u2013 \u2013 \u2013 \u2013 2/2 \u2013 \u2013 \u2013 \u2013 2/2 \u2013 \u2013 \u2013 \u2013 2/2 B cells 433 / 6 4/6 \u2013 6/6 6/6 Monocytes / lineage 433 / 6 6/6 \u2013 6/6 6/6 Macrophages 433 / 6 6/6 \u2013 6/6 6/6 Dendritic cells 433 / 6 6/6 \u2013 6/6 6/6 Neutrophils 382 / 5 \u2013 5/5 \u2013 \u2013 5/5 \u2013 5/5 Fibroblasts / CAFs 433 / 6 6/6 \u2013 6/6 5/6 Endothelial cells 433 / 6 5/6 \u2013 6/6 6/6 CIBERSORT | relative immune composition CD8 T cells 433 / 6 6/6 \u2013 6/6 2/6 NK cells 433 / 6 6/6 \u2013 6/6 6/6 B cells 433 / 6 6/6 \u2013 5/6 6/6 Monocytes / lineage 433 / 6 5/6 \u2013 5/6 3/6 Macrophages 433 / 6 4/6 \u2013 4/6 4/6 Dendritic cells 433 / 6 6/6 \u2013 6/6 5/6 Neutrophils 433 / 6 6/6 \u2013 6/6 6/6 Higher Lower Filled: 95% CI excludes 0; open: includes 0; dash: not estimable LOSO: retained / informative omissions A Ahn D Dong J Jeon L Lee F Fan T TCGA Bold LOSO fraction: at least one direction change",
+    "dimensions": [
+      493.0,
+      342.0
+    ]
+  },
+  {
+    "asset_id": "S09_P01",
+    "figure": "SFigure3",
+    "panel": "B",
+    "output": "review/production_replay/project/8-Visualization/refinements/fig2_global_revision_20261103_v2/named_states/figures/SFigure3B_pattern_distributions.pdf",
+    "verification_level": "RENDERED_TEXT_SIZE_VERIFIED",
+    "text": "P1 242 genes P2 104 genes Metabolism / coagulation Complement / steroid 2 2 0 0 -2 -2 C1/ C1/ C2/ C1/ C1/ C2/ C1 C2 C3 C1 C2 C3 C2 C3 C3 C2 C3 C3 P3 155 genes P4 74 genes Pattern score (mean reference z-score) WNT / ion transport Epithelial development 2 2 0 0 -2 -2 C1/ C1/ C2/ C1/ C1/ C2/ C1 C2 C3 C1 C2 C3 C2 C3 C3 C2 C3 C3 P5 175 genes P6 92 genes Epithelial / stress Cytokine / transport 2 2 0 0 -2 -2 C1/ C1/ C2/ C1/ C1/ C2/ C1 C2 C3 C1 C2 C3 C2 C3 C3 C2 C3 C3 n: C1 112 C2 223 C3 162 C1/C2 41 C1/C3 39 C2/C3 9 Points: samples; black marks: median and IQR",
+    "dimensions": [
+      283.0,
+      354.0
+    ]
+  },
+  {
+    "asset_id": "S09_P02",
+    "figure": "SFigure3",
+    "panel": "C",
+    "output": "review/production_replay/project/8-Visualization/refinements/fig2_global_revision_20261103_v2/named_states/figures/SFigure3C_module_medians.pdf",
+    "verification_level": "RENDERED_TEXT_SIZE_VERIFIED",
+    "text": "Genes C1/ C1/ C2/ Module C1 C2 C3 C2 C3 C3 n=112 n=223 n=162 n=41 n=39 n=9 C1-specific lightgreen 100 1.20 0.00 -0.81 0.85 0.42 -0.18 pink 267 1.39 -0.52 -0.49 0.85 0.90 0.04 C2-specific black 304 -0.17 0.49 -0.51 0.45 -0.36 0.57 cyan 209 -0.12 0.51 -0.34 0.20 -0.24 0.11 brown 485 -0.43 0.85 -0.59 0.57 -0.44 -0.10 darkgreen 38 -0.41 0.56 -0.15 0.39 0.00 0.33 C3-specific magenta 266 -0.24 -0.20 0.45 -0.21 0.04 0.67 greenyellow 236 -0.45 -0.26 0.87 -0.58 0.48 0.09 red 311 -0.30 -0.57 1.01 -0.54 0.68 0.23 darkturquoise 35 -0.24 -0.26 0.47 -0.25 0.51 0.45 tan 228 -0.22 -0.43 0.92 -0.52 0.62 0.36 Shared-high C1 / C2 yellow 349 0.41 0.60 -0.90 0.80 -0.23 -0.15 Shared-high C2 / C3 grey60 122 -0.85 0.35 0.50 0.07 0.18 0.39 Gradient / ambiguous blue 570 -0.15 -0.26 0.32 -0.28 0.17 0.18 darkgrey 32 -0.23 0.27 -0.10 0.08 -0.04 0.63 darkred 50 0.16 -0.15 0.21 -0.13 0.18 1.07 green 312 -0.58 0.06 0.53 -0.04 0.17 0.57 lightcyan 137 -0.52 0.33 0.06 0.10 -0.03 0.45 lightyellow 97 -0.30 -0.13 0.35 0.02 0.03 0.44 purple 238 0.43 -0.19 0.19 -0.13 0.52 0.25 royalblue 95 -0.35 0.30 0.01 -0.11 -0.23 0.22 salmon 223 -0.30 0.35 -0.31 0.29 -0.18 0.57 turquoise 1851 -0.48 0.16 0.18 -0.09 -0.30 -0.07 Non-specific midnightblue 198 0.20 0.03 -0.08 0.38 0.01 0.31 Median frozen score (SD) Main Fig. 2C module -2 0 2",
+    "dimensions": [
+      206.0,
+      354.0
+    ]
+  },
+  {
+    "asset_id": "S09_P03",
+    "figure": "SFigure3",
+    "panel": "A",
+    "output": "review/production_replay/project/8-Visualization/refinements/fig2_global_revision_20261103_v2/named_states/figures/SFigure3A_expression_patterns.pdf",
+    "verification_level": "RENDERED_TEXT_SIZE_VERIFIED",
+    "text": "State Study Retinol metabolism Complement cascade P1 Coagulation Xenobiotic metabolism Monocarboxylic acid metabolism Complement cascade Arginine / proline metabolism P2 Coagulation Steroid metabolism Bile acid metabolism Pancreatic ductal-cell development Cellular response to cAMP P3 Sodium ion transmembrane transport PI3K-AKT signaling in cancer Regulation of WNT signaling MET signaling Embryonic organ development P4 KRAS signaling up Epithelial cell differentiation Early estrogen response Epidermis development P5 TNF / NF-kB signaling P53 pathway mTORC1 signaling Monocarboxylic acid transport Interferon-alpha response P6 Late estrogen response KRAS signaling up Cytokine-mediated signaling 0 15 30 Fold enrichment State Study WGCNA C1 C2 C3 2019Ahn 2022Dong black blue brown cyan darkturquoise C1/C2 C1/C3 C2/C3 2023Deng 2023Jeon green greenyellow grey60 lightgreen magenta Z-score 2023Lee 2024Fan midnightblue pink purple red salmon TCGA-CHOL tan turquoise yellow grey Outside network -2 0 2",
+    "dimensions": [
+      498.0,
+      362.0
+    ]
+  },
+  {
+    "asset_id": "S10_P01",
+    "figure": "Figure3",
+    "panel": "B",
+    "output": "review/production_replay/project/8-Visualization/refinements/fig3_manuscript_revision_20261103_v4/main/figures/Figure3B_grouped_sources.pdf",
+    "verification_level": "RENDERED_TEXT_SIZE_VERIFIED",
+    "text": "Program sources by bulk context Adjacent Tumor P1 \u2013 P2 \u2013 lightgreen | Peroxisome \u2013 C1 pink | Catabolism \u2013 P3 \u2013 black | Mitochondrial \u2013 cyan | Respiration \u2013 C2 brown | Morphogenesis \u2013 darkgreen | Checkpoints \u2013 P4 \u2013 P5 \u2013 P6 \u2013 magenta | Mitotic cycle \u2013 greenyellow | Hypoxia \u2013 C3 red | Glycosylation \u2013 darkturquoise | IFN \u2013 tan | Muscle prolif. \u2013 Ep H i. C D ep. Oth 8 T N K er T - lik Mo Pla s B e n o ma D C/Ma c - lik Fib e Pe . En i.do Ep r . H e i. C D p. Oth 8 T N K er T - lik Mo Pla s B n o ma e D C/Ma c - lik Fib Pe . e En r i. do . Patients 3 9 12 UCell 0.1 0.2 0.3",
+    "dimensions": [
+      222.0,
+      174.0
+    ]
+  },
+  {
+    "asset_id": "S10_P02",
+    "figure": "Figure3",
+    "panel": "A",
+    "output": "review/production_replay/project/7-SingleCell/runs/20261103_figure3_opening_umap_v3/figures/Figure3_opening_atlas.pdf",
+    "verification_level": "RENDERED_TEXT_SIZE_VERIFIED",
+    "text": "Integrated cell atlas Adjacent 34,104 cells shown | 17 patients | 22 libraries 14,867 cells shown | 3 patients Monocytes/macrophages 10 UMAP 2 Dendritic-like 0 B cell Epithelial -10 NK-like -5 5 15 UMAP 1 Tumor 19,237 cells shown | 16 patients Pericyte-like CD8 T 10 UMAP 2 Hepatocyte Fibroblast Other T 0 UMAP 2 Endothelial Plasma cell -10 UMAP 1 -5 5 15 UMAP 1",
+    "dimensions": [
+      518.0,
+      368.0
+    ]
+  },
+  {
+    "asset_id": "S10_P03",
+    "figure": "Figure3",
+    "panel": "E",
+    "output": "review/production_replay/project/8-Visualization/refinements/fig3_manuscript_revision_20261103_v4/main/figures/Figure3E_tumor_compartments.pdf",
+    "verification_level": "RENDERED_TEXT_SIZE_VERIFIED",
+    "text": "Tumor-only distributions of the same six programs across compartments 16 patients; 199/288 estimable. Clean eligibility; equal-library patient means. Grey/dash: unsupported. GSE151530 GSE138709 P1 \u2013 \u2013 \u2013 \u2013 \u2013 \u2013 pink \u2013 \u2013 \u2013 \u2013 P3 \u2013 \u2013 \u2013 \u2013 Epithelium brown \u2013 \u2013 \u2013 \u2013 P6 \u2013 \u2013 \u2013 \u2013 red \u2013 \u2013 \u2013 \u2013 UCell P1 \u2013 \u2013 \u2013 \u2013 \u2013 \u2013 \u2013 pink \u2013 \u2013 \u2013 \u2013 \u2013 0.100 P3 \u2013 \u2013 \u2013 \u2013 \u2013 Myeloid 0.075 brown \u2013 \u2013 \u2013 \u2013 \u2013 P6 \u2013 \u2013 \u2013 \u2013 \u2013 0.050 red \u2013 \u2013 \u2013 \u2013 \u2013 0.025 0.000 P1 \u2013 \u2013 \u2013 \u2013 \u2013 \u2013 pink \u2013 \u2013 \u2013 \u2013 \u2013 P3 \u2013 \u2013 \u2013 \u2013 \u2013 T / NK brown \u2013 \u2013 \u2013 \u2013 \u2013 P6 \u2013 \u2013 \u2013 \u2013 \u2013 red \u2013 \u2013 \u2013 \u2013 \u2013 25 26 29 35 39 42 46 52 56 60 66 76 18 20 23 24 C C C C C C C C C C C C C C C C IC IC IC IC",
+    "dimensions": [
+      493.0,
+      178.0
+    ]
+  },
+  {
+    "asset_id": "S10_P04",
+    "figure": "Figure3",
+    "panel": "D",
+    "output": "review/production_replay/project/8-Visualization/refinements/fig3_manuscript_revision_20261103_v4/main/figures/Figure3D_six_patient_pairs.pdf",
+    "verification_level": "RENDERED_TEXT_SIZE_VERIFIED",
+    "text": "Patient support for the same six representative programs C1-context pair: adjacent epithelial\u2013hepatocyte. C2/C3-context pairs: tumor epithelial\u2013myeloid. P1 pink P3 brown P6 red Adjacent; n=3 Adjacent; n=3 Tumor; n=9 Tumor; n=9 Tumor; n=9 Tumor; n=9 0.06 0.4 0.10 0.4 0.10 0.10 0.04 UCell score 0.2 0.2 0.05 0.05 0.05 0.02 0.0 0.0 0.00 0.00 0.00 0.00 Epi. Hep. Epi. Hep. Epi. Mye. Epi. Mye. Epi. Mye. Epi. Mye. GSE151530 GSE138709 138709: n=3; q=NE 138709: n=3; q=NE 151530: n=5; q=0.112 151530: n=5; q=0.112 151530: n=5; q=0.708 151530: n=5; q=0.185 138709: n=4; q=0.268 138709: n=4; q=0.417 138709: n=4; q=0.268 138709: n=4; q=0.865 Each line joins one patient within tissue. Cohort shapes; q: original full-family BH. Epi., epithelium; Hep., hepatocyte; Mye., myeloid.",
+    "dimensions": [
+      493.0,
+      164.0
+    ]
+  },
+  {
+    "asset_id": "S10_P05",
+    "figure": "Figure3",
+    "panel": "C",
+    "output": "review/production_replay/project/8-Visualization/refinements/fig3_feature_row_20261103_v5/figures/Figure3C_six_in_one_row.svg",
+    "verification_level": "RENDERED_SVG_CONTENT_VERIFIED",
+    "sha256": "237bc1c406b26404877cf866c99cda79b5de9659ffd317ec311cbd4cc5998214",
+    "svg_content": {
+      "text": [
+        "C1 context | P1\u2013pink",
+        "177 shared; 73% P1 / 66% pink",
+        "C2 context | P3\u2013brown",
+        "101 shared; 65% P3 / 21% brown",
+        "C3 context | P6\u2013red",
+        "65 shared; 71% P6 / 21% red",
+        "UCell",
+        "0.0",
+        "0.5",
+        "P1",
+        "UCell",
+        "0.0",
+        "0.2",
+        "0.4",
+        "pink",
+        "UCell",
+        "0.0",
+        "0.1",
+        "0.2",
+        "P3",
+        "UCell",
+        "0.05",
+        "0.10",
+        "brown",
+        "UCell",
+        "0.0",
+        "0.1",
+        "P6",
+        "UCell",
+        "0.0",
+        "0.1",
+        "red",
+        "Overlap-guided pattern\u2013module pairs across the three bulk contexts"
+      ],
+      "images": [
+        "da788e3d85a30e2c86b6eabac03046ea502e1df9bfeaedd633fd6354bfeb6495",
+        "dded16b31cd70b537de00fe044c29d37409dcc7b126d9212bbc5f96b288ff559",
+        "169179cb5104b76681dea5aa0f0160d3ae1585943331309945c1e47b58cb4ce8",
+        "eed893a580c2e75be940032d22fd320b2fbacbfd9e854cf601fad264c52c36e4",
+        "6acf8375f068ac15a9316c4105e063bc8ae838ed2b288713592b7985d817b89a",
+        "169179cb5104b76681dea5aa0f0160d3ae1585943331309945c1e47b58cb4ce8",
+        "0e590cc2841a78a3aa777a27de15d6c27eb04294d20bdbb7f82c63cb67f12f04",
+        "f8fe23013e5f173ae165264e31c43fd8fddcdbe6f1fa8c2df39e8dd143c25a75",
+        "169179cb5104b76681dea5aa0f0160d3ae1585943331309945c1e47b58cb4ce8",
+        "1c259e86d2fb24f300e3d363042c93cd843b341c60d7597c82f42d2bf26d732f",
+        "c4ea2c83adb5a58df366951f36b9fd835c431a5410bb8060134f1e21537b8a02",
+        "169179cb5104b76681dea5aa0f0160d3ae1585943331309945c1e47b58cb4ce8",
+        "7056bb043344601f4692bd8852e72a3e84d18c1cfad2f1ca164ac986fc91d3ec",
+        "dc1e8fa64d04f1107cf842cb12e76c73b34f32568583dff871e2ace96059f3d5",
+        "169179cb5104b76681dea5aa0f0160d3ae1585943331309945c1e47b58cb4ce8",
+        "92a2e808a23b3bc7fe6e8a9f3dada4bb692a96c679619495a95d4cbf4532f923",
+        "7d82c01a7bf7237b8efb9de1a6be636eb03f7ec6891fe8db6787ea00a8389e52",
+        "169179cb5104b76681dea5aa0f0160d3ae1585943331309945c1e47b58cb4ce8"
+      ],
+      "viewBox": "0 0 493.23 136.06"
+    }
+  },
+  {
+    "asset_id": "S11_P01",
+    "figure": "SFigure4",
+    "panel": "C",
+    "output": "review/production_replay/project/8-Visualization/refinements/fig3_focused_revision_20261103_v3/supplement/figures/S4_robustness.pdf",
+    "verification_level": "RENDERED_TEXT_SIZE_VERIFIED",
+    "text": "Scoring alternatives Broad versus clean eligibility Direction versus UCell; all 49 matched tumor contrasts 49 / 49 retained; circle: GSE151530, triangle: GSE138709 0.15 Native rank 46 / 49; 3 differ 0.10 Log-control 48 / 49; 1 differ Clean effect 0.05 UCell maxRank 1000 48 / 49; 1 differ 0.00 UCell maxRank 3000 46 / 49; 3 differ -0.05 Common members 47 / 49; 2 differ 0 25 49 -0.05 0.00 0.05 0.10 0.15 Concordant contrasts Broad effect Broad\u2013clean |effect change|: median 0.00046, maximum 0.00563 UCell units. Full contrasts and unsupported combinations remain in Source Data.",
+    "dimensions": [
+      493.0,
+      150.0
+    ]
+  },
+  {
+    "asset_id": "S11_P02",
+    "figure": "SFigure4",
+    "panel": "B",
+    "output": "review/production_replay/project/8-Visualization/refinements/fig3_manuscript_revision_20261103_v4/supplement/figures/SFigure4B_epithelial_full.pdf",
+    "verification_level": "RENDERED_TEXT_SIZE_VERIFIED",
+    "text": "Complete program profiles in tumor-tissue epithelium All 16 patients; 201/272 estimates. Eligible libraries averaged equally within each patient. GSE151530 GSE138709 P1 \u2013 \u2013 \u2013 \u2013 \u2013 \u2013 P2 \u2013 \u2013 \u2013 \u2013 \u2013 C1 lightgreen \u00b7 Fatty-acid / peroxisome \u2013 \u2013 \u2013 \u2013 pink \u00b7 Catabolism \u2013 \u2013 \u2013 \u2013 P3 \u2013 \u2013 \u2013 \u2013 black \u00b7 Mitochondrial expression \u2013 \u2013 \u2013 \u2013 cyan \u00b7 Respiratory transport \u2013 \u2013 \u2013 \u2013 C2 UCell brown \u00b7 Morphogenesis \u2013 \u2013 \u2013 \u2013 0.20 darkgreen \u00b7 Checkpoints \u2013 \u2013 \u2013 \u2013 0.15 0.10 P4 \u2013 \u2013 \u2013 \u2013 0.05 P5 \u2013 \u2013 \u2013 \u2013 P6 \u2013 \u2013 \u2013 \u2013 magenta \u00b7 Mitotic cycle \u2013 \u2013 \u2013 \u2013 C3 greenyellow \u00b7 Hypoxia / glycolysis \u2013 \u2013 \u2013 \u2013 red \u00b7 Glycosylation \u2013 \u2013 \u2013 \u2013 darkturquoise \u00b7 IFN \u2013 \u2013 \u2013 \u2013 tan \u00b7 Muscle proliferation \u2013 \u2013 \u2013 \u2013 25 26 29 35 39 42 46 52 56 60 66 76 18 20 23 24 C C C C C C C C C C C C C C C C IC IC IC IC Bulk-associated row groups are not cell or patient subtype labels. Grey/dash: unsupported; no positivity threshold.",
+    "dimensions": [
+      493.0,
+      212.0
+    ]
+  },
+  {
+    "asset_id": "S11_P03",
+    "figure": "SFigure4",
+    "panel": "A",
+    "output": "review/production_replay/project/8-Visualization/refinements/fig3_manuscript_revision_20261103_v4/supplement/figures/SFigure4A_cohort_sources.pdf",
+    "verification_level": "RENDERED_TEXT_SIZE_VERIFIED",
+    "text": "Fine cellular sources by tumor cohort C1/C2/C3: bulk-associated program groups; colour: score; size: independent patient support. GSE151530 GSE138709 P1 \u2013 \u2013 \u2013 \u2013 P2 \u2013 \u2013 \u2013 \u2013 C1 lightgreen \u00b7 Fatty-acid / peroxisome \u2013 \u2013 \u2013 \u2013 pink \u00b7 Catabolism \u2013 \u2013 \u2013 \u2013 P3 \u2013 \u2013 \u2013 \u2013 black \u00b7 Mitochondrial expression \u2013 \u2013 \u2013 \u2013 cyan \u00b7 Respiratory transport \u2013 \u2013 \u2013 \u2013 C2 brown \u00b7 Morphogenesis \u2013 \u2013 \u2013 \u2013 darkgreen \u00b7 Checkpoints \u2013 \u2013 \u2013 \u2013 P4 \u2013 \u2013 \u2013 \u2013 P5 \u2013 \u2013 \u2013 \u2013 P6 \u2013 \u2013 \u2013 \u2013 magenta \u00b7 Mitotic cycle \u2013 \u2013 \u2013 \u2013 C3 greenyellow \u00b7 Hypoxia / glycolysis \u2013 \u2013 \u2013 \u2013 red \u00b7 Glycosylation \u2013 \u2013 \u2013 \u2013 darkturquoise \u00b7 IFN \u2013 \u2013 \u2013 \u2013 tan \u00b7 Muscle proliferation \u2013 \u2013 \u2013 \u2013 lia y te 8T rT ell ell e t eli lia y te 8T rT ell ell e t eli l e ag lik e las lik e al l e ag lik e las lik e al Ep toc CD Ot NK Bc ma ob Ep toc CD Ot NK Bc ma ob ith he - lik c ph r itic- te- oth ith he - lik c ph r itic- te- oth e pa Pla ro nd Fib r ic y En e pa Pla ro nd Fib r ic y En He s ma Pe d He s ma Pe d c De r c De r o/ o/ Mo Mo n n Patients 2 4 6 8 UCell 0.05 0.10 0.15",
+    "dimensions": [
+      493.0,
+      226.0
+    ]
+  },
+  {
+    "asset_id": "S11_P04",
+    "figure": "SFigure4",
+    "panel": "D",
+    "output": "review/production_replay/project/8-Visualization/refinements/sfig4_cnv_D_20261104_v1/figures/SFigure4D_RNA_CNV_patient_support.pdf",
+    "verification_level": "RENDERED_TEXT_SIZE_VERIFIED",
+    "text": "Representative RNA-CNV evidence and patient support ICC20: complete saved profiles and strict-candidate flag Current strict-screen support 1 3 5 7 9 11 13 15 17 19 22 Patient / region Clean epi. Strict Ref. controls (220) ICC20 2,017 27 ICC18 4,320 6 ICC24 / T1 1,803 9 Tumor epi. (2,017) ICC24 / T2 118 0 42 candidates / 3 patients Only ICC20 has at least 20 strict candidates. Mixed / review (28) ICC24 regions belong to one patient. RNA-CNV Strict flag Saved controls are a display subset; Other / ref. fitting used all eligible same-patient controls. -0.3 0 0.3 Strict RNA-derived candidates; no DNA confirmation.",
+    "dimensions": [
+      493.0,
+      172.0
+    ]
+  },
+  {
+    "asset_id": "S12_P01",
+    "figure": "Figure4",
+    "panel": "B",
+    "output": "review/production_replay/project/8-Visualization/refinements/fig4_layout_20261031/main/Figure4B.pdf",
+    "verification_level": "RENDERED_TEXT_SIZE_VERIFIED",
+    "text": "Odds ratio (95% CI) C1 (n = 63) C2 (n = 153) C3 (n = 92) TP53 BAP1 IDH1 ARID1A KRAS PBRM1 EPHA2 IDH2 ATM NF1 ARID2 SMAD4 FGFR2 TERT STK11 0.1 1 10 100 0.1 1 10 100 0.1 1 10 100 q < 0.05 q \u2265 0.05 OR = 0; CI unavailable OR = Inf",
+    "dimensions": [
+      229.0,
+      167.0
+    ]
+  },
+  {
+    "asset_id": "S12_P02",
+    "figure": "Figure4",
+    "panel": "A",
+    "output": "review/production_replay/project/8-Visualization/refinements/fig4_layout_20261031/main/Figure4A.pdf",
+    "verification_level": "RENDERED_TEXT_SIZE_VERIFIED",
+    "text": "Mutation frequency (%) C1 n = 63 C2 n = 153 C3 n = 92 All C1 C2 C3 TP53 19.2 28.6 9.8 28.3 BAP1 14.9 11.1 22.2 5.4 IDH1 13.3 11.1 19.6 4.3 ARID1A 13.0 4.8 17.0 12.0 KRAS 12.3 6.3 3.9 30.4 PBRM1 7.8 9.5 8.5 5.4 EPHA2 5.8 3.2 7.2 5.4 IDH2 4.9 0.0 8.5 2.2 ATM 3.9 1.6 5.2 3.3 NF1 3.9 1.6 2.6 7.6 ARID2 3.2 4.8 2.0 4.3 SMAD4 3.2 1.6 0.0 9.8 FGFR2 2.9 3.2 4.6 0.0 TERT 0.6 0.0 1.3 0.0 STK11 0.3 0.0 0.0 1.1 Study Mutation class Study Missense Nonsense Splice 2022Dong Frameshift del. Frameshift ins. Multi-hit 2023Deng In-frame del. In-frame ins. No recorded variant TCGA-CHOL",
+    "dimensions": [
+      272.0,
+      167.0
+    ]
+  },
+  {
+    "asset_id": "S12_P03",
+    "figure": "Figure4",
+    "panel": "C",
+    "output": "review/production_replay/project/8-Visualization/refinements/fig4_layout_20261031/main/Figure4C.pdf",
+    "verification_level": "RENDERED_TEXT_SIZE_VERIFIED",
+    "text": "C1 n = 51 C2 n = 126 C3 n = 71 Negative NES Positive NES Negative NES Positive NES Negative NES Positive NES EMT program Fatty acid metabolism Biological oxidations ECM proteoglycans RNA metabolism Coagulation Extracellular matrix Bile acid metabolism Organic acid metabolism RAB7 minus-end traffic Fatty acid metabolism EMT program Actin filament process Xenobiotic metabolism Fatty acid metabolism TGF-beta signaling Peroxisome Complement Angiogenesis Peroxisome Cholesterol balance EMT program MYC targets v1 Inflammatory response TGF-beta signaling OXPHOS Translation initiation Cell junctions E2F targets Apical junction Inflammatory response Cholesterol balance IFN-gamma response Mitotic spindle G2M checkpoint IFN-gamma response 1351 1180 1154 1382 1473 1187 MTTP ACSL5 FXYD2 ITGB4 20 20 NPEPL1 20 HRSP12 PKM SARDH FBP1 A1CF GALNT7 PLEC \u2212log10FDR FHL2 PIPOX DPYS TROVE2 ACSL1 PEBP1 THSD4 LAMC2 10 CTHRC1 10 10 FH CES2 DSTN 0 0 0 -1 0 1 -1 0 1 -1 0 1 Standardized difference",
+    "dimensions": [
+      368.0,
+      238.0
+    ]
+  },
+  {
+    "asset_id": "S12_P04",
+    "figure": "Figure4",
+    "panel": "E_quadrant",
+    "output": "review/production_replay/project/8-Visualization/refinements/fig4_layout_20261031/main/Figure4E.pdf",
+    "verification_level": "RENDERED_TEXT_SIZE_VERIFIED",
+    "text": "RNA\u2013protein pathway concordance 01 Organic acid metabolism [GO] 4 RNA\u2212 / protein+ Both higher 02 Cell projection organization [GO] 03 Coagulation [H] 04 RNA metabolism [R] 15 04 12 13 01 05 Nervous system development [R] 2 06 Endocytosis [GO] 07 Nucleobase metabolism (negative 16 10 07 regulation) [GO] Protein NES 08 Organic acid metabolism [GO] 09 Ribosome-associated quality 0 control [R] 10 Platelet cytosolic Ca2+ response 05 11 [R] 11 Cytoplasmic translation [GO] 12 Synapse organization [GO] -2 14 02 06 09 13 Actin filament processes [GO] 14 Organic acid metabolism [GO] 08 17 03 15 Coagulation [H] Both lower RNA+ / protein\u2212 16 Fibrin clot formation [R] -4 17 RNA processing [GO] -4 -2 0 2 4 RNA NES Both q < 0.05 One layer q < 0.05",
+    "dimensions": [
+      272.0,
+      184.0
+    ]
+  },
+  {
+    "asset_id": "S12_P06",
+    "figure": "Figure4",
+    "panel": "F",
+    "output": "review/production_replay/project/8-Visualization/refinements/fig4_revision_20261104_v2/main/Figure4F_MOFA_continuous.pdf",
+    "verification_level": "RENDERED_TEXT_SIZE_VERIFIED",
+    "text": "MOFA correspondence RNA + RNA + Primary protein + protein RNA CNV RP1 C1 RPC2 RP2 C2 RPC3 RP3 C3 RPC1 ARI 0.325 ARI 0.499 182 shared tumors",
+    "dimensions": [
+      130.0,
+      195.0
+    ]
+  },
+  {
+    "asset_id": "S12_P07",
+    "figure": "Figure4",
+    "panel": "D",
+    "output": "review/production_replay/project/8-Visualization/refinements/fig4_revision_20261104_v3/main/Figure4D_key_program_bridge.pdf",
+    "verification_level": "RENDERED_TEXT_SIZE_VERIFIED",
+    "text": "Key-program comparison Full RNA Matched RNA Matched RNA Protein NES 497 / all 248 / all 248 / shared 248 / shared 3 C1 Fatty-acid 0 metabolism \u22123 C2 Translation C3 Inflammatory response C3 E2F targets C3 G2M checkpoint q < .05 q \u2265 .05 RNA \u2192 protein",
+    "dimensions": [
+      221.0,
+      172.0
+    ]
+  },
+  {
+    "asset_id": "S12_P08",
+    "figure": "Figure4",
+    "panel": "E_background",
+    "output": "review/production_replay/project/8-Visualization/refinements/fig4_revision_20261104_v3/independent/Figure4E_pathway_pattern_bars.pdf",
+    "verification_level": "RENDERED_SOURCE_VALUES_VERIFIED_LAYOUT_DIFFERENT",
+    "text": "Pathway concordance patterns 100% 50% 0% C1 C2 C3 Both: same sign Both: opposite signs One layer Neither",
+    "dimensions": [
+      175.0,
+      172.0
+    ]
+  },
+  {
+    "asset_id": "S13_P01",
+    "figure": "SFigure5",
+    "panel": "E",
+    "output": "review/production_replay/project/8-Visualization/refinements/fig4_layout_20261031/supplement/Supplement_D.pdf",
+    "verification_level": "RENDERED_TEXT_SIZE_VERIFIED",
+    "text": "Representative protein abundance C1 n = 51 C2 n = 126 C3 n = 71 MTTP PIPOX SARDH DPYS FTCD ACSL1 HAO1 MAT1A CYP2E1 EHHADH NPEPL1 FXYD2 THSD4 TROVE2 NCK2 ITIH5 MYEF2 AGRN H2AFY TACC1 ITGB4 GALNT7 PLEC LAMC2 CDCP1 LAMB3 ITGA6 SERPINB5 BCL2L15 HK2 Study 2022Dong 2023Deng \u2264 -2.5 0 \u2265 2.5 Within-study standardized abundance",
+    "dimensions": [
+      249.0,
+      357.0
+    ]
+  },
+  {
+    "asset_id": "S13_P02",
+    "figure": "SFigure5",
+    "panel": "F",
+    "output": "review/production_replay/project/8-Visualization/refinements/fig4_layout_20261031/supplement/Supplement_E.pdf",
+    "verification_level": "RENDERED_TEXT_SIZE_VERIFIED",
+    "text": "Proteomic pathway programs Hallmark GO BP Reactome KEGG MEDICUS C1 C2 C3 C1 C2 C3 C1 C2 C3 C1 C2 C3 Xenobiotic metabolism *** *** ** Sterol Biosynthetic Process *** *** DNA strand elongation * ** 26S proteasome-mediated protein degradation * *** Fatty acid metabolism *** *** *** Steroid Metabolic Process *** *** *** ORC1 removal from chromatin ** ** KEAP1\u2013NRF2 signaling ** Bile acid metabolism *** *** *** Very Long Chain Fatty Acid Metabolic Process *** *** * Biological Oxidations *** *** *** Translation Initiation *** *** *** Peroxisome *** *** *** Organic Acid Metabolic Process *** *** *** Cholesterol Biosynthesis *** *** ** Mitochondrial UCP1 in thermogenesis *** *** Oxidative phosphorylation *** * *** Fatty Acid Beta Oxidation *** *** *** Fatty Acid Metabolism *** *** *** Electron transfer in complex I ** ** MYC targets v2 * Electron Transport Chain *** *** Peroxisomal Protein Import *** *** *** Nuclear export of mRNA ** Aerobic Respiration and Respiratory Electron E2F targets ** ** Ribosome Biogenesis *** *** *** *** ARL8-regulated microtubule plus-end transport * * Transport MYC targets v1 *** *** DNA metabolic process * *** RNA metabolism *** *** Retrograde Axonal Transport ** *** G2M checkpoint * DNA replication ** TGF-beta receptor complex signaling *** *** RAB7-regulated microtubule minus-end transport *** *** TGF-beta signaling *** *** Cell-surface Ser/Thr kinase receptor signaling *** *** * ECM proteoglycans *** *** Dynein Recruitment to the Kinetochore *** ** * Mitotic spindle *** ** ** Cell Junction Organization *** *** *** Rho/MIRO/RHOBTB3 GTPase signaling *** ** *** Growth factor\u2013RTK\u2013RAS\u2013ERK signaling * Epithelial\u2013mesenchymal transition *** *** *** External Encapsulating Structure Organization *** *** *** Extracellular Matrix Organization *** *** *** Integrin\u2013RhoG\u2013Rac signaling *** *** Angiogenesis *** ** Cell Substrate Adhesion *** *** *** Complement Cascade *** * *** Integrin\u2013FAK\u2013RAC signaling *** *** Apical junction *** *** Complement Activation *** * *** Cell Cell Communication *** ** CCR2\u2013G protein\u2013PI3K\u2013NF-kappaB signaling * Coagulation *** *** Actin Filament Based Process *** ** *** Platelet Activation Signaling and Aggregation *** * *** Integrin\u2013RhoGAP\u2013RhoA signaling *** ** Complement *** *** Protein Processing *** *** Interferon Alpha Beta Signaling * EGF\u2013EGFR\u2013actin signaling *** * Inflammatory response *** *** Defense Response to Other Organism * *** Integrin\u2013talin\u2013vinculin signaling *** *** Interferon-gamma response ** *** CXCR4\u2013G protein\u2013PLC-beta\u2013PKC signaling * Cholesterol homeostasis ** *** Integrin\u2013RhoGEF\u2013RhoA signaling *** *** Integrin\u2013FAK\u2013CDC42 signaling *** *** ARNO\u2013ARF\u2013actin signaling ** *** Protein NES * q < .05; ** q < .01; *** q < .001 -3.5 0 3.5",
+    "dimensions": [
+      623.0,
+      311.0
+    ]
+  },
+  {
+    "asset_id": "S13_P03",
+    "figure": "SFigure5",
+    "panel": "A",
+    "output": "review/production_replay/project/8-Visualization/refinements/fig4_layout_20261031/supplement/Supplement_A.pdf",
+    "verification_level": "RENDERED_SOURCE_VALUES_VERIFIED_LAYOUT_DIFFERENT",
+    "text": "Pairwise mutation associations within molecular subtypes log2 odds ratio \u2264 -3 0 \u22653 Exclusive Co-occurrence C1 (n = 63) C2 (n = 153) C3 (n = 92) TP53 TP53 TP53 BAP1 BAP1 BAP1 IDH1 IDH1 IDH1 ARID1A ARID1A ARID1A KRAS KRAS KRAS PBRM1 PBRM1 PBRM1 EPHA2 EPHA2 EPHA2 IDH2 IDH2 IDH2 ATM ATM ATM NF1 NF1 NF1 ARID2 ARID2 ARID2 SMAD4 SMAD4 SMAD4 FGFR2 FGFR2 FGFR2 TERT TERT TERT STK11 STK11 STK11 TP53 BAP1 IDH1 TP53 BAP1 IDH1 TP53 BAP1 IDH1 ARID1A KRAS PBRM1 ARID1A KRAS PBRM1 ARID1A KRAS PBRM1 EPHA2 IDH2 ATM EPHA2 IDH2 ATM EPHA2 IDH2 ATM NF1 ARID2 SMAD4 NF1 ARID2 SMAD4 NF1 ARID2 SMAD4 FGFR2 TERT STK11 FGFR2 TERT STK11 FGFR2 TERT STK11 Gray: insufficient support | * q < 0.05; ** q < 0.01",
+    "dimensions": [
+      249.0,
+      184.0
+    ]
+  },
+  {
+    "asset_id": "S13_P04",
+    "figure": "SFigure5",
+    "panel": "D",
+    "output": "review/production_replay/project/8-Visualization/refinements/fig4_layout_20261031/supplement/Supplement_C.pdf",
+    "verification_level": "RENDERED_TEXT_SIZE_VERIFIED",
+    "text": "Pairwise regional CNV differences 2022Dong | 18 omnibus-significant band/direction entries C2 \u2212 C1 C3 \u2212 C1 C3 \u2212 C2 Gene examples n genes 14q24.2 -1.2 +11.6 +12.8 NUMB, PSEN1, RGS6 27 Gain 1p36.33 +18.0 -13.3 -31.2* SKI, DVL1, PRKCZ 72 1p36.32 +18.5 -13.0 -31.5* TP73, PRDM16, TNFRSF14 34 1p36.31 +18.6 -12.9 -31.5* CHD5, CAMTA1, RPL22 25 1p36.23 +19.5 -11.5 -30.9* ERRFI1, ENO1, PARK7 14 1p36.22 +19.5 -11.5 -30.9* MTOR, KIF1B, PIK3CD 52 1p36.21 +19.2 -11.5 -30.6* PRDM2, CASP9, SPEN 51 1p36.13 +16.7 -13.3 -30.0* EPHA2, SDHB, PAX7 59 1p36.12 +15.7 -13.6 -29.3* KDM1A, CDC42, E2F2 52 1p36.11 +12.4 -14.0 -26.4 ARID1A, RUNX3, LIN28A 86 Loss 12q23.2 +14.9 +1.5 -13.4 IGF1, ASCL1, DRAM1 17 12q23.3 +15.8 +1.5 -14.3 NUAK1, CKAP4, HSP90B1 42 12q24.11 +15.4 -0.6 -16.0 ACACB, ATP2A2, UNG 42 12q24.12 +16.0 -0.6 -16.6 SH2B3, ALDH2, MAPKAPK5 8 12q24.13 +16.1 -0.6 -16.7 PTPN11, RASAL1, DTX1 26 12q24.21 +16.6 -0.6 -17.2 TBX3, MED13L, TBX5 6 12q24.22 +16.0 -0.6 -16.6 KSR2, HRK, NOS1 11 12q24.32 +16.7 -1.3 -18.0 TMEM132C, LINC00939 9 Frequency difference (percentage points) -35 0 35 * BH q < 0.05 across all 4,602 pairwise tests",
+    "dimensions": [
+      249.0,
+      246.0
+    ]
+  },
+  {
+    "asset_id": "S13_P05",
+    "figure": "SFigure5",
+    "panel": "C",
+    "output": "review/production_replay/project/8-Visualization/refinements/fig4_layout_20261031/supplement/Supplement_G_CNV_burden.pdf",
+    "verification_level": "RENDERED_CONTENT_TOKENS_VERIFIED_LAYOUT_MAY_DIFFER",
+    "text": "CNV burden across subtypes 2022Dong | Kruskal\u2013Wallis P = 0.56 0.8 Mean absolute gene-level CNV 0.6 0.4 0.2 0.0 C1 C2 C3 n = 47 n = 105 n = 67 Pairwise BH q = 0.77 for all three contrasts",
+    "dimensions": [
+      249.0,
+      175.0
+    ]
+  },
+  {
+    "asset_id": "S13_P06",
+    "figure": "SFigure5",
+    "panel": "B",
+    "output": "review/production_replay/project/8-Visualization/refinements/fig4_layout_20261031/supplement/Supplement_B.pdf",
+    "verification_level": "RENDERED_TEXT_SIZE_VERIFIED",
+    "text": "Chromosome-ordered CNV profiles Gain Loss 2022Dong cohort | 219 tumors | CNV thresholds \u00b10.3 Gene-level call frequency (%) C1 n = 47 50 25 0 25 50 C2 n = 105 50 25 0 25 50 C3 n = 67 50 25 0 25 50 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 Chromosome (cytoband order; non-physical spacing) Gain q Loss q BH q < 0.05: gain 1 / 767; loss 17 / 767 \u2212log10 q q < 0.05 0 2",
+    "dimensions": [
+      311.0,
+      170.0
+    ]
+  },
+  {
+    "asset_id": "S14_P01",
+    "figure": "SFigure5",
+    "panel": "I",
+    "output": "review/production_replay/project/8-Visualization/refinements/fig4_revision_20261103_v1/supplement/S5I_program_bridge.pdf",
+    "verification_level": "RENDERED_TEXT_SIZE_VERIFIED",
+    "text": "Cohort, gene coverage and RNA\u2013protein comparison C1 C2 C3 R0 R1 R2 R3 P3 P4 R0 R1 R2 R3 P3 P4 R0 R1 R2 R3 P3 P4 Amino-acid catabolism \u2022 \u2022 \u2022 \u2022 \u2022 \u2022 \u2022 \u2022 \u2022 \u2022 \u2022 \u2022 \u2022 \u2022 \u2022 \u2022 \u2022 \u2022 Fatty-acid metabolism \u2022 \u2022 \u2022 \u2022 \u2022 \u2022 \u2022 \u2022 \u2022 \u2022 \u2022 \u2022 \u2022 \u2022 \u2022 \u2022 \u2022 \u2022 Xenobiotic metabolism \u2022 \u2022 \u2022 \u2022 \u2022 \u2022 \u2022 \u2022 \u2022 \u2022 \u2022 \u2022 \u2022 \u2022 \u2022 \u2022 \u2022 \u2022 Oxidative phosphorylation \u2022 \u2022 \u2022 \u2022 \u2022 \u2022 \u2022 \u2022 \u2022 \u2022 \u2022 \u2022 \u2022 \u2022 Translation \u2022 \u2022 \u2022 \u2022 \u2022 \u2022 \u2022 \u2022 \u2022 \u2022 \u2022 \u2022 \u2022 \u2022 WNT-related program \u2022 \u2022 \u2022 \u2022 \u2022 \u2022 \u2022 \u2022 \u2022 \u2022 \u2022 \u2022 Cilium organization \u2022 \u2022 \u2022 \u2022 \u2022 \u2022 \u2022 \u2022 \u2022 \u2022 \u2022 \u2022 Glucose catabolism \u2022 \u2022 \u2022 \u2022 \u2022 \u2022 \u2022 \u2022 \u2022 \u2022 \u2022 \u2022 Hypoxia \u2022 \u2022 \u2022 \u2022 \u2022 \u2022 \u2022 \u2022 \u2022 \u2022 \u2022 Inflammatory response \u2022 \u2022 \u2022 \u2022 \u2022 \u2022 \u2022 \u2022 \u2022 \u2022 \u2022 \u2022 IFN-\u03b3 response \u2022 \u2022 \u2022 \u2022 \u2022 \u2022 \u2022 \u2022 \u2022 \u2022 \u2022 \u2022 \u2022 Epidermal differentiation \u2022 \u2022 \u2022 \u2022 \u2022 \u2022 \u2022 \u2022 \u2022 \u2022 \u2022 \u2022 \u2022 EMT gene set \u2022 \u2022 \u2022 \u2022 \u2022 \u2022 \u2022 \u2022 \u2022 \u2022 \u2022 \u2022 \u2022 E2F targets \u2022 \u2022 \u2022 \u2022 \u2022 \u2022 \u2022 G2M checkpoint \u2022 \u2022 \u2022 \u2022 \u2022 \u2022 \u2022 \u2022 Cytoplasmic translation \u2022 \u2022 \u2022 \u2022 \u2022 \u2022 \u2022 \u2022 \u2022 \u2022 \u2022 \u2022 R0: full RNA, pooled contrast R1: full RNA, equal contrast R2: matched RNA, all genes R3: matched RNA, shared genes P3: protein, shared genes P4: protein, all genes NES \u2022 q < .05 across the common pathway family \u22123.5 0 3.5",
+    "dimensions": [
+      493.0,
+      303.0
+    ]
+  },
+  {
+    "asset_id": "S14_P02",
+    "figure": "SFigure5",
+    "panel": "H",
+    "output": "review/production_replay/project/8-Visualization/refinements/fig4_revision_20261103_v1/supplement/S5H_gene_concordance.pdf",
+    "verification_level": "RENDERED_TEXT_SIZE_VERIFIED",
+    "text": "RNA\u2013protein subtype contrast concordance 248 matched tumors | 4,706 shared genes C1 n = 51 C2 n = 126 C3 n = 71 Spearman rho = 0.544 Spearman rho = 0.636 Spearman rho = 0.614 10 10 10 Protein moderated t 5 5 5 0 0 0 -5 -5 -5 -10 -10 -10 -20 -10 0 10 20 -20 -10 0 10 20 -20 -10 0 10 20 RNA moderated t",
+    "dimensions": [
+      493.0,
+      255.0
+    ]
+  },
+  {
+    "asset_id": "S14_P03",
+    "figure": "SFigure5",
+    "panel": "K",
+    "output": "review/production_replay/project/8-Visualization/refinements/fig4_layout_20261031/supplement/Supplement_H_MOFA_variance.pdf",
+    "verification_level": "RENDERED_TEXT_SIZE_VERIFIED",
+    "text": "MOFA variance explained Factor1 Factor2 Factor3 Factor4 Factor5 Factor6 Factor7 Factor8 Factor9 Factor10 CNV Protein RNA Variance (%) 0 5 10 15 20 Three-view fit: 204 tumors; one seed.",
+    "dimensions": [
+      249.0,
+      175.0
+    ]
+  },
+  {
+    "asset_id": "S14_P04",
+    "figure": "SFigure5",
+    "panel": "J",
+    "output": "review/production_replay/project/8-Visualization/refinements/fig4_layout_20261031/supplement/Supplement_F.pdf",
+    "verification_level": "RENDERED_TEXT_SIZE_VERIFIED",
+    "text": "Exact correspondence by modality set RNA + protein | ARI = 0.325 RNA + protein + CNV | ARI = 0.499 38 1 3 34 3 5 C1 (n = 42) 90.5% 2.4% 7.1% 81.0% 7.1% 11.9% Primary RNA subtype 1 56 35 21 70 1 C2 (n = 92) 1.1% 60.9% 38.0% 22.8% 76.1% 1.1% 4 15 29 7 1 40 C3 (n = 48) 8.3% 31.2% 60.4% 14.6% 2.1% 83.3% RP1 RP2 RP3 RPC2 RPC3 RPC1 MOFA factor k-means cluster (original ID) 182 shared Main cases. Cells show n and within-subtype percentage.",
+    "dimensions": [
+      249.0,
+      161.0
+    ]
+  },
+  {
+    "asset_id": "S14_P05",
+    "figure": "SFigure5",
+    "panel": "G",
+    "output": "review/production_replay/project/8-Visualization/refinements/fig4_revision_20261103_v1/supplement/S5J_cohort_composition.pdf",
+    "verification_level": "RENDERED_TEXT_SIZE_VERIFIED",
+    "text": "Full and matched cohort composition Full RNA Matched 200 150 Samples 100 50 0 C1 C2 C3 C1 C2 C3 2019Ahn 2023Deng 2023Lee TCGA-CHOL 2022Dong 2023Jeon 2024Fan",
+    "dimensions": [
+      240.0,
+      167.0
+    ]
+  },
+  {
+    "asset_id": "S15_P01",
+    "figure": "Figure5",
+    "panel": "B",
+    "output": "review/production_replay/project/8-Visualization/refinements/fig5_final_layout_20261031_v9/figures/Figure5B_subtype_feature_evidence.pdf",
+    "verification_level": "RENDERED_TEXT_SIZE_VERIFIED",
+    "text": "Consensus gene evidence C1 | 55 genes C2 | 25 genes C3 | 34 genes Method support limma RF LASSO Selection frequency (25 fits) 100% 50% 0% Mean expression C1 C2 C3 Selected Not selected Mean z -1.5 1.5",
+    "dimensions": [
+      255.0,
+      226.0
+    ]
+  },
+  {
+    "asset_id": "S15_P02",
+    "figure": "Figure5",
+    "panel": "C",
+    "output": "review/production_replay/project/8-Visualization/refinements/fig5_three_rows_20261101_v10/figures/Figure5C_subtype_genes.pdf",
+    "verification_level": "RENDERED_TEXT_SIZE_VERIFIED",
+    "text": "Subtype-representative genes C1 C2 C3 55 with \u0394z > 0 25 with \u0394z > 0 34 with \u0394z > 0 CPN2 B4GALNT4 SLC2A1 2 TF ITIH5 CDH3 Expression margin (\u0394z) SULT2A1 HNF1B TSPAN1 SERPINC1 PDGFD GPRC5A PLG SCD5 TMPRSS4 0 ARG1 SPP1 NHS -2 1 60 114 1 60 114 1 60 114 Rank Rank Rank Gene \u0394z Sel.% LRA RF Gene \u0394z Sel.% LRA RF Gene \u0394z Sel.% LRA RF CPN2 1.87 88 52 B4GALNT4 1.16 100 15 SLC2A1 1.49 100 20 TF 1.83 100 17 ITIH5 1.11 100 10 CDH3 1.46 100 51 SULT2A1 1.82 100 40 HNF1B 1.09 96 2 TSPAN1 1.41 96 4 SERPINC1 1.82 96 23 PDGFD 1.07 100 25 GPRC5A 1.41 100 22 PLG 1.80 100 24 SCD5 1.06 36 83 TMPRSS4 1.37 96 94 ARG1 1.80 100 80 SPP1 1.04 72 190 NHS 1.35 80 13",
+    "dimensions": [
+      277.0,
+      215.0
+    ]
+  },
+  {
+    "asset_id": "S15_P03",
+    "figure": "Figure5",
+    "panel": "D",
+    "output": "review/production_replay/project/8-Visualization/refinements/fig5_transfer_20261103_v12/figures/Figure5C_internal_and_transfer.pdf",
+    "verification_level": "RENDERED_TEXT_SIZE_VERIFIED",
+    "text": "Internal performance and study transfer OOF: n=497; BA 98.79% LOSO: all seven studies 2019Ahn (25) 111 0 1 2022Dong (223) C1 99.1% 0.0% 0.9% 2023Deng (64) Reference 1 221 1 C2 2023Jeon (51) 0.4% 99.1% 0.4% 2023Lee (13) 0 3 159 C3 2024Fan (92) 0.0% 1.9% 98.1% TCGA-CHOL (29) C1 C2 C3 Predicted 85 90 95 100 BA (%) Transductive centering OOF Held-out",
+    "dimensions": [
+      283.0,
+      181.0
+    ]
+  },
+  {
+    "asset_id": "S15_P04",
+    "figure": "Figure5",
+    "panel": "E",
+    "output": "review/production_final_panels/figures/panels/Figure5E_external_programs.pdf",
+    "verification_level": "FINAL_LABEL_CORRECTION_SOURCE_TABLE_REDRAW_VERIFIED",
+    "text": "Andersen Sia Jus P1 Jus P2 Job TIGER n; genes / 114 104; 101/114 149; 106/114 34; 112/114 49; 112/114 78; 109/114 92; 111/114 Projected counts 30 31 43 22 82 45 6 14 14 7 24 18 12 44 22 27 27 38 Frozen programs after classifier-gene exclusion C1 C2 C3 Bile-acid metabolism Fatty-acid metabolism Oxidative phosphorylation Hedges g Notch signaling 2.5 E2F targets 0.0 G2M checkpoint -2.5 Hypoxia Glycolysis EMT rs en Si a P1 P2 Jo b ER rs en Si a P1 P2 Jo b ER rs en Si a P1 P2 Jo b ER s s G s s G s s G de Ju Ju TI de Ju Ju TI de Ju Ju TI An An An GSVA; subtype minus others; intervals and sensitivity: Supplementary Table 5",
+    "dimensions": [
+      493.0,
+      255.0
+    ]
+  },
+  {
+    "asset_id": "S15_P05",
+    "figure": "Figure5",
+    "panel": "F",
+    "output": "review/production_replay/project/8-Visualization/refinements/fig5_transfer_20261103_v12/figures/Figure5E_external_survival.pdf",
+    "verification_level": "RENDERED_TEXT_SIZE_VERIFIED",
+    "text": "External survival Jusakual (n=81) Job (n=75) Holm P = 0.007 Holm P = 0.007 C1 C2 C3 1.0 1.0 Survival Survival 0.5 0.5 0.0 0.0 0 48 96 0 48 96 144 192 OS (months) OS (months) At risk At risk C1 12 0 0 C1 11 6 2 1 0 C2 38 8 1 C2 44 13 3 0 0 C3 31 3 1 C3 20 3 2 1 0",
+    "dimensions": [
+      311.0,
+      198.0
+    ]
+  },
+  {
+    "asset_id": "S15_P06",
+    "figure": "Figure5",
+    "panel": "G_cost",
+    "output": "review/production_final_panels/figures/panels/Figure5G_reduction_cost.pdf",
+    "verification_level": "FINAL_LABEL_CORRECTION_SOURCE_TABLE_REDRAW_VERIFIED",
+    "text": "Cost of feature reduction Adaptive compact \u2212 full workflow \u0394 BA -1.16 pp [-2.31, -0.20] \u22121 pp target -2 -1 0 BA-loss target not met Genes selected in 25 outer fits Median 23 [10\u201351] 10 30 51 17-gene expression: S6J; weights: main G",
+    "dimensions": [
+      170.0,
+      198.0
+    ]
+  },
+  {
+    "asset_id": "S15_P07",
+    "figure": "Figure5",
+    "panel": "G_weights",
+    "output": "review/production_replay/project/8-Visualization/refinements/fig5_transfer_20261103_v12/supplement/SupplementaryFigure6K_candidate_weights.pdf",
+    "verification_level": "RENDERED_TEXT_SIZE_VERIFIED",
+    "text": "Fixed 17-gene development candidate Descriptive model weights; fixed panel not independently validated ITIH5 TF AGR2 SLC38A4 NHS NBL1 GSTA1 PROX1 CPN2 PLAU AQP1 VILL B4GALNT4 AOX1 APOA1 SCD5 ACMSD 0.0 2.5 5.0 7.5 10.0 Relative squared weight (%)",
+    "dimensions": [
+      255.0,
+      283.0
+    ]
+  },
+  {
+    "asset_id": "S16_P01",
+    "figure": "SFigure6",
+    "panel": "D",
+    "output": "review/production_replay/project/8-Visualization/refinements/fig5_three_rows_20261101_v10/figures/SupplementaryFigure5G_internal_ROC.pdf",
+    "verification_level": "RENDERED_TEXT_SIZE_VERIFIED",
+    "text": "Internal OOF ROC (n = 497) 1.0 True-positive rate 0.5 AUROC C1: 1.0000 C2: 0.9995 C3: 0.9994 0.0 0.0 0.5 1.0 False-positive rate",
+    "dimensions": [
+      255.0,
+      226.0
+    ]
+  },
+  {
+    "asset_id": "S16_P02",
+    "figure": "SFigure6",
+    "panel": "F",
+    "output": "review/production_replay/project/8-Visualization/refinements/fig5_story_20261031_v8/figures/Supplement_S11I_aligned_expression.pdf",
+    "verification_level": "RENDERED_TEXT_SIZE_VERIFIED",
+    "text": "Classifier-gene expression across development and microarray cohorts Microarray Development 1 2 3 4 5 6 n = 497 n=104 n=149 n=34 n=49 n=78 n=92 ARG1 PLG TF SULT2A1 AHSG AGT AGXT APOH APOA1 VTN HPX BAAT HMGCS2 C2 RBP4 SLC38A4 Subtype SERPINC1 CPS1 KNG1 C1 C9 APOC3 C2 ALDOB HABP2 C3 APCS SERPINA6 ADH4 CFHR1 Development study ALB AMBP FABP1 2019Ahn CPN2 HPR 2022Dong TAT HRG 2023Deng PAH APOB 2023Jeon HP ADH1A 2023Lee F2 GSTA1 2024Fan SERPIND1 TTR TCGA-CHOL APOA5 ITIH2 CYP2E1 CYP3A4 Microarray study AOX1 FGB 1 Andersen C8A ABCG5 2 Sia BHMT PCK1 3 Jusakual P1 UGT2B4 CYP1A2 4 Jusakual P2 ACMSD DCDC2 5 Job PROX1 ITIH5 6 TIGER ONECUT1 BICC1 DEFB1 WNK2 Training z PDGFD B4GALNT4 2.5 ANXA9 HNF1B FGFR2 HOGA1 SNAP25 CRP 0 AQP1 SPP1 DMKN FAM171A1 SHC2 -2.5 SRCIN1 RAB25 SCD5 DSEL Within-study z ANXA13 KCNN4 2.5 SLC2A1 SLC44A4 GPRC5A CDH3 BCL2L15 0 CREB3L1 S100P VILL TMPRSS4 TSPAN1 MUC5B -2.5 FAM83E TRIM29 NBL1 Missing KITLG PRR15 NHS Unmeasured CTSE AGR2 CYP2S1 STEAP2 CEACAM5 EZR HPGD PLAU TMEM164 KRT19 CD55 MUC1 ITGA6 PRSS22 PLAUR PXN",
+    "dimensions": [
+      595.0,
+      623.0
+    ]
+  },
+  {
+    "asset_id": "S16_P03",
+    "figure": "SFigure6",
+    "panel": "E",
+    "output": "review/production_replay/project/8-Visualization/refinements/fig5_final_layout_20261031_v9/figures/SupplementaryFigure5C_study_transfer.pdf",
+    "verification_level": "RENDERED_TEXT_SIZE_VERIFIED",
+    "text": "Study-held-out performance Class recall in the held-out study Balanced accuracy 5/5 9/9 11/11 2019Ahn (n = 25) 100.0% 100.0% 100.0% 46/48 106/108 67/67 2022Dong (n = 223) 95.8% 98.1% 100.0% 9/9 32/32 23/23 2023Deng (n = 64) 100.0% 100.0% 100.0% 9/9 20/21 21/21 2023Jeon (n = 51) 100.0% 95.2% 100.0% 7/7 1/1 5/5 2023Lee (n = 13) 100.0% 100.0% 100.0% 27/27 35/35 29/30 2024Fan (n = 92) 100.0% 100.0% 96.7% 6/7 17/17 4/5 TCGA-CHOL (n = 29) 85.7% 100.0% 80.0% C1 C2 C3 85% 90% 95% 100% Reference subtype Balanced accuracy Internal OOF Held-out study",
+    "dimensions": [
+      493.0,
+      249.0
+    ]
+  },
+  {
+    "asset_id": "S16_P04",
+    "figure": "SFigure6",
+    "panel": "A",
+    "output": "review/production_replay/project/8-Visualization/refinements/fig5_final_layout_20261031_v9/figures/SupplementaryFigure5B_method_overlap.pdf",
+    "verification_level": "RENDERED_TEXT_SIZE_VERIFIED",
+    "text": "Three-method overlap limma RF 129 200 63 40 92 20 6 25 44 LASSO: 95 \u22652 methods: 114 genes",
+    "dimensions": [
+      255.0,
+      215.0
+    ]
+  },
+  {
+    "asset_id": "S16_P05",
+    "figure": "SFigure6",
+    "panel": "C",
+    "output": "review/production_replay/project/8-Visualization/refinements/fig5_final_layout_20261031_v9/figures/SupplementaryFigure5A_threshold_sensitivity.pdf",
+    "verification_level": "RENDERED_TEXT_SIZE_VERIFIED",
+    "text": "Screening-threshold sensitivity Paired difference Genes Jaccard 15 / 100 59 0.52 30 / 100 84 0.74 60 / 100 107 0.65 limma / RF 15 / 200 86 0.75 30 / 200 114 1.00 60 / 200 151 0.75 15 / 400 105 0.65 30 / 400 140 0.81 60 / 400 190 0.60 -1 0 1 \u0394 BA (pp)",
+    "dimensions": [
+      255.0,
+      232.0
+    ]
+  },
+  {
+    "asset_id": "S16_P06",
+    "figure": "SFigure6",
+    "panel": "H",
+    "output": "review/production_replay/project/8-Visualization/refinements/fig5_final_layout_20261031_v9/figures/SupplementaryFigure5E_RFE_sensitivity.pdf",
+    "verification_level": "RENDERED_TEXT_SIZE_VERIFIED",
+    "text": "RFE sensitivity and performance loss Balanced accuracy Macro-F1 Macro-AUROC 1.000 1.000 1.00 OOF performance 0.975 0.975 0.99 0.950 0.950 0.925 0.925 0.98 0.900 0.900 2 20 40 60 80 2 20 40 60 80 2 20 40 60 80 Retained genes 0.0 -2.5 \u0394 BA (pp) -5.0 -7.5 2 10 20 40 60 80 Retained genes",
+    "dimensions": [
+      493.0,
+      294.0
+    ]
+  },
+  {
+    "asset_id": "S16_P07",
+    "figure": "SFigure6",
+    "panel": "B",
+    "output": "review/production_replay/project/8-Visualization/refinements/fig5_final_layout_20261031_v9/figures/SupplementaryFigure5D_feature_strategies.pdf",
+    "verification_level": "RENDERED_TEXT_SIZE_VERIFIED",
+    "text": "Feature-selection strategies Native feature sets Same count within each training set limma 130 [126\u2013135] 19 [15\u201326] Random forest 200 [200\u2013200] 19 [15\u201326] LASSO 86 [77\u2013100] 19 [15\u201326] \u22652 methods 104 [98\u2013113] 19 [15\u201326] All three 19 [15\u201326] 19 [15\u201326] 94% 96% 98% 100% 94% 96% 98% 100% OOF balanced accuracy",
+    "dimensions": [
+      493.0,
+      232.0
+    ]
+  },
+  {
+    "asset_id": "S16_P08",
+    "figure": "SFigure6",
+    "panel": "G",
+    "output": "review/production_replay/project/8-Visualization/refinements/fig5_three_rows_20261101_v10/figures/SupplementaryFigure5H_probability_gaps.pdf",
+    "verification_level": "RENDERED_TEXT_SIZE_VERIFIED",
+    "text": "Microarray probability gaps All 506 samples; median and IQR Andersen (104) Sia (149) Jusakual P1 (34) Jusakual P2 (49) Job (78) TIGER (92) 0.0 0.5 1.0 Largest \u2212 second-largest probability",
+    "dimensions": [
+      255.0,
+      215.0
+    ]
+  },
+  {
+    "asset_id": "S16_P09",
+    "figure": "SFigure6",
+    "panel": "I",
+    "output": "review/production_replay/project/8-Visualization/refinements/fig5_integrated_20261101_v11/supplement/SupplementaryFigure5I_compact_absolute_performance.pdf",
+    "verification_level": "RENDERED_TEXT_SIZE_VERIFIED",
+    "text": "Adaptive compact and full workflow Same 497 patients; repeated nested CV Balanced accuracy C1 recall C2 recall C3 recall 94 96 98 100 OOF performance (%) Adaptive compact Full workflow 95% intervals conditional on saved OOF predictions. These predictions do not validate a fixed 17-gene panel.",
+    "dimensions": [
+      255.0,
+      192.0
+    ]
+  },
+  {
+    "asset_id": "S17_P01",
+    "figure": "SFigure6",
+    "panel": "J",
+    "output": "review/production_replay/project/8-Visualization/refinements/fig6_redesign_20261101_v18/supplement/Supplement_compact17_distributions.pdf",
+    "verification_level": "RENDERED_TEXT_SIZE_VERIFIED",
+    "text": "Expression of the 17-gene development candidate Weight-rank order \u00b7 all patients \u00b7 descriptive expression, not validation C1 \u00b7 n=112 C2 \u00b7 n=223 C3 \u00b7 n=162 ITIH5 TF AGR2 SLC38A4 NHS NBL1 GSTA1 PROX1 CPN2 PLAU AQP1 VILL B4GALNT4 AOX1 APOA1 SCD5 ACMSD -2 0 2 4 -2 0 2 4 -2 0 2 4 Within-study centered expression (SD)",
+    "dimensions": [
+      493.0,
+      538.0
+    ]
+  },
+  {
+    "asset_id": "S18_P01",
+    "figure": "Figure6",
+    "panel": "B",
+    "output": "review/production_final_panels/figures/panels/Figure6B_source_redraw.pdf",
+    "verification_level": "RENDERED_TEXT_SIZE_VERIFIED",
+    "text": "Beyond measured duct 79 patients Primary Time-varying Change in 24-month AUC +0.136 Add C3 to clinical + duct +0.095 +0.135 C3 vs duct (with clinical) +0.091 +0.001 Add duct to clinical + C3 +0.004 0 0.15 0.30 Absolute 24-month AUC Clinical 0.448 Clinical + duct 0.455 Clinical + C3 0.590 Clinical + duct + C3 0.592 0.2 0.5 0.8",
+    "dimensions": [
+      240.0,
+      215.0
+    ]
+  },
+  {
+    "asset_id": "S18_P02",
+    "figure": "Figure6",
+    "panel": "A",
+    "output": "review/production_final_panels/figures/panels/Figure6A_source_redraw.pdf",
+    "verification_level": "RENDERED_TEXT_SIZE_VERIFIED",
+    "text": "Prognostic information 331 patients 24-month OOF prediction AUC Increment Clinical 0.640 Ref. + C3 0.736 +0.096 + C1/C2/C3 0.744 +0.104 Full split vs C3 +0.008 0.5 0.8 0 0.15 Adjusted associations 12 mo 24 mo Age (per 10 years) Male vs female Stage III/IV vs I/II C2 vs C1 C3 vs C1 0.25 1 4 HR",
+    "dimensions": [
+      240.0,
+      215.0
+    ]
+  },
+  {
+    "asset_id": "S18_P03",
+    "figure": "Figure6",
+    "panel": "D",
+    "output": "review/production_replay/project/8-Visualization/refinements/fig6_evidence_20261103_v21/figures/Figure6D_three_subtype_identification.pdf",
+    "verification_level": "RENDERED_TEXT_SIZE_VERIFIED",
+    "text": "Three-subtype identification across four workflows Same 497 tumors \u00b7 shared outer folds \u00b7 conditional 95% intervals Balanced accuracy C1 recall C2 recall C3 recall 61.3 12.5 89.2 82.1 RNA anchors 97.6 97.3 98.7 96.9 Compact 97.8 97.3 98.7 97.5 Joint 98.8 99.1 99.1 98.1 Full workflow 0 50 100 0 50 100 0 50 100 0 50 100 OOF performance (%)",
+    "dimensions": [
+      493.0,
+      218.0
+    ]
+  },
+  {
+    "asset_id": "S18_P04",
+    "figure": "Figure6",
+    "panel": "G",
+    "output": "review/production_replay/project/8-Visualization/refinements/fig6_evidence_20261103_v21/figures/Figure6H_C3_evidence_and_limits.pdf",
+    "verification_level": "RENDERED_TEXT_SIZE_VERIFIED",
+    "text": "Ulixertinib: a C3 hypothesis with unresolved evidence MAPK3 abundance supports follow-up; pathway enrichment and three-line assays do not confirm the prediction Patient predictions Cross-study prediction effects 497 tumors \u00b7 lower relative score Random effects \u00b7 95% intervals \u00b7 Top 3 retained 7/7 Relative score (SD) 2 -1.40 [-2.04, -0.75] I\u00b2 81% C3 vs C1 0 -0.94 [-1.32, -0.57] I\u00b2 46% -2 C3 vs C2 -4 C1 \u00b7112 C2 \u00b7223 C3 \u00b7162 -2.0 -1.5 -1.0 -0.5 0.0 Predicted score difference (SD) Both mapped genes Observed PRISM responses C3 MAPK program: NES 1.10, FDR 0.497 Three lines \u00b7 projected subtype labels RNA \u00b7 log2 effect Protein \u00b7 SD effect 0.780 HuCCT1 \u00b7 C3 MAPK1 0.866 HuH28 \u00b7 C3 MAPK3 0.746 SNU-1079 \u00b7 C2 -0.5 0.0 0.5 -0.5 0.0 0.5 1.0 0.0 0.5 1.0 Study-adjusted expression difference AUC (lower = greater sensitivity) C1 C2 C3 FDR \u2265 0.05 FDR < 0.05",
+    "dimensions": [
+      493.0,
+      368.0
+    ]
+  },
+  {
+    "asset_id": "S18_P05",
+    "figure": "Figure6",
+    "panel": "E",
+    "output": "review/production_replay/project/8-Visualization/refinements/fig6_evidence_20261103_v21/figures/Figure6F_annotated_drug_patterns.pdf",
+    "verification_level": "RENDERED_TEXT_SIZE_VERIFIED",
+    "text": "Predicted drug patterns across all three subtypes Nine nominees \u00b7 497 tumors \u00b7 within-drug SD \u00b7 lower = greater predicted sensitivity Individual tumors Median / IQR C1 \u00b7 112 C2 \u00b7 223 C3 \u00b7 162 AZD1208 C1 nominees PIM kinases JAK1_8709 JAK1 kinase LY2109761 TGF-beta receptors Ibrutinib C2 nominees BTK kinase PRIMA-1MET p53-associated Sepantronium Survivin-associated AZD7762 C3 nominees CHK1/2 kinases PD0325901 MEK1/2 kinases Ulixertinib ERK1/2 kinases -2 0 2 Score (SD) C1 C2 C3 \u2264\u22122 0 \u22652",
+    "dimensions": [
+      493.0,
+      317.0
+    ]
+  },
+  {
+    "asset_id": "S18_P06",
+    "figure": "Figure6",
+    "panel": "F",
+    "output": "review/production_replay/project/8-Visualization/refinements/fig6_evidence_20261103_v21/figures/Figure6G_candidate_evidence_matrix.pdf",
+    "verification_level": "RENDERED_TEXT_SIZE_VERIFIED",
+    "text": "Candidate evidence: rationale, consistency and missing links Original nine nominees \u00b7 each evidence type remains separate Nominee Program context RNA Protein Meta CI Top 3 PRISM Focal subtype Focal subtype Focal subtype below 0 LOSO C1/C2/C3 AZD1208 Unmapped \u2193 PIM3 2/2 0/0/0 Missing 5/7 C1 nominee Not mapped NS PIM1,PIM2 I\u00b2 68\u201385% 0 mapped / 3 JAK1_8709 JAK / STAT 2/2 0/0/0 NS NES 1.16 \u2193 JAK1 NS JAK1 7/7 C1 nominee FDR 0.421 I\u00b2 0\u201365% 0 mapped / 3 LY2109761 TGF-beta receptor \u2193 TGFBR1 2/2 0/0/0 \u2193 NES -1.86 Missing 7/7 C1 nominee NS TGFBR2 I\u00b2 17\u201334% FDR 0.000955 0 mapped / 3 Ibrutinib B-cell receptor 2/2 0/1/0 NS NES -1.17 Missing Missing 6/7 C2 nominee FDR 0.567 I\u00b2 15\u201333% 1 mapped / 3 PRIMA-1MET TP53 regulation 1/2 0/0/0 NS NES 1.02 \u2191 TP53 Missing 5/7 C2 nominee FDR 0.88 I\u00b2 0\u201376% 0 mapped / 3 Sepantronium Mitosis (broad) 2/2 0/1/2 NS NES -0.81 \u2193 BIRC5 Missing 7/7 C2 nominee FDR 1 I\u00b2 26\u201346% 3 mapped / 3 AZD7762 Checkpoints \u2191 CHEK2 2/2 0/1/2 \u2191 NES 1.56 Missing 7/7 C3 nominee NS CHEK1 I\u00b2 52\u201373% FDR 0.0236 3 mapped / 3 PD0325901 MEK / MAPK 2/2 0/0/2 NS NES 1.34 NS MAP2K1,MAP2K2 NS MAP2K1,MAP2K2 3/7 C3 nominee FDR 0.28 I\u00b2 10\u201373% 2 mapped / 3 Ulixertinib MAPK1 / MAPK3 \u2191 MAPK3 \u2191 MAPK3 2/2 0/1/2 NS NES 1.10 NS MAPK1 NS MAPK1 7/7 C3 nominee FDR 0.497 I\u00b2 46\u201381% 3 mapped / 3 \u2191/\u2193: source FDR < 0.05; NS: not significant. Missing or unmapped is not a negative assay. LOSO: downstream study omissions. PRISM: measured lines with projected labels; coverage is not validation. Program mapping uses the full Figure2 GSEA background; no combined evidence score.",
+    "dimensions": [
+      493.0,
+      413.0
+    ]
+  },
+  {
+    "asset_id": "S18_P07",
+    "figure": "Figure6",
+    "panel": "C",
+    "output": "review/production_final_panels/figures/panels/Figure6C_source_redraw.pdf",
+    "verification_level": "RENDERED_TEXT_SIZE_VERIFIED",
+    "text": "Overall survival by observed duct morphology and C3 79 patients / 45 deaths | descriptive Kaplan\u2013Meier curves with pointwise 95% CIs Small duct | n = 61 Large duct | n = 18 C3: 15 (10 deaths) Non-C3: 46 (23 deaths) C3: 11 (9 deaths) Non-C3: 7 (3 deaths) 1.0 1.0 Survival 0.5 0.5 0.0 0.0 0 24 48 72 96 0 24 48 72 96 OS (months) OS (months) At risk At risk Non-C3 46 36 10 1 0 Non-C3 7 4 1 0 0 C3 15 6 1 0 0 C3 11 4 1 1 0 C3 Non-C3",
+    "dimensions": [
+      493.0,
+      320.0
+    ]
+  },
+  {
+    "asset_id": "S19_P01",
+    "figure": "SFigure7",
+    "panel": "D",
+    "output": "review/production_replay/project/8-Visualization/refinements/fig6_redesign_20261101_v18/supplement/Supplement_duct_marker_distributions.pdf",
+    "verification_level": "RENDERED_TEXT_SIZE_VERIFIED",
+    "text": "Duct-related RNA markers Points: patients \u00b7 boxes: median / IQR \u00b7 right labels: n C1 C2 C3 S100P 112 223 162 MUC5AC 103 191 139 CRP 112 223 162 CDH2 112 223 162 MUC6 112 223 162 TFF1 103 191 139 NCAM1 103 191 139 -2 0 2 4 -2 0 2 4 -2 0 2 4 Within-study centered expression (SD)",
+    "dimensions": [
+      493.0,
+      306.0
+    ]
+  },
+  {
+    "asset_id": "S19_P02",
+    "figure": "SFigure7",
+    "panel": "C",
+    "output": "review/production_replay/project/8-Visualization/refinements/fig6_integrated_20261101_v20/supplement/SFig6P_observed_OOF_duct_agreement.pdf",
+    "verification_level": "RENDERED_TEXT_SIZE_VERIFIED",
+    "text": "Observed pathology versus paired RNA duct prediction The same 93 patients \u00b7 counts and within-observed-category percentages C1 C2 C3 Measured duct morphology 17 / 17 0 / 17 33 / 37 4 / 37 6 / 15 9 / 15 Small 100.0% 0.0% 89.2% 10.8% 40.0% 60.0% 2/3 1/3 4/4 0/4 0 / 17 17 / 17 Large 66.7% 33.3% 100.0% 0.0% 0.0% 100.0% Small Large Small Large Small Large OOF RNA duct prediction",
+    "dimensions": [
+      493.0,
+      232.0
+    ]
+  },
+  {
+    "asset_id": "S19_P03",
+    "figure": "SFigure7",
+    "panel": "E",
+    "output": "review/production_replay/project/8-Visualization/refinements/fig6_integrated_20261101_v20/supplement/SFig6N_joint_confusion_matrices.pdf",
+    "verification_level": "RENDERED_TEXT_SIZE_VERIFIED",
+    "text": "Complete three-class error structure Reference molecular labels versus out-of-fold predictions RNA anchors Compact 14 71 27 109 1 2 C1 \u00b7112 12.5% 63.4% 24.1% 97.3% 0.9% 1.8% 11 199 13 1 220 2 C2 \u00b7223 4.9% 89.2% 5.8% 0.4% 98.7% 0.9% 9 20 133 0 5 157 C3 \u00b7162 5.6% 12.3% 82.1% 0.0% 3.1% 96.9% Reference subtype \u00b7 n Joint Full workflow 109 1 2 111 0 1 C1 \u00b7112 97.3% 0.9% 1.8% 99.1% 0.0% 0.9% 1 220 2 1 221 1 C2 \u00b7223 0.4% 98.7% 0.9% 0.4% 99.1% 0.4% 0 4 158 0 3 159 C3 \u00b7162 0.0% 2.5% 97.5% 0.0% 1.9% 98.1% C1 C2 C3 C1 C2 C3 Predicted subtype",
+    "dimensions": [
+      493.0,
+      447.0
+    ]
+  },
+  {
+    "asset_id": "S19_P04",
+    "figure": "SFigure7",
+    "panel": "B",
+    "output": "review/production_final_panels/figures/panels/SFigure7B_source_redraw.pdf",
+    "verification_level": "RENDERED_TEXT_SIZE_VERIFIED",
+    "text": "C3 within observed small-duct iCCA 61 patients / 33 deaths | C3 n = 15; non-C3 n = 46 | exploratory subgroup Observed survival Adjusted association C3 versus non-C3: HR [95% CI] 1.0 Proportional hazards Survival 2.30 [1.05, 5.03] 0.5 Time-varying: 12 months 3.33 [1.12, 9.87] Time-varying: 24 months 0.0 0 24 48 72 96 OS (months) 1.91 [0.77, 4.71] At risk 0.5 1 2 4 8 Non-C3 46 36 10 1 0 Hazard ratio (log scale) C3 15 6 1 0 0 Adjusted for age, sex and stage; study-specific baseline hazards. Time-varying C3 and age sensitivity.",
+    "dimensions": [
+      493.0,
+      317.0
+    ]
+  },
+  {
+    "asset_id": "S19_P05",
+    "figure": "SFigure7",
+    "panel": "A",
+    "output": "review/production_replay/project/8-Visualization/refinements/fig6_evidence_20261103_v21/supplement_pathology/Path10_clinical_prediction_error.pdf",
+    "verification_level": "RENDERED_TEXT_SIZE_VERIFIED",
+    "text": "Prediction error for the current clinical models 331 patients \u00b7 same OOF risks as Figure6A \u00b7 lower is better Absolute prediction error Paired change in prediction error 12 months 12 months Clinical Add C3 + C3 Add three subtypes + C1/C2/C3 Three subtypes vs C3 24 months 24 months Clinical Add C3 + C3 Add three subtypes + C1/C2/C3 Three subtypes vs C3 0.00 0.05 0.10 0.15 0.20 -0.05 -0.04 -0.03 -0.02 -0.01 0.00 Brier score / difference Brier score / difference Primary Time-varying",
+    "dimensions": [
+      493.0,
+      317.0
+    ]
+  },
+  {
+    "asset_id": "S19_P06",
+    "figure": "SFigure7",
+    "panel": "H",
+    "output": "review/production_replay/project/8-Visualization/refinements/fig6_drug_evidence_20261101_v14/figures/32_candidate_phenotype_sensitivity.pdf",
+    "verification_level": "RENDERED_TEXT_SIZE_VERIFIED",
+    "text": "Sensitivity to bulk phenotype covariates Matched baseline and adjusted estimates | original nine candidates Immune + stromal | n=433 MKI67 proxy | n=497 C1 | AZD1208 vs C2 C1 | AZD1208 vs C3 C1 | JAK1_8709 vs C2 C1 | JAK1_8709 vs C3 C1 | LY2109761 vs C2 C1 | LY2109761 vs C3 C2 | Ibrutinib vs C1 C2 | Ibrutinib vs C3 C2 | PRIMA-1MET vs C1 C2 | PRIMA-1MET vs C3 C2 | Sepantronium bromide vs C1 C2 | Sepantronium bromide vs C3 C3 | AZD7762 vs C1 C3 | AZD7762 vs C2 C3 | PD0325901 vs C1 C3 | PD0325901 vs C2 C3 | Ulixertinib vs C1 C3 | Ulixertinib vs C2 -1.5 -1.0 -0.5 0.0 -1.5 -1.0 -0.5 0.0 Difference / fixed score SD (HC3 95% CI) Adjusted Same-patient baseline Covariates may be components of the subtype phenotype. Attenuation is not causal mediation or evidence of a direct drug effect.",
+    "dimensions": [
+      493.0,
+      496.0
+    ]
+  },
+  {
+    "asset_id": "S19_P07",
+    "figure": "SFigure7",
+    "panel": "G",
+    "output": "review/production_replay/project/8-Visualization/refinements/fig6_redesign_20261101_v18/figures/Figure6G_candidate_evidence.pdf",
+    "verification_level": "RENDERED_TEXT_SIZE_VERIFIED",
+    "text": "Candidate effects, uncertainty and selection stability Nine candidates \u00b7 18 contrasts \u00b7 seven study omissions Pairwise effects Across studies Top-3 I\u00b2 range retained AZD1208 68\u201385% 5/7 JAK1_8709 0\u201365% 7/7 LY2109761 17\u201334% 7/7 Ibrutinib 15\u201333% 6/7 PRIMA-1MET 0\u201376% 5/7 Sepantronium bromide 26\u201346% 7/7 AZD7762 52\u201373% 7/7 PD0325901 10\u201373% 3/7 Ulixertinib 46\u201381% 7/7 -2 -1 0 Predicted score difference (SD; 95% CI) C1 C2 C3 vs C1 vs C2 vs C3",
+    "dimensions": [
+      493.0,
+      277.0
+    ]
+  },
+  {
+    "asset_id": "S19_P08",
+    "figure": "SFigure7",
+    "panel": "F",
+    "output": "review/production_replay/project/8-Visualization/refinements/fig6_redesign_20261101_v18/supplement/Supplement_drug_distributions.pdf",
+    "verification_level": "RENDERED_TEXT_SIZE_VERIFIED",
+    "text": "Patient distributions of all nine candidates All values, including extremes \u00b7 no additional significance tests C1 \u00b7 n=112 C2 \u00b7 n=223 C3 \u00b7 n=162 AZD1208 JAK1_8709 LY2109761 Ibrutinib PRIMA-1MET Sepantronium bromide AZD7762 PD0325901 Ulixertinib -2.5 0.0 2.5 -2.5 0.0 2.5 -2.5 0.0 2.5 Relative predicted drug score (SD)",
+    "dimensions": [
+      493.0,
+      357.0
+    ]
+  }
+]

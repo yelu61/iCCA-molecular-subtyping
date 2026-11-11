@@ -1,0 +1,126 @@
+{
+  "date": "2026-11-12",
+  "implementation_files_hash_verified": 168,
+  "analysis_entries": 24,
+  "production_renderers_passed": 37,
+  "final_drivers_passed": 3,
+  "quantitative_assets_passed": 100,
+  "input_files_verified_before": 756,
+  "input_files_verified_after": 756,
+  "frozen_input_isolation_regression": "PASS",
+  "notebook_checks": [
+    {
+      "notebook": "0-data-qc.ipynb",
+      "upstream_code_and_cell_positions_preserved": true
+    },
+    {
+      "notebook": "1-clustering.ipynb",
+      "upstream_code_and_cell_positions_preserved": true
+    },
+    {
+      "notebook": "2-transcriptomic-characterization.ipynb",
+      "upstream_code_and_cell_positions_preserved": true
+    },
+    {
+      "notebook": "3-duct-type-analysis.ipynb",
+      "upstream_code_and_cell_positions_preserved": true
+    },
+    {
+      "notebook": "4-multiomic.ipynb",
+      "upstream_code_and_cell_positions_preserved": true
+    },
+    {
+      "notebook": "5-classifier-validation.ipynb",
+      "default_cells_executed": true,
+      "working_directory": "project",
+      "analysis_fitting_executed": false
+    },
+    {
+      "notebook": "6-clinical-survival.ipynb",
+      "default_cells_executed": true,
+      "working_directory": "project",
+      "analysis_fitting_executed": false
+    },
+    {
+      "notebook": "7-single-cell-validation.ipynb",
+      "default_cells_executed": true,
+      "working_directory": "project",
+      "analysis_fitting_executed": false
+    },
+    {
+      "notebook": "8-visualization.ipynb",
+      "default_cells_executed": true,
+      "working_directory": "project",
+      "analysis_fitting_executed": false
+    },
+    {
+      "notebook": "5-classifier-validation.ipynb",
+      "default_cells_executed": true,
+      "working_directory": "public_repository",
+      "analysis_fitting_executed": false
+    },
+    {
+      "notebook": "6-clinical-survival.ipynb",
+      "default_cells_executed": true,
+      "working_directory": "public_repository",
+      "analysis_fitting_executed": false
+    },
+    {
+      "notebook": "7-single-cell-validation.ipynb",
+      "default_cells_executed": true,
+      "working_directory": "public_repository",
+      "analysis_fitting_executed": false
+    },
+    {
+      "notebook": "8-visualization.ipynb",
+      "default_cells_executed": true,
+      "working_directory": "public_repository",
+      "analysis_fitting_executed": false
+    }
+  ],
+  "clinical_entry_checks": [
+    {
+      "stage": "clinical_full_subtype",
+      "command_prepared": true,
+      "protocol_staged": true,
+      "analysis_executed": false
+    },
+    {
+      "stage": "clinical_duct_stratified",
+      "command_prepared": true,
+      "protocol_staged": true,
+      "analysis_executed": false
+    }
+  ],
+  "tested_execution_files_unchanged_after_public_curation": 187,
+  "full_upstream_pipeline_rerun": false,
+  "graphic": "AI-generated conceptual illustration, visually reviewed, Figure-number labels removed",
+  "companion_input_public_deposit": "pending",
+  "commands": [
+    {
+      "step": "regression",
+      "exit_code": 0,
+      "seconds": 0.06
+    },
+    {
+      "step": "verify_before",
+      "exit_code": 0,
+      "seconds": 0.32
+    },
+    {
+      "step": "figures",
+      "exit_code": 0,
+      "seconds": 204.52
+    },
+    {
+      "step": "check",
+      "exit_code": 0,
+      "seconds": 2.91
+    },
+    {
+      "step": "verify_after",
+      "exit_code": 0,
+      "seconds": 0.32
+    }
+  ]
+}

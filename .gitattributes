@@ -1,0 +1,9 @@
+# Newly authored public entry/configuration text uses LF.
+*.py text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.csv text eol=lf
+# Preserve executed historical implementation bytes and source hashes.
+# These rules intentionally follow the generic text rules.
+_implementation/** -text -whitespace
+historical/** -text -whitespace
