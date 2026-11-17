@@ -340,46 +340,57 @@ save_panel("Panel_E_tumor_compartments", draw_panel_E(), 174, 63)
 
 cat("Generating full assembled Figure 3 preview...\n")
 composite_png <- file.path(OUT_DIR, "Figure_3_composite.png")
-ragg::agg_png(composite_png, width = 182, height = 276, units = "mm", res = 300, background = "white")
+composite_pdf <- file.path(OUT_DIR, "Figure_3_composite.pdf")
 
 canvas <- function(w, h) {
   grid.newpage()
   pushViewport(viewport(xscale = c(0, w), yscale = c(0, h)))
 }
-vt <- function(text, x, y, size = 8, bold = TRUE, col = "#222222") {
-  grid.text(text, unit(x, "native"), unit(y, "native"), just = "left",
+vt <- function(text, x, y, size = 11, bold = TRUE, col = "#111111") {
+  grid.text(text, unit(x, "native"), unit(y, "native"), just = c("left", "top"),
             gp = gpar(fontfamily = "Arial", fontsize = size, fontface = if (bold) "bold" else "plain", col = col))
 }
-
-canvas(182, 276)
 
 panels_pos <- data.table(
   Letter = c("A", "B", "C", "D", "E"),
   File   = c("Panel_A_atlas.png", "Panel_B_grouped_sources.png",
              "Panel_C_three_pairs.png", "Panel_D_six_patient_pairs.png",
              "Panel_E_tumor_compartments.png"),
-  X      = c(4, 98, 4, 4, 4),
-  Top    = c(4, 15, 96, 151, 211),
-  W      = c(90, 78.5, 174, 174, 174),
-  H      = c(90, 61.4, 53, 58, 63)
+  X      = c(4.7, 88.4, 3.4, 3.5, 8.5),
+  Top    = c(7.7, 6.9, 74.5, 122.2, 182.1),
+  W      = c(84.3, 86.7, 173.9, 173.9, 166.1),
+  H      = c(59.9, 68.0, 47.6, 57.9, 60.0),
+  LetX   = c(1.0, 86.0, 1.0, 1.0, 1.0),
+  LetY   = c(6.8, 6.9, 72.8, 120.8, 179.9)
 )
 
-for (i in seq_len(nrow(panels_pos))) {
-  p_file <- file.path(OUT_DIR, "panels", panels_pos$File[i])
-  if (file.exists(p_file)) {
-    im <- png::readPNG(p_file)
-    grid.raster(
-      im,
-      x = unit(panels_pos$X[i], "native"),
-      y = unit(276 - panels_pos$Top[i], "native"),
-      width = unit(panels_pos$W[i], "native"),
-      height = unit(panels_pos$H[i], "native"),
-      just = c("left", "top")
-    )
-    vt(panels_pos$Letter[i], panels_pos$X[i] - 3, 276 - panels_pos$Top[i] + 1, 8, TRUE)
+render_fig3_composite <- function() {
+  canvas(180, 270)
+  grid.rect(gp = gpar(fill = "white", col = NA))
+  for (i in seq_len(nrow(panels_pos))) {
+    p_file <- file.path(OUT_DIR, "panels", panels_pos$File[i])
+    if (file.exists(p_file)) {
+      im <- png::readPNG(p_file)
+      grid.raster(
+        im,
+        x = unit(panels_pos$X[i], "native"),
+        y = unit(270 - panels_pos$Top[i], "native"),
+        width = unit(panels_pos$W[i], "native"),
+        height = unit(panels_pos$H[i], "native"),
+        just = c("left", "top")
+      )
+      vt(panels_pos$Letter[i], panels_pos$LetX[i], 270 - panels_pos$LetY[i], 11, TRUE)
+    }
   }
+  popViewport()
 }
-popViewport()
+
+ragg::agg_png(composite_png, width = 180, height = 270, units = "mm", res = 300, background = "white")
+render_fig3_composite()
+dev.off()
+
+pdf(composite_pdf, width = 180 / 25.4, height = 270 / 25.4, family = "Arial")
+render_fig3_composite()
 dev.off()
 
 cat(sprintf("[Complete] All Figure 3 panels and composite generated in %s\n", OUT_DIR))

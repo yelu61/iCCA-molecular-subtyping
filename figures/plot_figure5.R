@@ -521,37 +521,51 @@ save_panel("Panel_G_cost", g_out$cost, 60, 70)
 
 cat("Generating full assembled Figure 5 preview...\n")
 composite_png <- file.path(OUT_DIR, "Figure_5_composite.png")
-ragg::agg_png(composite_png, width = 182, height = 276, units = "mm", res = 300, background = "white")
-canvas(182, 276)
+composite_pdf <- file.path(OUT_DIR, "Figure_5_composite.pdf")
 
 panels_pos <- data.table(
-  Letter = c("A", "B", "C", "D", "E", "F", "G"),
+  Letter = c("A", "B", "C", "D", "E", "F", "G", ""),
   File   = c("Panel_A_workflow.png", "Panel_B_consensus_evidence.png",
              "Panel_C_subtype_genes.png", "Panel_D_internal_performance.png",
              "Panel_E_external_frozen_programs.png", "Panel_F_external_survival.png",
-             "Panel_G_cost.png"),
-  X      = c(4, 4, 80, 4, 4, 4, 118),
-  Top    = c(4, 40, 40, 118, 118, 204, 204),
-  W      = c(174, 72, 98, 100, 174, 110, 60),
-  H      = c(32, 76, 76, 64, 90, 70, 70)
+             "Panel_G_weights.png", "Panel_G_cost.png"),
+  X      = c(1.4, 3.9, 87.9, 4.0, 81.4, 3.4, 87.0, 140.6),
+  Top    = c(5.8, 58.0, 58.9, 130.6, 127.0, 179.2, 179.2, 179.2),
+  W      = c(174.0, 77.9, 88.9, 73.8, 99.3, 81.4, 45.0, 37.9),
+  H      = c(48.0, 69.0, 69.0, 47.2, 51.3, 51.9, 49.9, 44.1),
+  LetX   = c(1.4, 0.4, 81.7, 0.4, 75.7, 0.9, 78.5, NA),
+  LetY   = c(5.8, 59.0, 58.0, 129.1, 127.9, 176.2, 176.3, NA)
 )
 
-for (i in seq_len(nrow(panels_pos))) {
-  p_file <- file.path(OUT_DIR, "panels", panels_pos$File[i])
-  if (file.exists(p_file)) {
-    im <- png::readPNG(p_file)
-    grid.raster(
-      im,
-      x = unit(panels_pos$X[i], "native"),
-      y = unit(276 - panels_pos$Top[i], "native"),
-      width = unit(panels_pos$W[i], "native"),
-      height = unit(panels_pos$H[i], "native"),
-      just = c("left", "top")
-    )
-    vt(panels_pos$Letter[i], panels_pos$X[i] - 3, 276 - panels_pos$Top[i] - 1, 8, TRUE)
+render_fig5_composite <- function() {
+  canvas(180, 270)
+  grid.rect(gp = gpar(fill = "white", col = NA))
+  for (i in seq_len(nrow(panels_pos))) {
+    p_file <- file.path(OUT_DIR, "panels", panels_pos$File[i])
+    if (file.exists(p_file)) {
+      im <- png::readPNG(p_file)
+      grid.raster(
+        im,
+        x = unit(panels_pos$X[i], "native"),
+        y = unit(270 - panels_pos$Top[i], "native"),
+        width = unit(panels_pos$W[i], "native"),
+        height = unit(panels_pos$H[i], "native"),
+        just = c("left", "top")
+      )
+      if (!is.na(panels_pos$LetX[i]) && nzchar(panels_pos$Letter[i])) {
+        vt(panels_pos$Letter[i], panels_pos$LetX[i], 270 - panels_pos$LetY[i], 11, TRUE, col = "#111111")
+      }
+    }
   }
+  popViewport()
 }
-popViewport()
+
+ragg::agg_png(composite_png, width = 180, height = 270, units = "mm", res = 300, background = "white")
+render_fig5_composite()
+dev.off()
+
+pdf(composite_pdf, width = 180 / 25.4, height = 270 / 25.4, family = "Arial")
+render_fig5_composite()
 dev.off()
 
 cat(sprintf("[Complete] All Figure 5 panels and composite generated in %s\n", OUT_DIR))

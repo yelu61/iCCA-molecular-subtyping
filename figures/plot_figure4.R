@@ -591,30 +591,30 @@ render_composite <- function() {
               gp = gpar(fontfamily = "Arial", fontsize = 11, fontface = "bold", col = "#111111"))
   }
   
-  # Top row: Panel A (oncoprint) + Panel B (odds ratios)
-  draw_raster_panel(out_panelA_png, 3.0, 10.0, 100.0, 62.0)
-  draw_panel_letter("A", 1.0, 9.0)
+  # Row 1: Panel A (oncoprint) + Panel B (odds ratios)
+  draw_raster_panel(out_panelA_png, 5.1, 8.5, 93.3, 57.3)
+  draw_panel_letter("A", 0.2, 10.8)
   
-  draw_raster_panel(out_panelB_png, 104.0, 10.0, 73.0, 62.0)
-  draw_panel_letter("B", 102.0, 9.0)
+  draw_raster_panel(out_panelB_png, 98.5, 8.7, 78.2, 57.0)
+  draw_panel_letter("B", 98.7, 10.8)
   
-  # Middle row: Panel C (proteomics) + Panel D (bridge) + Panel E (quadrant)
-  draw_raster_panel(out_panelC_png, 3.0, 74.0, 100.0, 64.0)
-  draw_panel_letter("C", 1.0, 73.0)
+  # Row 2: Panel C (proteomics) + Panel F (MOFA alluvial) matching Slide 12
+  draw_raster_panel(out_panelC_png, 6.2, 66.5, 117.0, 75.7)
+  draw_panel_letter("C", 0.2, 64.1)
   
-  draw_raster_panel(out_panelD_png, 104.0, 74.0, 42.0, 64.0)
-  draw_panel_letter("D", 102.0, 73.0)
+  draw_raster_panel(out_panelF_png, 126.0, 66.5, 50.0, 75.7)
+  draw_panel_letter("F", 124.0, 63.6)
   
-  draw_raster_panel(out_panelE_png, 147.0, 74.0, 30.0, 64.0)
-  draw_panel_letter("E", 145.0, 73.0)
+  # Row 3: Panel D (bridge / 5 programs) + Panel E (matched pathway concordance)
+  draw_raster_panel(out_panelD_png, 0.7, 144.0, 64.0, 49.8)
+  draw_panel_letter("D", 0.7, 142.0)
   
-  # Third row: Panel F (MOFA alluvial)
-  draw_raster_panel(out_panelF_png, 3.0, 140.0, 174.0, 50.0)
-  draw_panel_letter("F", 1.0, 139.0)
+  draw_raster_panel(out_panelE_png, 72.0, 144.0, 104.0, 49.8)
+  draw_panel_letter("E", 68.0, 142.0)
   
-  # Bottom row: Panel G (synthesis)
-  draw_raster_panel(out_panelG_png, 3.0, 192.0, 174.0, 72.0)
-  draw_panel_letter("G", 1.0, 191.0)
+  # Row 4: Panel G (synthesis)
+  draw_raster_panel(out_panelG_png, 11.8, 198.0, 154.3, 66.7)
+  draw_panel_letter("G", 0.2, 196.0)
   
   popViewport()
 }
