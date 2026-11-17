@@ -3,15 +3,19 @@ __pycache__/
 .ipynb_checkpoints/
 .DS_Store
 .env
-*.rds
 *.Rdata
 *.RData
 *.h5ad
 *.h5
 *.zip
-outputs/
-results/
-data_bundle/
 .r-library/
 .Rhistory
-.RData
+
+# Ignore intermediate RDS except staged figure data
+*.rds
+!figures/data/**/*.rds
+
+# Outputs directory
+outputs/
+figures/outputs/
+results/

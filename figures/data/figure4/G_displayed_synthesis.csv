@@ -1,0 +1,13 @@
+Subtype,Line,Text
+C1,1,Metabolic specialization
+C1,2,RNA + protein: metabolic programs
+C1,3,Inferred TF: HNF4A / HNF1A / CEBPA / PPARA
+C1,4,Immune / myeloid signals (method-dependent)
+C2,1,Morphogenesis / translation
+C2,2,WNT / cilium concordant; translation discordant
+C2,3,Inferred TF: HNF1B / ONECUT1 (not exclusive)
+C2,4,Lower immune / stromal scores
+C3,1,Hypoxia / epithelial remodeling
+C3,2,Hypoxia / epithelial support; cell cycle: full-RNA
+C3,3,Inferred TF: KLF5 / GRHL2 / HIF1A
+C3,4,CAF: MCP-counter / EPIC; xCell unclear

@@ -1,0 +1,34 @@
+Group,Label,Method,Score,Y,Block,Key,DisplayY
+Overall context,Purity proxy,ESTIMATE,PurityProxy,14,Context,"",57.2
+Overall context,Immune score,ESTIMATE,ImmuneScore,18.32,Context,"",63
+Overall context,Stromal score,ESTIMATE,StromalScore,22.64,Context,"",60.1
+Lymphoid,CD8 T cells,MCP-counter,CD8 T cells,31.28,Native cells,M,50.5
+Lymphoid,NK cells,MCP-counter,NK cells,36.32,Native cells,M,47.6
+Lymphoid,B cells,MCP-counter,B lineage,41.36,Native cells,M,44.7
+Myeloid,Monocytes / lineage,MCP-counter,Monocytic lineage,48.56,Native cells,M,41.8
+Dendritic,Dendritic cells,MCP-counter,Myeloid dendritic cells,60.8,Native cells,M,36
+Granulocytic,Neutrophils,MCP-counter,Neutrophils,68,Native cells,M,33.1
+Stromal,Fibroblasts / CAFs,MCP-counter,Fibroblasts,75.2,Native cells,M,26.4
+Endothelial,Endothelial cells,MCP-counter,Endothelial cells,82.4,Native cells,M,23.5
+Lymphoid,CD8 T cells,EPIC,CD8_Tcells,31.28,Native cells,E,50.5
+Lymphoid,NK cells,EPIC,NKcells,36.32,Native cells,E,47.6
+Lymphoid,B cells,EPIC,Bcells,41.36,Native cells,E,44.7
+Myeloid,Macrophages,EPIC,Macrophages,53.6,Native cells,E,38.9
+Stromal,Fibroblasts / CAFs,EPIC,CAFs,75.2,Native cells,E,26.4
+Endothelial,Endothelial cells,EPIC,Endothelial,82.4,Native cells,E,23.5
+Lymphoid,CD8 T cells,xCell,CD8+ T-cells,31.28,Native cells,X,50.5
+Lymphoid,NK cells,xCell,NK cells,36.32,Native cells,X,47.6
+Lymphoid,B cells,xCell,B-cells,41.36,Native cells,X,44.7
+Myeloid,Monocytes / lineage,xCell,Monocytes,48.56,Native cells,X,41.8
+Myeloid,Macrophages,xCell,Macrophages,53.6,Native cells,X,38.9
+Dendritic,Dendritic cells,xCell,cDC,60.8,Native cells,X,36
+Granulocytic,Neutrophils,xCell,Neutrophils,68,Native cells,X,33.1
+Stromal,Fibroblasts / CAFs,xCell,Fibroblasts,75.2,Native cells,X,26.4
+Endothelial,Endothelial cells,xCell,Endothelial cells,82.4,Native cells,X,23.5
+Lymphoid,CD8 T cells,CIBERSORT,T cells CD8,31.28,Composition,C,50.5
+Lymphoid,NK cells,CIBERSORT,Total NK cells,36.32,Composition,C,47.6
+Lymphoid,B cells,CIBERSORT,B cells total,41.36,Composition,C,44.7
+Myeloid,Monocytes / lineage,CIBERSORT,Monocytes,48.56,Composition,C,41.8
+Myeloid,Macrophages,CIBERSORT,Macrophages total,53.6,Composition,C,38.9
+Dendritic,Dendritic cells,CIBERSORT,Dendritic total,60.8,Composition,C,36
+Granulocytic,Neutrophils,CIBERSORT,Neutrophils,68,Composition,C,33.1

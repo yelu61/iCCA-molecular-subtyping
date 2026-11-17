@@ -1,0 +1,13 @@
+CellTypeDisplay,Color,NCells
+Epithelial,#CC6B73,12640
+Hepatocyte,#C6A04B,518
+CD8 T,#3E5D99,6610
+Other T,#73A5C9,4817
+NK-like,#48A9A6,967
+B cell,#75529A,419
+Plasma cell,#B18AC0,845
+Mono/macrophage,#B77B48,3601
+Dendritic-like,#A7A957,1394
+Fibroblast,#398773,567
+Pericyte-like,#9CBD91,388
+Endothelial,#485664,1338

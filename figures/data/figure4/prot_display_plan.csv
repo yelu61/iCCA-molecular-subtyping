@@ -1,0 +1,39 @@
+Pathway,Label,Block,RowOrder
+"HALLMARK_FATTY_ACID_METABOLISM","Fatty acid metabolism","Metabolism &
+hepatic function",1
+"HALLMARK_BILE_ACID_METABOLISM","Bile acid metabolism","Metabolism &
+hepatic function",2
+"HALLMARK_XENOBIOTIC_METABOLISM","Xenobiotic metabolism","Metabolism &
+hepatic function",3
+"HALLMARK_PEROXISOME","Peroxisome","Metabolism &
+hepatic function",4
+"HALLMARK_OXIDATIVE_PHOSPHORYLATION","Oxidative phosphorylation","Metabolism &
+hepatic function",5
+"HALLMARK_CHOLESTEROL_HOMEOSTASIS","Cholesterol homeostasis","Metabolism &
+hepatic function",6
+"HALLMARK_E2F_TARGETS","E2F targets","Cell cycle
+& growth",7
+"HALLMARK_G2M_CHECKPOINT","G2M checkpoint","Cell cycle
+& growth",8
+"HALLMARK_MYC_TARGETS_V1","MYC targets v1","Cell cycle
+& growth",9
+"HALLMARK_MYC_TARGETS_V2","MYC targets v2","Cell cycle
+& growth",10
+"HALLMARK_MITOTIC_SPINDLE","Mitotic spindle","Cell cycle
+& growth",11
+"HALLMARK_EPITHELIAL_MESENCHYMAL_TRANSITION","Epithelial–mesenchymal transition","Matrix &
+signaling",12
+"HALLMARK_TGF_BETA_SIGNALING","TGF-beta signaling","Matrix &
+signaling",13
+"HALLMARK_ANGIOGENESIS","Angiogenesis","Matrix &
+signaling",14
+"HALLMARK_APICAL_JUNCTION","Apical junction","Matrix &
+signaling",15
+"HALLMARK_INFLAMMATORY_RESPONSE","Inflammatory response","Inflammation &
+hemostasis",16
+"HALLMARK_INTERFERON_GAMMA_RESPONSE","Interferon-gamma response","Inflammation &
+hemostasis",17
+"HALLMARK_COMPLEMENT","Complement","Inflammation &
+hemostasis",18
+"HALLMARK_COAGULATION","Coagulation","Inflammation &
+hemostasis",19

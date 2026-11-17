@@ -1,0 +1,31 @@
+name: icca-subtyping
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - jupyter
+  - notebook
+  - r-base>=4.3
+  - r-ragg
+  - r-circlize
+  - r-png
+  - r-data.table
+  - r-ggplot2
+  - r-cowplot
+  - r-survival
+  - r-survminer
+  - r-readr
+  - r-dplyr
+  - r-proc
+  - r-patchwork
+  - r-scales
+  - r-jsonlite
+  - r-e1071
+  - r-randomforest
+  - r-glmnet
+  - bioconductor-complexheatmap
+  - pip:
+      - -r requirements.txt

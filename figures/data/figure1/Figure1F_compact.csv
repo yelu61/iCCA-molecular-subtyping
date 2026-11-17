@@ -1,0 +1,25 @@
+Variable,Level,FinalSubtype,AvailableN,Summary,N,Endpoint,Median,Q1,Q3,Value,LabelY,ValueLabel,AxisLabel,TraitOrder,PositiveN,Primary,Secondary,Tertiary
+"Tumor size (cm)","Median (IQR)","C1",62,"4.5 (3.0–6.4)",NA,"Tumor size",4.5,3,6.4,4.5,6.85,"4.5","C1
+n = 62",1,NA,"4.5","[3.0–6.4]","n = 62"
+"Tumor size (cm)","Median (IQR)","C2",149,"5.5 (4.0–7.8)",NA,"Tumor size",5.5,4,7.8,5.5,8.25,"5.5","C2
+n = 149",1,NA,"5.5","[4.0–7.8]","n = 149"
+"Tumor size (cm)","Median (IQR)","C3",101,"5.7 (4.0–8.0)",NA,"Tumor size",5.7,4,8,5.7,8.45,"5.7","C3
+n = 101",1,NA,"5.7","[4.0–8.0]","n = 101"
+"Stage group","III/IV","C1",69,"22 (31.9%)",22,"Advanced stage",NA,NA,NA,31.8840579710145,38.8840579710145,"31.9%","C1
+22/69",2,22,"31.9%","22/69",""
+"Stage group","III/IV","C2",166,"37 (22.3%)",37,"Advanced stage",NA,NA,NA,22.289156626506,29.289156626506,"22.3%","C2
+37/166",2,37,"22.3%","37/166",""
+"Stage group","III/IV","C3",106,"52 (49.1%)",52,"Advanced stage",NA,NA,NA,49.0566037735849,56.0566037735849,"49.1%","C3
+52/106",2,52,"49.1%","52/106",""
+"Vascular invasion","1","C1",53,"23 (43.4%)",23,"Vascular invasion",NA,NA,NA,43.3962264150943,50.3962264150944,"43.4%","C1
+23/53",3,23,"43.4%","23/53",""
+"Vascular invasion","1","C2",117,"40 (34.2%)",40,"Vascular invasion",NA,NA,NA,34.1880341880342,41.1880341880342,"34.2%","C2
+40/117",3,40,"34.2%","40/117",""
+"Vascular invasion","1","C3",78,"45 (57.7%)",45,"Vascular invasion",NA,NA,NA,57.6923076923077,64.6923076923077,"57.7%","C3
+45/78",3,45,"57.7%","45/78",""
+"Observed duct type","large duct type","C1",20,"3 (15.0%)",3,"Observed large-duct morphology",NA,NA,NA,15,22,"15.0%","C1
+3/20",4,3,"15.0%","3/20",""
+"Observed duct type","large duct type","C2",41,"4 (9.8%)",4,"Observed large-duct morphology",NA,NA,NA,9.75609756097561,16.7560975609756,"9.8%","C2
+4/41",4,4,"9.8%","4/41",""
+"Observed duct type","large duct type","C3",32,"17 (53.1%)",17,"Observed large-duct morphology",NA,NA,NA,53.125,60.125,"53.1%","C3
+17/32",4,17,"53.1%","17/32",""

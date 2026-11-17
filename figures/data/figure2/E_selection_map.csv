@@ -1,0 +1,34 @@
+Group,Label,Method,Score,Y,Block,Key
+Overall context,Purity proxy,ESTIMATE,PurityProxy,14,Context,
+Overall context,Immune score,ESTIMATE,ImmuneScore,18.32,Context,
+Overall context,Stromal score,ESTIMATE,StromalScore,22.64,Context,
+Lymphoid,CD8 T cells,MCP-counter,CD8 T cells,31.28,Native cells,M
+Lymphoid,NK cells,MCP-counter,NK cells,36.32,Native cells,M
+Lymphoid,B cells,MCP-counter,B lineage,41.36,Native cells,M
+Myeloid,Monocytes / lineage,MCP-counter,Monocytic lineage,48.56,Native cells,M
+Dendritic,Dendritic cells,MCP-counter,Myeloid dendritic cells,60.8,Native cells,M
+Granulocytic,Neutrophils,MCP-counter,Neutrophils,68,Native cells,M
+Stromal,Fibroblasts / CAFs,MCP-counter,Fibroblasts,75.2,Native cells,M
+Endothelial,Endothelial cells,MCP-counter,Endothelial cells,82.4,Native cells,M
+Lymphoid,CD8 T cells,EPIC,CD8_Tcells,31.28,Native cells,E
+Lymphoid,NK cells,EPIC,NKcells,36.32,Native cells,E
+Lymphoid,B cells,EPIC,Bcells,41.36,Native cells,E
+Myeloid,Macrophages,EPIC,Macrophages,53.6,Native cells,E
+Stromal,Fibroblasts / CAFs,EPIC,CAFs,75.2,Native cells,E
+Endothelial,Endothelial cells,EPIC,Endothelial,82.4,Native cells,E
+Lymphoid,CD8 T cells,xCell,CD8+ T-cells,31.28,Native cells,X
+Lymphoid,NK cells,xCell,NK cells,36.32,Native cells,X
+Lymphoid,B cells,xCell,B-cells,41.36,Native cells,X
+Myeloid,Monocytes / lineage,xCell,Monocytes,48.56,Native cells,X
+Myeloid,Macrophages,xCell,Macrophages,53.6,Native cells,X
+Dendritic,Dendritic cells,xCell,cDC,60.8,Native cells,X
+Granulocytic,Neutrophils,xCell,Neutrophils,68,Native cells,X
+Stromal,Fibroblasts / CAFs,xCell,Fibroblasts,75.2,Native cells,X
+Endothelial,Endothelial cells,xCell,Endothelial cells,82.4,Native cells,X
+Lymphoid,CD8 T cells,CIBERSORT,T cells CD8,31.28,Composition,C
+Lymphoid,NK cells,CIBERSORT,Total NK cells,36.32,Composition,C
+Lymphoid,B cells,CIBERSORT,B cells total,41.36,Composition,C
+Myeloid,Monocytes / lineage,CIBERSORT,Monocytes,48.56,Composition,C
+Myeloid,Macrophages,CIBERSORT,Macrophages total,53.6,Composition,C
+Dendritic,Dendritic cells,CIBERSORT,Dendritic total,60.8,Composition,C
+Granulocytic,Neutrophils,CIBERSORT,Neutrophils,68,Composition,C

@@ -1,0 +1,13 @@
+Study,AnalysisRole,DisplayOrder,ColorHex,PaletteFamily
+2012Andersen,Microarray projection,1,#6699CC,Tol-derived muted qualitative
+2013Sia,Microarray projection,2,#882255,Tol-derived muted qualitative
+2017Jusakual,Microarray projection,3,#999933,Tol-derived muted qualitative
+2019Ahn,Discovery RNA-seq,4,#88CCEE,Tol-derived muted qualitative
+2020Job,Microarray projection,5,#661100,Tol-derived muted qualitative
+2022Dong,Discovery RNA-seq,6,#332288,Tol-derived muted qualitative
+2023Deng,Discovery RNA-seq,7,#44AA99,Tol-derived muted qualitative
+2023Jeon,Discovery RNA-seq,8,#AA4499,Tol-derived muted qualitative
+2023Lee,Discovery RNA-seq,9,#DDCC77,Tol-derived muted qualitative
+2024Fan,Discovery RNA-seq,10,#117733,Tol-derived muted qualitative
+TCGA-CHOL,Discovery RNA-seq,11,#CC6677,Tol-derived muted qualitative
+TIGER-LC,Microarray projection,12,#888888,Tol-derived muted qualitative

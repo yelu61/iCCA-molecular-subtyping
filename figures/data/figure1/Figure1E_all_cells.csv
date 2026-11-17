@@ -1,0 +1,40 @@
+"PanelSource","OriginalLabel","FinalSubtype","N","RowN","RowFraction","ColumnN","Study","SourceField","TotalN","AvailableLabelsN","RowOrder"
+"Figure1E1","class: A","C1",3,10,0.3,5,"2019Ahn","Subclass",25,25,1
+"Figure1E1","class: A","C2",7,10,0.7,9,"2019Ahn","Subclass",25,25,1
+"Figure1E1","class: A","C3",0,10,0,11,"2019Ahn","Subclass",25,25,1
+"Figure1E1","class: B","C1",2,15,0.133333333333333,5,"2019Ahn","Subclass",25,25,2
+"Figure1E1","class: B","C2",2,15,0.133333333333333,9,"2019Ahn","Subclass",25,25,2
+"Figure1E1","class: B","C3",11,15,0.733333333333333,11,"2019Ahn","Subclass",25,25,2
+"Figure1E3","IG1","C1",3,55,0.0545454545454545,48,"2022Dong","Subclass-add",223,223,1
+"Figure1E3","IG1","C2",2,55,0.0363636363636364,108,"2022Dong","Subclass-add",223,223,1
+"Figure1E3","IG1","C3",50,55,0.909090909090909,67,"2022Dong","Subclass-add",223,223,1
+"Figure1E3","IG2","C1",26,97,0.268041237113402,48,"2022Dong","Subclass-add",223,223,2
+"Figure1E3","IG2","C2",57,97,0.587628865979382,108,"2022Dong","Subclass-add",223,223,2
+"Figure1E3","IG2","C3",14,97,0.144329896907216,67,"2022Dong","Subclass-add",223,223,2
+"Figure1E3","IG3","C1",19,71,0.267605633802817,48,"2022Dong","Subclass-add",223,223,3
+"Figure1E3","IG3","C2",49,71,0.690140845070423,108,"2022Dong","Subclass-add",223,223,3
+"Figure1E3","IG3","C3",3,71,0.0422535211267606,67,"2022Dong","Subclass-add",223,223,3
+"Figure1E2","S1","C1",3,32,0.09375,48,"2022Dong","Subclass",223,184,1
+"Figure1E2","S1","C2",8,32,0.25,108,"2022Dong","Subclass",223,184,1
+"Figure1E2","S1","C3",21,32,0.65625,67,"2022Dong","Subclass",223,184,1
+"Figure1E2","S2","C1",1,55,0.0181818181818182,48,"2022Dong","Subclass",223,184,2
+"Figure1E2","S2","C2",28,55,0.509090909090909,108,"2022Dong","Subclass",223,184,2
+"Figure1E2","S2","C3",26,55,0.472727272727273,67,"2022Dong","Subclass",223,184,2
+"Figure1E2","S3","C1",37,40,0.925,48,"2022Dong","Subclass",223,184,3
+"Figure1E2","S3","C2",2,40,0.05,108,"2022Dong","Subclass",223,184,3
+"Figure1E2","S3","C3",1,40,0.025,67,"2022Dong","Subclass",223,184,3
+"Figure1E2","S4","C1",1,57,0.0175438596491228,48,"2022Dong","Subclass",223,184,4
+"Figure1E2","S4","C2",56,57,0.982456140350877,108,"2022Dong","Subclass",223,184,4
+"Figure1E2","S4","C3",0,57,0,67,"2022Dong","Subclass",223,184,4
+"Figure1E2","Not reported","C1",6,39,0.153846153846154,48,"2022Dong","Subclass",223,184,5
+"Figure1E2","Not reported","C2",14,39,0.358974358974359,108,"2022Dong","Subclass",223,184,5
+"Figure1E2","Not reported","C3",19,39,0.487179487179487,67,"2022Dong","Subclass",223,184,5
+"Figure1E4","S-I","C1",7,41,0.170731707317073,9,"2023Deng","Subclass",64,64,1
+"Figure1E4","S-I","C2",28,41,0.682926829268293,32,"2023Deng","Subclass",64,64,1
+"Figure1E4","S-I","C3",6,41,0.146341463414634,23,"2023Deng","Subclass",64,64,1
+"Figure1E4","S-II","C1",1,18,0.0555555555555556,9,"2023Deng","Subclass",64,64,2
+"Figure1E4","S-II","C2",3,18,0.166666666666667,32,"2023Deng","Subclass",64,64,2
+"Figure1E4","S-II","C3",14,18,0.777777777777778,23,"2023Deng","Subclass",64,64,2
+"Figure1E4","S-III","C1",1,5,0.2,9,"2023Deng","Subclass",64,64,3
+"Figure1E4","S-III","C2",1,5,0.2,32,"2023Deng","Subclass",64,64,3
+"Figure1E4","S-III","C3",3,5,0.6,23,"2023Deng","Subclass",64,64,3

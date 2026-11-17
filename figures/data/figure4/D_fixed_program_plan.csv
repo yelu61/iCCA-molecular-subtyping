@@ -1,0 +1,8 @@
+Subtype,Program,Label,Order
+C1,Fatty-acid metabolism,"C1 Fatty-acid
+metabolism",1
+C2,Translation,C2 Translation,2
+C3,Inflammatory response,"C3 Inflammatory
+response",3
+C3,E2F targets,C3 E2F targets,4
+C3,G2M checkpoint,C3 G2M checkpoint,5

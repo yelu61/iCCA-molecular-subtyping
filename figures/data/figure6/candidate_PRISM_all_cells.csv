@@ -1,0 +1,28 @@
+Drug,ModelID,SelectedFor,CellLineName,Prediction,Assay,PRISMCompound,AUC,MatchType,Source,ObservationStatus
+AZD1208_1449,ACH-000209,C1,SNU-1079,C2,,,,,,No accepted assay identity
+AZD1208_1449,ACH-000808,C1,HuH28,C3,,,,,,No accepted assay identity
+AZD1208_1449,ACH-000976,C1,HuCCT1,C3,,,,,,No accepted assay identity
+AZD7762_1022,ACH-000209,C3,SNU-1079,C2,AZD7762 (BRD:BRD-K86525559-001-07-8),AZD7762,0.685425307745495,Exact or punctuation-normalized model name,GDSC2 model column,Measured
+AZD7762_1022,ACH-000808,C3,HuH28,C3,AZD7762 (BRD:BRD-K86525559-001-07-8),AZD7762,0.704745216955612,Exact or punctuation-normalized model name,GDSC2 model column,Measured
+AZD7762_1022,ACH-000976,C3,HuCCT1,C3,AZD7762 (BRD:BRD-K86525559-001-07-8),AZD7762,0.527829356947934,Exact or punctuation-normalized model name,GDSC2 model column,Measured
+Ibrutinib_1799,ACH-000209,C2,SNU-1079,C2,CRA-032765 (BRD:BRD-K70301465-001-05-9),CRA-032765,0.884437316170837,Resource synonym,GDSC release 8.2,Measured
+Ibrutinib_1799,ACH-000808,C2,HuH28,C3,CRA-032765 (BRD:BRD-K70301465-001-05-9),CRA-032765,,Resource synonym,GDSC release 8.2,Matched assay; missing measurement
+Ibrutinib_1799,ACH-000976,C2,HuCCT1,C3,CRA-032765 (BRD:BRD-K70301465-001-05-9),CRA-032765,,Resource synonym,GDSC release 8.2,Matched assay; missing measurement
+JAK1_8709_1718,ACH-000209,C1,SNU-1079,C2,,,,,,No accepted assay identity
+JAK1_8709_1718,ACH-000808,C1,HuH28,C3,,,,,,No accepted assay identity
+JAK1_8709_1718,ACH-000976,C1,HuCCT1,C3,,,,,,No accepted assay identity
+LY2109761_1852,ACH-000209,C1,SNU-1079,C2,5XE (BRD:BRD-K47557313-001-02-7),5XE,,Resource synonym,GDSC release 8.2,Matched assay; missing measurement
+LY2109761_1852,ACH-000808,C1,HuH28,C3,5XE (BRD:BRD-K47557313-001-02-7),5XE,,Resource synonym,GDSC release 8.2,Matched assay; missing measurement
+LY2109761_1852,ACH-000976,C1,HuCCT1,C3,5XE (BRD:BRD-K47557313-001-02-7),5XE,,Resource synonym,GDSC release 8.2,Matched assay; missing measurement
+PD0325901_1060,ACH-000209,C3,SNU-1079,C2,PD 0325901 (BRD:BRD-K49865102-001-08-4),PD 0325901,,Exact or punctuation-normalized model name,GDSC2 model column,Matched assay; missing measurement
+PD0325901_1060,ACH-000808,C3,HuH28,C3,PD 0325901 (BRD:BRD-K49865102-001-08-4),PD 0325901,0.88659677180351,Exact or punctuation-normalized model name,GDSC2 model column,Measured
+PD0325901_1060,ACH-000976,C3,HuCCT1,C3,PD 0325901 (BRD:BRD-K49865102-001-08-4),PD 0325901,0.419834802333522,Exact or punctuation-normalized model name,GDSC2 model column,Measured
+PRIMA-1MET_1131,ACH-000209,C2,SNU-1079,C2,,,,,,No accepted assay identity
+PRIMA-1MET_1131,ACH-000808,C2,HuH28,C3,,,,,,No accepted assay identity
+PRIMA-1MET_1131,ACH-000976,C2,HuCCT1,C3,,,,,,No accepted assay identity
+Sepantronium bromide_1941,ACH-000209,C2,SNU-1079,C2,SEPANTRONIUM BROMIDE (BRD:BRD-K76703230-004-04-1),SEPANTRONIUM BROMIDE,0.365971425187865,Exact or punctuation-normalized model name,GDSC2 model column,Measured
+Sepantronium bromide_1941,ACH-000808,C2,HuH28,C3,SEPANTRONIUM BROMIDE (BRD:BRD-K76703230-004-04-1),SEPANTRONIUM BROMIDE,0.434630740881,Exact or punctuation-normalized model name,GDSC2 model column,Measured
+Sepantronium bromide_1941,ACH-000976,C2,HuCCT1,C3,SEPANTRONIUM BROMIDE (BRD:BRD-K76703230-004-04-1),SEPANTRONIUM BROMIDE,0.0257646031987278,Exact or punctuation-normalized model name,GDSC2 model column,Measured
+Ulixertinib_1908,ACH-000209,C3,SNU-1079,C2,BVD-523 (BRD:BRD-K28965160-001-01-1),BVD-523,0.745936596868265,Resource synonym,GDSC release 8.2,Measured
+Ulixertinib_1908,ACH-000808,C3,HuH28,C3,BVD-523 (BRD:BRD-K28965160-001-01-1),BVD-523,0.865948682409928,Resource synonym,GDSC release 8.2,Measured
+Ulixertinib_1908,ACH-000976,C3,HuCCT1,C3,BVD-523 (BRD:BRD-K28965160-001-01-1),BVD-523,0.779609293061523,Resource synonym,GDSC release 8.2,Measured
