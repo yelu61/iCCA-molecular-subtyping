@@ -475,7 +475,7 @@ draw_panel_G <- function() {
     for (i in 1:nrow(freq)) for (j in 1:freq$N[i]) vp(7 + (freq$K[i] - 10) / 41 * 45, 11 + (j - 1) * 1.5, size = 0.75)
     vl(c(7, 52), c(9, 9), "#9CABBA", 0.4)
     for (v in c(10, 30, 51)) vt(v, 7 + (v - 10) / 41 * 45, 6.5, 5.6, FALSE, "centre")
-    vt("Fixed 17-gene candidate: S6K/L", 1, 2, 5.6)
+    vt("Fixed 17-gene candidate: S6J", 1, 2, 5.6)
     popViewport()
   }
   
@@ -496,7 +496,7 @@ save_panel <- function(stem, plot_func_or_obj, w, h) {
     if (is.function(plot_func_or_obj)) plot_func_or_obj() else print(plot_func_or_obj)
   }
   
-  pdf(pdf_path, width = w / 25.4, height = h / 25.4, family = "Arial")
+  grDevices::cairo_pdf(pdf_path, width = w / 25.4, height = h / 25.4, family = "Arial")
   draw()
   dev.off()
   
@@ -564,7 +564,7 @@ ragg::agg_png(composite_png, width = 180, height = 270, units = "mm", res = 300,
 render_fig5_composite()
 dev.off()
 
-pdf(composite_pdf, width = 180 / 25.4, height = 270 / 25.4, family = "Arial")
+grDevices::cairo_pdf(composite_pdf, width = 180 / 25.4, height = 270 / 25.4, family = "Arial")
 render_fig5_composite()
 dev.off()
 

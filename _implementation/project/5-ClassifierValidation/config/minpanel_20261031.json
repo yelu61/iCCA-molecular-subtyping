@@ -1,0 +1,19 @@
+{
+  "run_id": "bulk-rnaseq__20261031_step5_minpanel_v1",
+  "parent_run": "bulk-rnaseq__20261030_step5_consensus_v1",
+  "rfe_run": "bulk-rnaseq__20261031_step5_svm_rfe_v1",
+  "max_ba_loss": 0.01,
+  "min_class_recall": 0.95,
+  "minimum_k": 2,
+  "costs": [
+    0.01,
+    0.1,
+    1,
+    10
+  ],
+  "inner_folds": 4,
+  "full_inner_seed": 2026103109,
+  "workers": 2,
+  "bootstrap_reps": 1000,
+  "seed": 20261031
+}

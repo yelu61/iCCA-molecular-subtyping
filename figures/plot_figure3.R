@@ -320,7 +320,7 @@ save_panel <- function(stem, plot_obj, w, h) {
   pdf_path <- file.path(OUT_DIR, "panels", paste0(stem, ".pdf"))
   png_path <- file.path(OUT_DIR, "panels", paste0(stem, ".png"))
   
-  pdf(pdf_path, width = w / 25.4, height = h / 25.4, family = "Arial")
+  grDevices::cairo_pdf(pdf_path, width = w / 25.4, height = h / 25.4, family = "Arial")
   print(plot_obj)
   dev.off()
   
@@ -389,7 +389,7 @@ ragg::agg_png(composite_png, width = 180, height = 270, units = "mm", res = 300,
 render_fig3_composite()
 dev.off()
 
-pdf(composite_pdf, width = 180 / 25.4, height = 270 / 25.4, family = "Arial")
+grDevices::cairo_pdf(composite_pdf, width = 180 / 25.4, height = 270 / 25.4, family = "Arial")
 render_fig3_composite()
 dev.off()
 

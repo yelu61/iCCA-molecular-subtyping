@@ -1,0 +1,33 @@
+{
+  "output_format": "pdf",
+  "panel_letters": false,
+  "assembled_figures": false,
+  "font_family": "Arial",
+  "font_title": 9,
+  "font_axis": 8,
+  "font_tick": 7,
+  "font_note": 7,
+  "widths_mm": {
+    "single": 85,
+    "onehalf": 114,
+    "double": 174
+  },
+  "fdr_style": "stars",
+  "missing": {
+    "unknown": "#D9D9D9",
+    "not_assayed": "#8C8C8C",
+    "not_estimable": "#FFFFFF"
+  },
+  "effect_colors": [
+    "#2166AC",
+    "#F7F7F7",
+    "#B2182B"
+  ],
+  "assay_colors": {
+    "source": "governance/data/assay_type_color_dictionary.csv",
+    "reference": "docs/Study_Color_Palette_Guide.md (Stable non-study colors)",
+    "discovery_rnaseq": "#3B5F8A",
+    "microarray_projection": "#C98B3C",
+    "note": "Assay-level cohort-type colors per the stable non-study palette; text on amber is black, on slate blue is white (same convention as C1/C2 subtype cards). Use for cohort-type encoding only (e.g. Figure 1A branches), never for subtypes."
+  }
+}

@@ -1,0 +1,9 @@
+{
+ "run_id":"bulk-rnaseq__20261103_external_programs_v1",
+ "programs":["HALLMARK_BILE_ACID_METABOLISM","HALLMARK_FATTY_ACID_METABOLISM","HALLMARK_OXIDATIVE_PHOSPHORYLATION","HALLMARK_NOTCH_SIGNALING","HALLMARK_E2F_TARGETS","HALLMARK_G2M_CHECKPOINT","HALLMARK_HYPOXIA","HALLMARK_GLYCOLYSIS","HALLMARK_EPITHELIAL_MESENCHYMAL_TRANSITION"],
+ "scenarios":["Full","Exclude114"],
+ "min_genes":10,"min_coverage":0.5,"bootstrap_reps":1000,"seed":20261103,
+ "scoring":"GSVA Gaussian; tau=1; maxDiff=TRUE; absRanking=FALSE",
+ "contrast":"each projected subtype minus pooled other subtypes; Hedges g",
+ "multiplicity":"BH across all estimable 9program x3class x6platform contrasts separately per scenario"
+}

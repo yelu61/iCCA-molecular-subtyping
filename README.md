@@ -1,173 +1,93 @@
-# Multi-Cohort Discovery and Validation of Intrahepatic Cholangiocarcinoma Molecular Subtypes
+# iCCA molecular subtyping
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![R: >=4.3](https://img.shields.io/badge/R-%3E%3D4.3-brightgreen.svg)](https://www.r-project.org/)
-[![Python: 3.10](https://img.shields.io/badge/Python-3.10-blue.svg)](https://www.python.org/)
 
-![Project Overview](assets/project_overview.png)
+![Project overview](assets/project_overview.png)
 
-This repository contains the open-source code, analysis pipelines, staged data, and figure generation workflows for the multi-omics discovery, biological characterization, and clinical validation of **intrahepatic cholangiocarcinoma (iCCA) molecular subtypes**.
+Selected upstream analysis implementations, notebooks, staged figure inputs and R plotting code for a multi-cohort study of intrahepatic cholangiocarcinoma (iCCA). The conceptual overview above and its [generation prompt](assets/project_overview_prompt.txt) are preserved unchanged from the previous public version. The overview summarizes the study; it is not quantitative evidence.
 
----
+**Preparation snapshot: `v2026.11.23-preparation`.** This snapshot fixes the current code baseline for manuscript preparation. It does not designate a completed manuscript or a final scientific release. See [scope and checks](docs/PUBLICATION_READINESS.md) and [freeze notes](docs/FREEZE_20261123.md).
 
-## Scientific Summary & Locked Evidence
+## Study scope
 
-- **Consensus Discovery (k = 3)**: Unsupervised multi-cohort consensus clustering across 586 RNA-seq samples identified **497 principal-state tumors** and 89 intermediate profiles, establishing three robust molecular subtypes:
-  - **C1 (Metabolic)**: Characterized by preserved hepatic/metabolic programs, xenobiotic metabolism, organic acid transport, high *IDH1/BAP1* mutation rates, and favorable prognosis.
-  - **C2 (Immune/Ductal)**: Characterized by stromal remodeling, inflammatory signaling, complement activation, and small/large duct intermediate features.
-  - **C3 (Proliferative)**: Characterized by cell-cycle acceleration, DNA replication, *TP53/KRAS* alterations, high early mortality, and predicted sensitivity to MEK/ERK inhibitors.
-- **Locked Primary Classifier**: **114-Gene Consensus Linear SVM** (`candidate_models.rds`), selected via three-way consensus (limma-voom, Random Forest, multinomial LASSO) strictly within training folds:
-  - **Repeated Nested CV Balanced Accuracy**: **98.79%** (95% CI: 97.78% – 99.64%)
-  - **Macro-F1**: **0.9881** (95% CI: 0.9785 – 0.9964)
-  - **Multiclass Brier Score**: **0.0272** (95% CI: 0.0186 – 0.0377)
-  - **Class AUROC**: C1 = 0.9996, C2 = 0.9996, C3 = 0.9997
-  - **Leave-One-Study-Out (LOSO) Transfer**: Cross-study balanced accuracy up to 100% across independent discovery cohorts.
-- **Exploratory Minimal Panel**: **17-gene panel** (`compact_candidate.rds`) achieving 97.63% Balanced Accuracy (1.156% drop vs. 114-gene primary).
-- **Single-Cell Validation**: Evaluated across **34,227 cells (17 patients)** from GSE151530 and GSE138709 using native UCell signature scores and matched tumor vs. adjacent tissue comparisons without premature malignancy assumptions.
-- **Prognostic Impact**: Study-stratified survival analysis demonstrates that C3 is associated with significantly elevated early hazard (time-varying Cox HR > 3.0), providing substantial prognostic discrimination beyond TNM stage and pathology duct type.
+- Discovery comprises 586 RNA-seq samples: 497 principal-state samples (C1/C2/C3: 112/223/162) and 89 intermediate profiles. C1-Metabolic and C3-Proliferative are bulk-derived working descriptions; C2 remains C2.
+- Bulk programs, multi-omics comparisons and patient-level clinical analyses characterize the subtypes. Observed pathology and inferred duct type retain separate denominators.
+- The 114-gene consensus SVM is the primary classifier. Internal nested cross-validation and leave-one-study-out results estimate reproducibility of the operational labels. External cohorts are projections without independent subtype ground truth. The fixed 17-gene development candidate remains exploratory; performance of the adaptive compact-selection procedure is not an independent evaluation of that fixed list.
+- Current single-cell localization uses 34,227 cells from 17 patients in two cohorts. Malignant identity remains unresolved, and malignant-program/TME association is not estimable with the currently qualified patients. GSE189903 remains source-review only.
+- Drug prediction, TIDE, DepMap and the small PRISM comparison generate hypotheses; they do not establish clinical response or subtype-specific drug efficacy.
 
----
+## Generate the main figure drafts
 
-## Repository Structure
+Run from the repository root with R and the plotting dependencies installed:
 
-```
-├── README.md                      # Comprehensive user & reproducibility guide
-├── LICENSE                        # MIT License
-├── CITATION.cff.template          # Software citation metadata template
-├── environment/                   # Reproducibility configurations
-│   ├── environment.yml            # Conda environment definition
-│   ├── requirements.txt           # Python package requirements
-│   ├── install_packages.R         # R package installer
-│   └── sessionInfo_R45.txt        # Exact R 4.5 session details
-├── data/                          # Governed metadata and dictionaries
-│   ├── subtype_master_table.csv   # Canonical 497-sample patient metadata & subtype calls
-│   ├── study_color_dictionary.csv # Cohort palette standards
-│   └── subtype_label_color_dictionary.csv # Subtype palette standards
-├── pipelines/                     # Interactive Jupyter notebooks for upstream analyses (Steps 0–8)
-│   ├── 0-data-qc.ipynb            # Multi-cohort data ingestion, QC & batch evaluation
-│   ├── 1-clustering.ipynb         # Consensus clustering & subtype discovery
-│   ├── 2-transcriptomic-characterization.ipynb # GSEA, GSVA, WGCNA & regulons
-│   ├── 3-duct-type-analysis.ipynb # Observed pathology duct type associations
-│   ├── 4-multiomic.ipynb          # Mutations, CPTAC proteomics & microenvironment
-│   ├── 5-classifier-validation.ipynb # 114-gene consensus SVM, nested CV & LOSO
-│   ├── 6-clinical-survival.ipynb  # Study-stratified Cox, non-proportional hazards
-│   ├── 7-single-cell-validation.ipynb # 34,227-cell atlas & native UCell scoring
-│   └── 8-visualization.ipynb      # Interactive generation & inspection of all 6 figures
-├── figures/                       # Standalone figure generation scripts & staged data
-│   ├── run_all_figures.R          # Master script to reproduce all 6 figures in sequence
-│   ├── plot_figure1.R             # Figure 1: Consensus clustering & discovery
-│   ├── plot_figure2.R             # Figure 2: Biological programs & signatures
-│   ├── plot_figure3.R             # Figure 3: Single-cell transcriptomic validation
-│   ├── plot_figure4.R             # Figure 4: Multi-omics landscape & proteomics
-│   ├── plot_figure5.R             # Figure 5: Machine learning classifier validation
-│   ├── plot_figure6.R             # Figure 6: Clinical prognosis & therapy hypotheses
-│   ├── data/                      # Self-contained staged inputs for all figures (~19MB)
-│   │   ├── figure1/
-│   │   ├── figure2/
-│   │   ├── figure3/
-│   │   ├── figure4/
-│   │   ├── figure5/
-│   │   └── figure6/
-│   └── outputs/                   # Generated individual panels and full composite figures
-└── docs/                          # Detailed methodology notes & data dictionary
-    ├── DATA_DICTIONARY.md
-    └── final_panel_manifest.csv
-```
-
----
-
-## Quick Start — Reproducing Publication Figures
-
-All 6 primary publication figures can be generated in under 1 minute from the staged data included in this repository.
-
-### 1. Environment Setup
-
-#### Option A: Using Conda (Recommended)
 ```bash
-git clone https://github.com/your-username/iCCA-molecular-subtyping.git
+git clone https://github.com/yelu61/iCCA-molecular-subtyping.git
 cd iCCA-molecular-subtyping
-
-conda env create -f environment/environment.yml
-conda activate icca-subtyping
-```
-
-#### Option B: Using Existing R Installation (R >= 4.3)
-```bash
+git checkout v2026.11.23-preparation
 Rscript environment/install_packages.R
-```
-
-### 2. Generate All Figures
-
-Run the master figure pipeline:
-```bash
 Rscript figures/run_all_figures.R
 ```
 
-This sequentially generates:
-- **`figures/outputs/figure1/Figure_1_composite.pdf` & `.png`** (Multi-omics discovery)
-- **`figures/outputs/figure2/Figure_2_composite.pdf` & `.png`** (Biological characterization)
-- **`figures/outputs/figure3/Figure_3_composite.pdf` & `.png`** (Single-cell validation)
-- **`figures/outputs/figure4/Figure_4_composite.pdf` & `.png`** (Multi-omics landscape)
-- **`figures/outputs/figure5/Figure_5_composite.pdf` & `.png`** (114-gene classifier validation)
-- **`figures/outputs/figure6/Figure_6_composite.pdf` & `.png`** (Survival & therapeutic hypotheses)
+The six scripts use the 72 staged files under `figures/data/` and the governed colour dictionaries in `data/`. They produce individual panels and six composite PDF/PNG pairs under `figures/outputs/figure1` through `figure6`. Generated outputs are ignored by Git. The composite export is 180 × 270 mm with a 300 dpi PNG preview. Composite PDFs embed raster panels; individual PDFs are also generated. Known spacing/label issues and final journal layout acceptance remain documented in the snapshot checks.
 
-All composite figures are strictly rendered to publication standards (180 mm × 270 mm, 300/600 dpi).
+For an individual draft:
 
-### 3. Generate Specific Figures Individually
-
-Each script can also be executed independently:
 ```bash
 Rscript figures/plot_figure1.R
-Rscript figures/plot_figure2.R
-Rscript figures/plot_figure3.R
-Rscript figures/plot_figure4.R
-Rscript figures/plot_figure5.R
-Rscript figures/plot_figure6.R
+# Optional explicit input/output locations:
+Rscript figures/plot_figure1.R --data-dir figures/data/figure1 --out-dir figures/outputs/figure1
 ```
 
----
+The interactive entry is [pipelines/8-visualization.ipynb](pipelines/8-visualization.ipynb). It locates the repository from its root or the notebook directory and uses `ICCA_R_HOME`, `R_HOME` or R on `PATH`. See [environment notes](environment/README.md) for the tested runtime and installation limits.
 
-## Upstream Pipeline Walkthrough
+## Reproduce the analysis and selected main/supplementary panels
 
-The `pipelines/` directory contains complete interactive Jupyter notebooks reflecting the step-by-step analytical sequence:
+The previous public analysis implementation is retained in full. Its source files and required code dependencies are indexed in [IMPLEMENTATION_MANIFEST.csv](IMPLEMENTATION_MANIFEST.csv), with 24 analysis entries in [config/analysis_stages.json](config/analysis_stages.json). The original frozen-input drawing route and supplementary-panel support remain available alongside the six standalone draft scripts.
 
-| Notebook | Focus | Primary Outputs |
-|---|---|---|
-| [`0-data-qc.ipynb`](pipelines/0-data-qc.ipynb) | Multi-cohort ingestion, log2-transformation, MAD filtering, batch QC | Cross-study expression matrices |
-| [`1-clustering.ipynb`](pipelines/1-clustering.ipynb) | ConsensusClusterPlus, NMF, k-means, silhouette widths (k=2..6) | Subtype assignments (C1, C2, C3) |
-| [`2-transcriptomic-characterization.ipynb`](pipelines/2-transcriptomic-characterization.ipynb) | Corrected `subtype - others` DEGs, GSEA, GSVA, WGCNA, DoRothEA TFs | Subtype functional signatures |
-| [`3-duct-type-analysis.ipynb`](pipelines/3-duct-type-analysis.ipynb) | Association with observed pathology duct types | Small-duct vs. large-duct distribution |
-| [`4-multiomic.ipynb`](pipelines/4-multiomic.ipynb) | Somatic mutation oncoplots, CPTAC proteomic validation, xCell immune deconvolution | Multi-omics convergence |
-| [`5-classifier-validation.ipynb`](pipelines/5-classifier-validation.ipynb) | 114-gene consensus SVM, 5x5 nested CV, LOSO cross-study transfer, 17-gene minimal panel | Model objects & validation tables |
-| [`6-clinical-survival.ipynb`](pipelines/6-clinical-survival.ipynb) | Study-stratified multivariable Cox models, non-proportional hazards, time-varying effects | Clinical hazard ratios & KM curves |
-| [`7-single-cell-validation.ipynb`](pipelines/7-single-cell-validation.ipynb) | 34,227-cell atlas (GSE151530 + GSE138709), native UCell signature scoring, source holds | Single-cell program localization |
-| [`8-visualization.ipynb`](pipelines/8-visualization.ipynb) | Interactive runner and inline viewer for Figures 1 through 6 | Composite figure validation |
-
----
-
-## Data Governance & Master Metadata
-
-The canonical sample classifications and patient covariates are stored in [`data/subtype_master_table.csv`](data/subtype_master_table.csv).
-All downstream analyses reference this table directly. Key variables:
-- `Sample`: Unique tumor identifier.
-- `Study`: Cohort source (2019Ahn, 2022Dong, 2023Deng, 2023Jeon, 2023Lee, 2024Fan, TCGA-CHOL).
-- `FinalSubtype`: Subtype classification (`C1`, `C2`, `C3`, or intermediate `C1_C2`, `C1_C3`, `C2_C3`).
-- `SubtypeClass`: `Main` (principal state, n=497) or `Intermediate` (n=89).
-- `OS_months` & `OS_status`: Overall survival follow-up and event indicator.
-- `DuctType_observed`: Pathologically observed duct type (small duct / large duct).
-
----
-
-## Citation & License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-If you find this work or code useful, please cite our manuscript:
-```bibtex
-@article{iCCA_molecular_subtypes_2026,
-  title={Multi-Cohort Discovery and Validation of Intrahepatic Cholangiocarcinoma Molecular Subtypes},
-  author={Research Consortium},
-  journal={Pending Publication},
-  year={2026}
-}
+```bash
+python3 run.py analysis --list
+python3 run.py analysis --stage classifier114 --project-root /path/to/independent_project
 ```
+
+The second command stages the selected source and prints its execution command. Supply the [documented upstream inputs](docs/upstream_external_interfaces.csv), then add `--execute` to run that analysis. Full upstream re-execution has not been claimed for this preparation snapshot.
+
+The original selected-panel workflow uses the larger frozen input bundle:
+
+```bash
+python3 run.py verify --data-root /path/to/data_bundle
+python3 run.py figures --data-root /path/to/data_bundle --output /path/to/new_output
+python3 check_results.py --run-dir /path/to/new_output --data-root /path/to/data_bundle
+```
+
+[notebooks/Reproduce.ipynb](notebooks/Reproduce.ipynb) provides the same workflow. The companion archive `iCCA_frozen_inputs_20261104_v2.zip` is 474,136,575 bytes, SHA256 `0e7182c4a0b30c3cc907395096157324481de1555d78faf4168b1d66785ca762`; it unpacks to `data_bundle/`. Its public deposit is pending. The 756 required input identities are in `config/input_manifest.json`. The archive and raw inputs are not committed to Git.
+
+## Repository contents
+
+| Path | Role |
+|---|---|
+| `_implementation/`, `IMPLEMENTATION_MANIFEST.csv` | Preserved upstream analysis owners, code dependencies, drawing adapters and final-panel drivers |
+| `run.py`, `check_results.py`, `config/`, `notebooks/` | Preserved analysis entry catalog and full selected-panel reproduction route |
+| `figures/plot_figure*.R`, `figures/run_all_figures.R` | Standalone redraw from staged analysis results |
+| `figures/data/` | Inputs required by these six drafts; [file identities](docs/INPUT_FILES.csv) |
+| `data/` | Governed palettes and a four-column discovery assignment extract |
+| `pipelines/` | Nine stage notebooks; [execution roles and external requirements](docs/NOTEBOOK_STATUS.md) |
+| `assets/` | Preserved conceptual overview and original generation prompt |
+| `environment/` | Installation declarations and recorded package inventories |
+| `docs/` | Current scope, checks, terminology and historical provenance records |
+| `tests/` | Regression checks for the public notebook plotting entry |
+
+The `pipelines/` notebooks document the maintained research workflow; Steps 0–7 require project inputs and use project-relative paths. The portable analysis staging route is `run.py analysis`, backed by `_implementation/project/`. Preserved CLI-fronted notebooks within that tree and the current research notebooks in `pipelines/` have distinct roles. Neither retaining code nor redrawing frozen results establishes a fresh raw-input-to-manuscript run.
+
+The 2026-11-12 verification remains versioned evidence for the unchanged original selected-panel route. Its counts must not be applied to the separate six-script draft entry.
+
+The public selection excludes the full research workspace, manuscript drafts, slide history, raw data, large object caches and generated outputs. The local canonical subtype table is unchanged. The public `data/subtype_master_table.csv` retains only `Sample`, `Study`, `FinalSubtype` and `SubtypeClass`; it is not the complete patient covariate table. See [data dictionary](docs/DATA_DICTIONARY.md).
+
+## Verification and citation
+
+```bash
+python3 -B -m unittest discover -s tests -v
+```
+
+The snapshot's execution scope and remaining limitations are documented in [PUBLICATION_READINESS.md](docs/PUBLICATION_READINESS.md). The retained [panel map](docs/final_panel_manifest.csv), [source lineage](docs/SOURCE_LINEAGE_20261110.csv) and [producer-review limits](docs/PRODUCER_REVIEW_LIMITS.md) retain 19 historical source-version gaps and four original writer-event gaps. The dated 2026-11-12 execution record is under [docs/history/20261112](docs/history/20261112/).
+
+Code is distributed under the [MIT License](LICENSE). For now, cite the repository URL and version tag. Real software-author metadata and a persistent archival identifier remain to be completed in [CITATION.cff.template](CITATION.cff.template); no published manuscript reference or DOI is asserted.

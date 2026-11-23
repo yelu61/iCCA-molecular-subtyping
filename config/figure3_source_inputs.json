@@ -1,0 +1,74 @@
+[
+  {
+    "path": "8-Visualization/refinements/fig3_scientific_enhancement_20261103_v2/source_data/source_patient_pairs.csv",
+    "bytes": 631149,
+    "sha256": "7ad7f4f07bc1cc0f6d9330389eab7568a01ff34d88a62742bcf95c9b8592c31a",
+    "role": "External upstream interface; not bundled with code"
+  },
+  {
+    "path": "8-Visualization/refinements/fig3_scientific_enhancement_20261103_v2/source_data/source_contrasts.csv",
+    "bytes": 149644,
+    "sha256": "62439586bc00367227e161ae8f0ab9c091ec37973a8cb69f18689e0a1efd6042",
+    "role": "External upstream interface; not bundled with code"
+  },
+  {
+    "path": "8-Visualization/refinements/fig3_scientific_enhancement_20261103_v2/source_data/featureplot_cells.csv.gz",
+    "bytes": 1491578,
+    "sha256": "b3a0d034346b3fd41352eff1e69c3159db17f2fab4af5ce0e4b65cf8486d0578",
+    "role": "External upstream interface; not bundled with code"
+  },
+  {
+    "path": "8-Visualization/refinements/fig3_scientific_enhancement_20261103_v2/source_data/ucell_coverage.csv",
+    "bytes": 26397,
+    "sha256": "7e7f83096b3c4c96185df11f40c4a82a540e7ed965524304b4e2eed4d6d33c08",
+    "role": "External upstream interface; not bundled with code"
+  },
+  {
+    "path": "8-Visualization/refinements/fig3_scientific_enhancement_20261103_v2/source_data/cells.csv.gz",
+    "bytes": 1207835,
+    "sha256": "d28e9a8e2fc46caf1a008fb6e4df779a3c3fb4be8fb4b8691197d795f697883e",
+    "role": "External upstream interface; not bundled with code"
+  },
+  {
+    "path": "8-Visualization/refinements/fig3_scientific_enhancement_20261103_v2/source_data/library_program_scores.csv",
+    "bytes": 7307806,
+    "sha256": "367e9d8ba600cb185befd589a95dfeda6f953ef8ec144da4b1d44b3f7450a89e",
+    "role": "External upstream interface; not bundled with code"
+  },
+  {
+    "path": "8-Visualization/refinements/fig3_scientific_enhancement_20261103_v2/source_data/programs.csv",
+    "bytes": 1435,
+    "sha256": "6871e8fd5fdbd892d2b9d6e0bb6896200aff37f41cd4af94bfa5d4199bc6b8c6",
+    "role": "External upstream interface; not bundled with code"
+  },
+  {
+    "path": "8-Visualization/refinements/fig3_scientific_enhancement_20261103_v2/source_data/dotplot_summary.csv",
+    "bytes": 404407,
+    "sha256": "d438009bca3347af8034dcddaf8446406cd1d0730ac956bd6efc398b6073584e",
+    "role": "External upstream interface; not bundled with code"
+  },
+  {
+    "path": "8-Visualization/refinements/fig3_scientific_enhancement_20261103_v2/source_data/shared_program_registry.csv",
+    "bytes": 16599,
+    "sha256": "184e1171656aacc6280bab2e54b623efbf39c09d347e4d4f9027793345363f53",
+    "role": "External upstream interface; not bundled with code"
+  },
+  {
+    "path": "8-Visualization/refinements/fig3_scientific_enhancement_20261103_v2/source_data/patient_program_scores.csv",
+    "bytes": 2958715,
+    "sha256": "d5d705338fe143516f5e719306b789ac4da8be432fbdbf2b05e11288752c8713",
+    "role": "External upstream interface; not bundled with code"
+  },
+  {
+    "path": "7-SingleCell/runs/20261103_figure3_ecosystem_v3/tables/cell_ucell_scores.npz",
+    "bytes": 8347243,
+    "sha256": "a4599bb17ab5b85d1da54d5b64480f5de13f9ebf8f4a0acf9083e9c0f2af891a",
+    "role": "External upstream interface; not bundled with code"
+  },
+  {
+    "path": "8-Visualization/refinements/fig2_global_revision_20261103_v2/pattern_bridge/tables/pattern_module_counts_rowpercent.csv",
+    "bytes": 12908,
+    "sha256": "228c5deed99a41ae78fe691d8bb2e20a8f6cb45da3b45fa05f3d1116ea88c44f",
+    "role": "External upstream interface; not bundled with code"
+  }
+]

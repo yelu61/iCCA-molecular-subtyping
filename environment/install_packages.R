@@ -8,7 +8,8 @@ options(repos = c(CRAN = "https://cloud.r-project.org/"))
 cran_packages <- c(
   "ragg", "circlize", "png", "data.table", "ggplot2", "cowplot",
   "survival", "survminer", "readr", "dplyr", "pROC", "patchwork",
-  "scales", "jsonlite", "e1071", "randomForest", "glmnet"
+  "scales", "jsonlite", "e1071", "randomForest", "glmnet",
+  "tidyr", "ggrastr", "svglite"
 )
 
 new_cran <- cran_packages[!(cran_packages %in% installed.packages()[, "Package"])]

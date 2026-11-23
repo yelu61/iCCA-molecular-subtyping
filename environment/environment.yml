@@ -19,6 +19,9 @@ dependencies:
   - r-survminer
   - r-readr
   - r-dplyr
+  - r-tidyr
+  - r-ggrastr
+  - r-svglite
   - r-proc
   - r-patchwork
   - r-scales

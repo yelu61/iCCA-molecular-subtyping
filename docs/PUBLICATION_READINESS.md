@@ -1,25 +1,27 @@
-# Reproduction scope and release preparation
+# Preparation snapshot: scope and verification
 
-Updated 2026-11-12.
+Updated 2026-11-23. Tag: `v2026.11.23-preparation`.
 
-## Checked execution
+## Retained analysis and visualization code
 
-The current frozen-input workflow completed 37 production renderers and three final panel drivers. All 100 quantitative asset checks passed. The 756 input hashes matched before and after execution. The input-isolation regression test passed after session inputs were changed to independent file copies. Detailed current results are in `VERIFICATION_20261112.json`.
+All 177 files under the previous public `_implementation/` tree are retained byte-for-byte, including the 168 selected project files indexed in `IMPLEMENTATION_MANIFEST.csv`. The 24 analysis entries, 37 selected main/supplementary drawing jobs, three final drivers, seven configuration files, `run.py`, `check_results.py`, reproduction notebook and input-isolation test are present. A regression check verifies the selected source hashes and every analysis entry. The new standalone six-script workflow is additional code.
 
-The selected implementation contains 168 files and the analysis catalog contains 24 entries. Stage5–8 notebooks use the current Python CLI. Stage0–4 preserve their upstream code and code-cell positions. Original executed notebook snapshots are retained in the research workspace.
+The preserved full selected-panel route was verified at baseline e4af73a: 37 production renderers, three final drivers, 100 quantitative assets and 756 unchanged inputs. Its [dated execution record](history/20261112/VERIFICATION_20261112.json) remains scoped to that run. We did not repeat the full selected-panel route or upstream fitting for this freeze.
 
-Separate executed reconstruction checks cover the score-comparison input, five single-cell display tables and four candidate-evidence tables. Their guides and source-input contracts remain in this repository.
+## Checks executed for this snapshot
 
-## Provenance scope
+- Seven Python regression tests pass, covering analysis-source retention, analysis entry presence, input isolation and the portable plotting notebook entry.
+- The six standalone R scripts execute in an independent temporary copy using R 4.5.3. They produce 92 output files, including six one-page composite PDF/PNG pairs. All 75 staged input/dictionary hashes are unchanged after drawing.
+- Notebook syntax, runtime selection and command/path checks pass. A pinned R 4.5 runtime is selected correctly despite the macOS framework wrapper redirect. Direct plotting dependencies include ggrastr, svglite and tidyr.
+- PDF text checks confirm the corrected S6J cross-reference and retained direction arrows in individual panels. Cairo PDF export avoids the observed Unicode substitutions. The previous overview and its prompt are unchanged.
+- The governed study palette passes the project validator. File identities and scoped machine-readable results are in `INPUT_FILES.csv` and `VERIFICATION_20261123.json`.
 
-The source-owner review covers 271 frozen dependencies. Three historical code-version groups affect 19 records, and four original writing events remain unresolved. `PRODUCER_REVIEW_LIMITS.md` and `PROVENANCE_GAPS.csv` describe these gaps. Full upstream execution and author scientific acceptance remain outstanding.
+The run reports 24 legend-theme warnings (`title.position`/`title.hjust`); these concern styling and remain recorded. A fresh environment installation and cross-platform execution were not tested.
 
-## Data and citation
+## Draft layout and scientific boundaries
 
-The companion frozen-input archive is `iCCA_frozen_inputs_20261104_v2.zip`, with SHA256 `0e7182c4a0b30c3cc907395096157324481de1555d78faf4168b1d66785ca762`. Its public deposit is pending. External upstream interfaces are listed separately in `upstream_external_interfaces.csv`.
+Visual inspection of the composite PDF contact sheet identifies layout work still required, including overlapping colour-bar/text labels in the single-cell program projection panel and crowded multi-part labels in the discovery/multi-omics drafts. The composite PDFs embed raster panels; individual PDFs are also generated. These drafts are not approved journal-ready artwork.
 
-The repository uses the MIT licence. Software-author metadata await completion in `CITATION.cff.template`. An archival DOI has not been assigned.
+The local selected manuscript figures and the new standalone drafts still require final version binding, caption alignment and author acceptance. The snapshot does not assert that the current manuscript is complete. Q2 malignant identity, Q3 estimability, external projection interpretation, fixed 17-gene exploratory scope and therapeutic-hypothesis limits remain unchanged.
 
-## Repository selection
-
-This source tree contains selected manuscript code and its required dependencies, the reproduction entry points, software inventories, panel mapping, source-lineage summaries, verification results and the conceptual overview graphic. Full local review logs, manuscript drafts, slide drafts, historical result directories and large data archives are retained in the research workspace. Original public history remains accessible through Git.
+The provenance review retains 19 historical code-version gaps and four original writer-event gaps. The companion frozen-input archive awaits public deposit; real software-author metadata and a persistent archival identifier remain pending. Upstream data/model dependencies are described in `upstream_external_interfaces.csv`.

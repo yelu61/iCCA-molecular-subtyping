@@ -19,3 +19,6 @@ __pycache__/
 outputs/
 figures/outputs/
 results/
+
+# Large companion inputs are distributed separately
+data_bundle/

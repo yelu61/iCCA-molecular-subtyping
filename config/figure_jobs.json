@@ -1,0 +1,340 @@
+{
+  "jobs": [
+    {
+      "id": "fig1_compact",
+      "script": "8-Visualization/refinements/fig1_global_revision_20261103_v3/compact_panels/scripts/render_compact.R",
+      "command": "source(\"8-Visualization/refinements/fig1_global_revision_20261103_v3/compact_panels/scripts/render_compact.R\")",
+      "directories": [
+        "8-Visualization/refinements/fig1_global_revision_20261103_v3/compact_panels/scripts"
+      ],
+      "prefetch": []
+    },
+    {
+      "id": "fig1_supplement",
+      "script": "8-Visualization/refinements/fig1_global_revision_20261103_v3/agent_panels/scripts/render_supplement_panels.R",
+      "command": "source(\"8-Visualization/refinements/fig1_global_revision_20261103_v3/agent_panels/scripts/render_supplement_panels.R\")",
+      "directories": [
+        "8-Visualization/refinements/fig1_global_revision_20261103_v3/agent_panels/scripts"
+      ],
+      "prefetch": []
+    },
+    {
+      "id": "fig1_resources",
+      "script": "8-Visualization/refinements/fig1_global_revision_20261103_v3/agent_panels/scripts/render_resources.R",
+      "command": "source(\"8-Visualization/refinements/fig1_global_revision_20261103_v3/agent_panels/scripts/render_resources.R\")",
+      "directories": [
+        "8-Visualization/refinements/fig1_global_revision_20261103_v3/agent_panels/scripts"
+      ],
+      "prefetch": []
+    },
+    {
+      "id": "fig1_main",
+      "script": "8-Visualization/refinements/fig1_global_revision_20261103_v3/build/render_main_panels.R",
+      "command": "source(\"8-Visualization/refinements/fig1_global_revision_20261103_v3/build/render_main_panels.R\")",
+      "directories": [
+        "8-Visualization/refinements/fig1_global_revision_20261103_v3/build"
+      ],
+      "prefetch": []
+    },
+    {
+      "id": "fig2_root",
+      "script": "8-Visualization/refinements/fig2_global_revision_20261103_v2/build/root_panels.R",
+      "command": "source(\"8-Visualization/refinements/fig2_global_revision_20261103_v2/build/root_panels.R\")",
+      "directories": [
+        "8-Visualization/refinements/fig2_global_revision_20261103_v2/build"
+      ],
+      "prefetch": []
+    },
+    {
+      "id": "fig2_network",
+      "script": "8-Visualization/refinements/fig2_supp_reorganization_20261103_v3/network/scripts/render_joint_network.R",
+      "command": "source(\"8-Visualization/refinements/fig2_supp_reorganization_20261103_v3/network/scripts/render_joint_network.R\")",
+      "directories": [
+        "8-Visualization/refinements/fig2_supp_reorganization_20261103_v3/network/scripts"
+      ],
+      "prefetch": []
+    },
+    {
+      "id": "fig2_bridge",
+      "script": "8-Visualization/refinements/fig2_global_revision_20261103_v2/pattern_bridge/render_pattern_bridge.R",
+      "command": "source(\"8-Visualization/refinements/fig2_global_revision_20261103_v2/pattern_bridge/render_pattern_bridge.R\")",
+      "directories": [
+        "8-Visualization/refinements/fig2_global_revision_20261103_v2/pattern_bridge"
+      ],
+      "prefetch": []
+    },
+    {
+      "id": "fig2_forests",
+      "script": "8-Visualization/refinements/fig2_global_revision_20261103_v2/network_support/scripts/render_network_support.R",
+      "command": "source(\"8-Visualization/refinements/fig2_global_revision_20261103_v2/network_support/scripts/render_network_support.R\")",
+      "directories": [
+        "8-Visualization/refinements/fig2_global_revision_20261103_v2/network_support/scripts"
+      ],
+      "prefetch": []
+    },
+    {
+      "id": "fig2_TF",
+      "script": "8-Visualization/refinements/fig2_supp_reorganization_20261103_v3/tf/scripts/render_TF_reorganized.R",
+      "command": "source(\"8-Visualization/refinements/fig2_supp_reorganization_20261103_v3/tf/scripts/render_TF_reorganized.R\")",
+      "directories": [
+        "8-Visualization/refinements/fig2_supp_reorganization_20261103_v3/tf/scripts"
+      ],
+      "prefetch": []
+    },
+    {
+      "id": "fig2_TME",
+      "script": "8-Visualization/refinements/fig2_supp_reorganization_20261103_v3/tme/render_TME_study.R",
+      "command": "source(\"8-Visualization/refinements/fig2_supp_reorganization_20261103_v3/tme/render_TME_study.R\")",
+      "directories": [
+        "8-Visualization/refinements/fig2_supp_reorganization_20261103_v3/tme"
+      ],
+      "prefetch": []
+    },
+    {
+      "id": "fig2_states",
+      "script": "8-Visualization/refinements/fig2_global_revision_20261103_v2/build/named_states.R",
+      "command": "source(\"8-Visualization/refinements/fig2_global_revision_20261103_v2/build/named_states.R\")",
+      "directories": [
+        "8-Visualization/refinements/fig2_global_revision_20261103_v2/build"
+      ],
+      "prefetch": []
+    },
+    {
+      "id": "fig3_main",
+      "script": "8-Visualization/refinements/fig3_manuscript_revision_20261103_v4/main/render.R",
+      "command": "source(\"8-Visualization/refinements/fig3_manuscript_revision_20261103_v4/main/render.R\")",
+      "directories": [
+        "8-Visualization/refinements/fig3_manuscript_revision_20261103_v4/main"
+      ],
+      "prefetch": []
+    },
+    {
+      "id": "fig3_supplement",
+      "script": "8-Visualization/refinements/fig3_manuscript_revision_20261103_v4/supplement/render.R",
+      "command": "source(\"8-Visualization/refinements/fig3_manuscript_revision_20261103_v4/supplement/render.R\")",
+      "directories": [
+        "8-Visualization/refinements/fig3_manuscript_revision_20261103_v4/supplement"
+      ],
+      "prefetch": []
+    },
+    {
+      "id": "fig3_features",
+      "script": "8-Visualization/refinements/fig3_feature_row_20261103_v5/build/render_C.R",
+      "command": "source(\"8-Visualization/refinements/fig3_feature_row_20261103_v5/build/render_C.R\")",
+      "directories": [
+        "8-Visualization/refinements/fig3_feature_row_20261103_v5/build"
+      ],
+      "prefetch": []
+    },
+    {
+      "id": "fig3_cnv",
+      "script": "8-Visualization/refinements/sfig4_cnv_D_20261104_v1/build/render_D.R",
+      "command": "source(\"8-Visualization/refinements/sfig4_cnv_D_20261104_v1/build/render_D.R\")",
+      "directories": [
+        "8-Visualization/refinements/sfig4_cnv_D_20261104_v1/build"
+      ],
+      "prefetch": []
+    },
+    {
+      "id": "fig4_bridge",
+      "script": "8-Visualization/scripts/render_fig4_revision_20261103.R",
+      "command": "source(\"8-Visualization/scripts/render_fig4_revision_20261103.R\")",
+      "directories": [
+        "8-Visualization/scripts"
+      ],
+      "prefetch": []
+    },
+    {
+      "id": "fig4_main",
+      "script": "8-Visualization/scripts/render_fig4_revision_20261104_v3.R",
+      "command": "source(\"8-Visualization/scripts/render_fig4_revision_20261104_v3.R\")",
+      "directories": [
+        "8-Visualization/scripts"
+      ],
+      "prefetch": []
+    },
+    {
+      "id": "fig4_mofa",
+      "script": "8-Visualization/scripts/render_fig4_revision_20261104.R",
+      "command": "source(\"8-Visualization/scripts/render_fig4_revision_20261104.R\")",
+      "directories": [
+        "8-Visualization/scripts"
+      ],
+      "prefetch": []
+    },
+    {
+      "id": "fig5_transfer",
+      "script": "8-Visualization/scripts/render_fig5_transfer_20261103_v12.R",
+      "command": "source(\"8-Visualization/scripts/render_fig5_transfer_20261103_v12.R\")",
+      "directories": [
+        "8-Visualization/scripts"
+      ],
+      "prefetch": []
+    },
+    {
+      "id": "fig6_evidence",
+      "script": "8-Visualization/scripts/render_fig6_evidence_v21.R",
+      "command": "source(\"8-Visualization/scripts/render_fig6_evidence_v21.R\")",
+      "directories": [
+        "8-Visualization/scripts"
+      ],
+      "prefetch": []
+    },
+    {
+      "id": "fig6_support",
+      "script": "8-Visualization/scripts/render_fig6_small_duct_support_v23.R",
+      "command": "source(\"8-Visualization/scripts/render_fig6_small_duct_support_v23.R\")",
+      "directories": [
+        "8-Visualization/scripts"
+      ],
+      "prefetch": []
+    },
+    {
+      "id": "fig1_legacy",
+      "script": "8-Visualization/scripts/render_fig1_sfig1_typography_20261030.R",
+      "command": "source(\"8-Visualization/scripts/render_fig1_sfig1_typography_20261030.R\")\nfor(id in c(\"Figure1B\",\"Figure1F_compact\",\"SFig1C\",\"SFig1K5\",\"SFig1E\")) render_type(id)",
+      "directories": [
+        "8-Visualization/scripts"
+      ],
+      "prefetch": []
+    },
+    {
+      "id": "fig2_layout",
+      "script": "8-Visualization/scripts/render_fig2_layout_v34.R",
+      "command": "source(\"8-Visualization/scripts/render_fig2_layout_v34.R\")\n",
+      "directories": [
+        "8-Visualization/scripts"
+      ],
+      "prefetch": []
+    },
+    {
+      "id": "fig4_layout",
+      "script": "8-Visualization/scripts/render_fig4_layout_v3.R",
+      "command": "source(\"8-Visualization/scripts/render_fig4_layout_v3.R\")\n",
+      "directories": [
+        "8-Visualization/scripts"
+      ],
+      "prefetch": []
+    },
+    {
+      "id": "fig5_base",
+      "script": "8-Visualization/scripts/render_fig5_three_rows_20261101_v10.R",
+      "command": "source(\"8-Visualization/scripts/render_fig5_three_rows_20261101_v10.R\")\nfor(id in c(\"B\",\"C\",\"SA\",\"SB\",\"SC\",\"SD\",\"SE\",\"SF\")) render_fig5_v9_panel(id)",
+      "directories": [
+        "8-Visualization/scripts"
+      ],
+      "prefetch": []
+    },
+    {
+      "id": "fig5_details",
+      "script": "8-Visualization/scripts/render_fig5_three_rows_20261101_v10.R",
+      "command": "source(\"8-Visualization/scripts/render_fig5_three_rows_20261101_v10.R\"); for(id in c(\"C\",\"SG\",\"SH\")) render_fig5_v10_panel(id)",
+      "directories": [
+        "8-Visualization/refinements/fig5_three_rows_20261101_v10/figures",
+        "8-Visualization/refinements/fig5_three_rows_20261101_v10/review/pdf_rendered"
+      ],
+      "prefetch": []
+    },
+    {
+      "id": "fig3_atlas",
+      "script": "7-SingleCell/runs/20261103_figure3_opening_umap_v3/plot_revision.R",
+      "command": "commandArgs <- function(trailingOnly=FALSE) \"7-SingleCell/runs/20261103_figure3_opening_umap_v3\"; source(\"7-SingleCell/runs/20261103_figure3_opening_umap_v3/plot_revision.R\")",
+      "directories": [
+        "7-SingleCell/runs/20261103_figure3_opening_umap_v3/figures",
+        "7-SingleCell/runs/20261103_figure3_opening_umap_v3/review",
+        "7-SingleCell/runs/20261103_figure3_opening_umap_v3/source_data"
+      ],
+      "prefetch": []
+    },
+    {
+      "id": "fig2_volcano",
+      "script": "8-Visualization/scripts/render_fig2_A_C_v8.R",
+      "command": "source(\"8-Visualization/scripts/render_fig2_A_C_v8.R\"); render_A_C_v8()",
+      "directories": [
+        "8-Visualization/scripts"
+      ],
+      "prefetch": []
+    },
+    {
+      "id": "fig6_support_original20",
+      "script": "8-Visualization/scripts/render_fig6_integrated_20261101_v20.R",
+      "command": "part<-function(s,a,b){i<-grep(a,s,fixed=TRUE)[1];k<-grep(b,s,fixed=TRUE)[1];stopifnot(is.finite(i),is.finite(k),k>i);eval(parse(text=s[i:(k-1)]),envir=.GlobalEnv)}; s<-readLines(\"8-Visualization/scripts/render_fig6_integrated_20261101_v20.R\");eval(parse(text=s[1:(grep(\"# A:\",s,fixed=TRUE)[1]-1)]));models<-c(\"Anchor3\",\"CompactWorkflow\",\"JointWorkflow\",\"FullWorkflow\");mlabel<-c(\"RNA anchors\",\"Compact\",\"Joint\",\"Full workflow\");part(s,\"# N:\",\"# O:\");part(s,\"# P:\",\"# Q:\")",
+      "directories": [
+        "8-Visualization/scripts"
+      ],
+      "prefetch": []
+    },
+    {
+      "id": "fig6_support_original18",
+      "script": "8-Visualization/scripts/render_fig6_redesign_v18.R",
+      "command": "part<-function(s,a,b){i<-grep(a,s,fixed=TRUE)[1];k<-grep(b,s,fixed=TRUE)[1];stopifnot(is.finite(i),is.finite(k),k>i);eval(parse(text=s[i:(k-1)]),envir=.GlobalEnv)}; s<-readLines(\"8-Visualization/scripts/render_fig6_redesign_v18.R\");eval(parse(text=s[1:(grep(\"# D:\",s,fixed=TRUE)[1]-1)]));z<-rd(file.path(old,\"tables/Figure6F_patient_drug_patterns.csv\"));cand<-rd(file.path(old,\"tables/nine_candidate_inventory.csv\"));setorder(cand,CandidateSubtype,Drug);short<-setNames(sub(\"_[0-9]+$\",\"\",cand$Drug),cand$Drug);part(s,\"# G:\",\"# S: full error\");part(s,\"# S: same row-wise\",\"s<-perf[\")",
+      "directories": [
+        "8-Visualization/scripts"
+      ],
+      "prefetch": []
+    },
+    {
+      "id": "fig6_phenotype_original14",
+      "script": "8-Visualization/scripts/render_fig6_drug_refresh_v14.R",
+      "command": "part<-function(s,a,b){i<-grep(a,s,fixed=TRUE)[1];k<-grep(b,s,fixed=TRUE)[1];stopifnot(is.finite(i),is.finite(k),k>i);eval(parse(text=s[i:(k-1)]),envir=.GlobalEnv)}; s<-readLines(\"8-Visualization/scripts/render_fig6_drug_refresh_v14.R\");eval(parse(text=s[1:(grep(\"oldm<-\",s,fixed=TRUE)[1]-1)]));summary<-rd(\"original_candidate_retention\");sd<-rd(\"fixed_display_sd\");part(s,\"sens<-rd(\",\"ev<-rd('candidate_target_multiomic_evidence'\")",
+      "directories": [
+        "8-Visualization/scripts"
+      ],
+      "prefetch": []
+    },
+    {
+      "id": "fig2_counts",
+      "script": "8-Visualization/scripts/render_fig2_core_v9.R",
+      "command": "s<-readLines(\"8-Visualization/scripts/render_fig2_core_v9.R\");eval(parse(text=c(s[1:25],\"}\",\"render_core_v9()\")))",
+      "directories": [
+        "8-Visualization/scripts"
+      ],
+      "prefetch": []
+    },
+    {
+      "id": "fig5_aligned",
+      "script": "8-Visualization/scripts/render_fig5_story_20261031_v8.R",
+      "command": "source(\"8-Visualization/scripts/render_fig5_story_20261031_v8.R\");p<-v8_heatmap();z<-V8_DIMS[[\"S11I\"]];f<-v8_path(\"figures\",paste0(V8_NAMES[[\"S11I\"]],\".pdf\"));dir.create(dirname(f),recursive=TRUE,showWarnings=FALSE);cairo_pdf(f,width=z[1]/25.4,height=z[2]/25.4,family=\"Arial\");p();dev.off()",
+      "directories": [
+        "8-Visualization/scripts"
+      ],
+      "prefetch": []
+    },
+    {
+      "id": "fig5_compact_absolute",
+      "script": "8-Visualization/scripts/render_fig5_integrated_20261101_v11.R",
+      "command": "s<-readLines(\"8-Visualization/scripts/render_fig5_integrated_20261101_v11.R\");eval(parse(text=s[1:22]));perf<-mi(\"performance_ci\");for(e in parse(text=s))if(is.call(e)&&as.character(e[[1]])[1]==\"<-\"&&is.symbol(e[[2]])&&as.character(e[[2]])==\"drawSI\")eval(e);save(\"SI\",\"SupplementaryFigure5I_compact_absolute_performance\",drawSI,90,68,\"Supplement\")",
+      "directories": [
+        "8-Visualization/scripts"
+      ],
+      "prefetch": []
+    },
+    {
+      "id": "fig3_robustness",
+      "script": "8-Visualization/refinements/fig3_focused_revision_20261103_v3/supplement/render.R",
+      "command": "s<-readLines(\"8-Visualization/refinements/fig3_focused_revision_20261103_v3/supplement/render.R\");eval(parse(text=s[1:23]))",
+      "directories": [
+        "8-Visualization/refinements/fig3_focused_revision_20261103_v3/supplement"
+      ],
+      "prefetch": []
+    },
+    {
+      "id": "fig2_TF_bridge",
+      "script": "8-Visualization/refinements/fig2_global_revision_20261103_v2/tf_program_bridge/scripts/render_TF_program_bridge.R",
+      "command": "source(\"8-Visualization/refinements/fig2_global_revision_20261103_v2/tf_program_bridge/scripts/render_TF_program_bridge.R\")",
+      "directories": [
+        "8-Visualization/refinements/fig2_global_revision_20261103_v2/tf_program_bridge/scripts"
+      ],
+      "prefetch": []
+    },
+    {
+      "id": "fig2_TME_sensitivity",
+      "script": "8-Visualization/refinements/fig2_global_revision_20261103_v1/tme_sensitivity/scripts/render_TME_sensitivity.R",
+      "command": "source(\"8-Visualization/refinements/fig2_global_revision_20261103_v1/tme_sensitivity/scripts/render_TME_sensitivity.R\")",
+      "directories": [
+        "8-Visualization/refinements/fig2_global_revision_20261103_v1/tme_sensitivity/scripts"
+      ],
+      "prefetch": []
+    }
+  ]
+}

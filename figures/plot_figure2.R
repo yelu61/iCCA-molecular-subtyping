@@ -45,13 +45,10 @@ pal <- subtype_colors[c("C1", "C2", "C3")]
 
 study_dict_cands <- c("0-Data/qc/study_color_dictionary.csv", "data/study_color_dictionary.csv", "../data/study_color_dictionary.csv")
 study_dict_file <- study_dict_cands[file.exists(study_dict_cands)][1]
-if (!is.na(study_dict_file)) {
-  study_pal_df <- read.csv(study_dict_file, stringsAsFactors = FALSE)
-  scol <- if ("ColorHex" %in% names(study_pal_df)) study_pal_df$ColorHex else study_pal_df$Color
-  study_colors <- setNames(scol, study_pal_df$Study)
-} else {
-  study_colors <- c("2019Ahn" = "#88CCEE", "2022Dong" = "#332288", "2023Deng" = "#44AA99", "2023Jeon" = "#AA4499", "2023Lee" = "#DDCC77", "2024Fan" = "#117733", "TCGA-CHOL" = "#CC6677")
-}
+if (is.na(study_dict_file)) stop("Missing governed study_color_dictionary.csv; run from the repository root.")
+study_pal_df <- read.csv(study_dict_file, stringsAsFactors = FALSE)
+scol <- if ("ColorHex" %in% names(study_pal_df)) study_pal_df$ColorHex else study_pal_df$Color
+study_colors <- setNames(scol, study_pal_df$Study)
 
 scale_effect_low <- "#2166AC"
 scale_effect_mid <- "#F7F7F7"
@@ -288,7 +285,7 @@ out_panelA_pdf <- file.path(out_dir, "Figure_2_PanelA.pdf")
 agg_png(out_panelA_png, width = 120, height = 123, units = "mm", res = 600, background = "white")
 panelA_objs$draw_A(TRUE)
 dev.off()
-pdf(out_panelA_pdf, width = 120 / 25.4, height = 123 / 25.4, family = "Arial")
+grDevices::cairo_pdf(out_panelA_pdf, width = 120 / 25.4, height = 123 / 25.4, family = "Arial")
 panelA_objs$draw_A(TRUE)
 dev.off()
 
@@ -297,7 +294,7 @@ out_panelA_leg_pdf <- file.path(out_dir, "Figure_2_PanelA_legend.pdf")
 agg_png(out_panelA_leg_png, width = 60, height = 39, units = "mm", res = 600, background = "white")
 panelA_objs$draw_A_legend(TRUE)
 dev.off()
-pdf(out_panelA_leg_pdf, width = 60 / 25.4, height = 39 / 25.4, family = "Arial")
+grDevices::cairo_pdf(out_panelA_leg_pdf, width = 60 / 25.4, height = 39 / 25.4, family = "Arial")
 panelA_objs$draw_A_legend(TRUE)
 dev.off()
 
@@ -363,7 +360,7 @@ out_panelB_pdf <- file.path(out_dir, "Figure_2_PanelB.pdf")
 agg_png(out_panelB_png, width = 60, height = 82, units = "mm", res = 600, background = "white")
 draw_panelB(TRUE, 60, 82)
 dev.off()
-pdf(out_panelB_pdf, width = 60 / 25.4, height = 82 / 25.4, family = "Arial")
+grDevices::cairo_pdf(out_panelB_pdf, width = 60 / 25.4, height = 82 / 25.4, family = "Arial")
 draw_panelB(TRUE, 60, 82)
 dev.off()
 
@@ -424,7 +421,7 @@ out_panelC_pdf <- file.path(out_dir, "Figure_2_PanelC.pdf")
 agg_png(out_panelC_png, width = 183, height = 53, units = "mm", res = 600, background = "white")
 draw_panelC(TRUE)
 dev.off()
-pdf(out_panelC_pdf, width = 183 / 25.4, height = 53 / 25.4, family = "Arial")
+grDevices::cairo_pdf(out_panelC_pdf, width = 183 / 25.4, height = 53 / 25.4, family = "Arial")
 draw_panelC(TRUE)
 dev.off()
 
@@ -487,7 +484,7 @@ out_panelD_pdf <- file.path(out_dir, "Figure_2_PanelD.pdf")
 agg_png(out_panelD_png, width = 60, height = 76, units = "mm", res = 600, background = "white")
 draw_panelD(TRUE)
 dev.off()
-pdf(out_panelD_pdf, width = 60 / 25.4, height = 76 / 25.4, family = "Arial")
+grDevices::cairo_pdf(out_panelD_pdf, width = 60 / 25.4, height = 76 / 25.4, family = "Arial")
 draw_panelD(TRUE)
 dev.off()
 
@@ -562,7 +559,7 @@ out_panelE_pdf <- file.path(out_dir, "Figure_2_PanelE.pdf")
 agg_png(out_panelE_png, width = 120, height = 76, units = "mm", res = 600, background = "white")
 draw_panelE(TRUE)
 dev.off()
-pdf(out_panelE_pdf, width = 120 / 25.4, height = 76 / 25.4, family = "Arial")
+grDevices::cairo_pdf(out_panelE_pdf, width = 120 / 25.4, height = 76 / 25.4, family = "Arial")
 draw_panelE(TRUE)
 dev.off()
 
@@ -625,7 +622,7 @@ agg_png(composite_png, width = 180, height = 270, units = "mm", res = 300, backg
 render_composite()
 dev.off()
 
-pdf(composite_pdf, width = 180 / 25.4, height = 270 / 25.4, family = "Arial")
+grDevices::cairo_pdf(composite_pdf, width = 180 / 25.4, height = 270 / 25.4, family = "Arial")
 render_composite()
 dev.off()
 

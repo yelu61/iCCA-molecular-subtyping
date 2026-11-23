@@ -1,0 +1,129 @@
+{
+  "snapshot": "v2026.11.23-preparation",
+  "date": "2026-11-23",
+  "R_version": "4.5.3",
+  "platform": "aarch64-apple-darwin20",
+  "figure_exit_code": 0,
+  "figures_generated": 6,
+  "input_files": 75,
+  "input_hashes_unchanged": true,
+  "output_files": 92,
+  "pdf_checks": [
+    {
+      "figure": 1,
+      "pdf_pages": 1,
+      "pdf_page_size": "510 x 765 pts",
+      "png_pixels": [
+        2125,
+        3188
+      ],
+      "pdf_text_characters": 22,
+      "fonts": [
+        "VWXYCJ+Arial-BoldMT                  TrueType          WinAnsi          yes yes yes      7  0"
+      ]
+    },
+    {
+      "figure": 2,
+      "pdf_pages": 1,
+      "pdf_page_size": "510 x 765 pts",
+      "png_pixels": [
+        2125,
+        3188
+      ],
+      "pdf_text_characters": 16,
+      "fonts": [
+        "SVHMGD+Arial-BoldMT                  TrueType          WinAnsi          yes yes yes      7  0"
+      ]
+    },
+    {
+      "figure": 3,
+      "pdf_pages": 1,
+      "pdf_page_size": "510 x 765 pts",
+      "png_pixels": [
+        2125,
+        3188
+      ],
+      "pdf_text_characters": 16,
+      "fonts": [
+        "SVHMGD+Arial-BoldMT                  TrueType          WinAnsi          yes yes yes      7  0"
+      ]
+    },
+    {
+      "figure": 4,
+      "pdf_pages": 1,
+      "pdf_page_size": "510 x 765 pts",
+      "png_pixels": [
+        2125,
+        3188
+      ],
+      "pdf_text_characters": 22,
+      "fonts": [
+        "RQOCFJ+Arial-BoldMT                  TrueType          WinAnsi          yes yes yes      7  0"
+      ]
+    },
+    {
+      "figure": 5,
+      "pdf_pages": 1,
+      "pdf_page_size": "510 x 765 pts",
+      "png_pixels": [
+        2125,
+        3188
+      ],
+      "pdf_text_characters": 22,
+      "fonts": [
+        "VWXYCJ+Arial-BoldMT                  TrueType          WinAnsi          yes yes yes      7  0"
+      ]
+    },
+    {
+      "figure": 6,
+      "pdf_pages": 1,
+      "pdf_page_size": "510 x 765 pts",
+      "png_pixels": [
+        2125,
+        3188
+      ],
+      "pdf_text_characters": 21,
+      "fonts": [
+        "VWXYCJ+Arial-BoldMT                  TrueType          WinAnsi          yes yes yes      7  0"
+      ]
+    }
+  ],
+  "warnings": {
+    "The `title.position` theme element is not defined in the element hierarchy.": 12,
+    "The `title.hjust` theme element is not defined in the element hierarchy.": 12
+  },
+  "composite_PDF_panels": "embedded raster panels with text labels; individual PDFs retained",
+  "regression_tests": 7,
+  "upstream_reexecuted": false,
+  "original_full_panel_route_reexecuted": false,
+  "fresh_environment_install_tested": false,
+  "final_scientific_acceptance": false,
+  "visual_review": {
+    "status": "DRAFT_LAYOUT_REVIEW_REQUIRED",
+    "inspection": "PDF contact sheet of all six composites",
+    "findings": [
+      "Figure3C has overlapping colour-bar labels and panel text.",
+      "Figure1E and Figure4 multi-part summaries need spacing and text-size review.",
+      "Composite panels are raster-embedded; final editable assembly remains a separate task."
+    ]
+  },
+  "retained_analysis": {
+    "baseline_commit": "e4af73a8cef9ca29efd12308ecadc4c712ab8458",
+    "implementation_tree_files": 177,
+    "manifest_project_files": 168,
+    "analysis_entries": 24,
+    "drawing_jobs": 37,
+    "final_drivers": 3,
+    "restored_sources_byte_identical": true
+  },
+  "preserved_overview_sha256": "3f21dde8831c80fb0e9baada5612691d50506e945e313babd73de31f30386c99",
+  "plot_script_sha256": {
+    "figures/plot_figure1.R": "7a6c640b1a9e8a42cc8476a51ea152b576f29f0ced7640c567acc911b9239932",
+    "figures/plot_figure2.R": "8219d5f55db17d29c3d8ba330b0b1ae243584b202cb3866897c3275b523a3c9d",
+    "figures/plot_figure3.R": "7efb749e08a3ca14eca17f79cecafa4b254f191b9d9692f87b99fab012293a84",
+    "figures/plot_figure4.R": "7de24962739ab1a28f4f2fb6638136c98d61f8e2eb5716b3a66e161361e81ec0",
+    "figures/plot_figure5.R": "06eda8e96c7b42ee2dc63f848e6ae5b4fd43c97bc502e341e75384675e529c2c",
+    "figures/plot_figure6.R": "6a29cab0b254f57ce500c279731db2552e041f2bc0b05f81e5499c14e38bab3a",
+    "figures/run_all_figures.R": "10349ad8eacd734fb967b96a358d195ff90b05f8df69225eba3a887bf472ac8d"
+  }
+}
